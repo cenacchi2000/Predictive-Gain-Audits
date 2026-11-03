@@ -1,0 +1,8 @@
+{
+  "foundation/code/categorical_scalable.py": "235e2e668ed8d2c7a9f0b4ecc15c65cf566a2ad29a152a1ab764f462bd8d4769",
+  "foundation/code/experiments.py": "45174c44a4b76023a9d24b6092855a08b608ed7f2a02d05d8663eebac88ae1df",
+  "foundation/code/multiclass_witness.py": "dbe201e19f73aea8c2867e62590712d7c28e64902e5faff61557f779f36d2b2e",
+  "foundation/results/categorical_scalable.json": "8c332c81b734f7898d403eddcb29347c19f8df518a5016e88991671f6ecdb829",
+  "foundation/results/experiments.json": "3ea4f3950c1c1454330f3f3d808aa1e5cf324f82f475f5697b307bd69ea00cd0",
+  "foundation/results/multiclass_witness.json": "d486f514393c0091629310eed57e9bda5f3c18da767e6fdafb4a187feb58699b"
+}
