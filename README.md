@@ -46,14 +46,6 @@ Run in that order. The first command writes `foundation/results/experiments.json
 | [`categorical_scalable.py`](foundation/code/categorical_scalable.py) | Least-mass categorical reduction and large-class scaling |
 | [`foundation/results/`](foundation/results) | Corresponding saved JSON records |
 
-## Possible use in surveillance research
 
-Compare a hospitalisation-history baseline with a model that also receives wastewater data. A held-out improvement would establish a predictive gain for those pipelines. Concluding that wastewater adds information requires additional assumptions and control of baseline error. Rolling forecast origins, locations, reporting delays, and dependent observations need an adapted uncertainty analysis.
-
-## Release scope
-
-The Python files and corresponding saved records are **copied unchanged from the recovered 26 September 2026 research package**. This is a focused subset, not the complete manuscript artifact. It excludes natural-label Bayesian studies, spectral application replay, fitted models, and the full release's other experiments.
-
-The exact categorical calculation assumes a fixed known baseline and a justified approximation budget. An arbitrary fitted forecasting baseline does not automatically satisfy those assumptions. Numerical checks use floating point; they are not formal proof certificates.
 
 Related work: [Conditional score training](https://github.com/cenacchi2000/Training-Scores-for-Conditional-Audits) · [Counterfactual fragility](https://github.com/cenacchi2000/Counterfactual-Fragility-Certificates)
