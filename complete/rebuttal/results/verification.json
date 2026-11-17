@@ -1,0 +1,22 @@
+{
+  "natural_analyses": 81,
+  "natural_disjoint_splits": true,
+  "natural_score_replay_max_error": 0,
+  "all_natural_scores_and_bounds_finite": true,
+  "posterior_posthoc_check_only": {
+    "logZ_reference": -106.46443303566255,
+    "logZ_upper": -106.44743370571166,
+    "EQ_V_reference": 106.93177238315344,
+    "EQ_V_upper": 106.93177289814821,
+    "KL_reference": 0.011516299829153809,
+    "KL_upper": 0.028516144774812346,
+    "quadrature_error": 1.9419513872268618e-13
+  },
+  "note": "Reference integration is only an independent post-execution numerical check, never an input to the witness or audit. Real-arithmetic guarantees are not full floating-point interval certification.",
+  "matched_trials": 4800,
+  "matched_configurations": 48,
+  "matched_component_replay_max_error": 0.0,
+  "same_CP_added_positive": 89,
+  "known_vector_added_positive": 653,
+  "information_bound_violations_in_controlled_grid": 1
+}

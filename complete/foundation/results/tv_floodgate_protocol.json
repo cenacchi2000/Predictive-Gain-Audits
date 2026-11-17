@@ -1,0 +1,13 @@
+{
+  "seed": 20260929,
+  "reps_per_fit_condition_size": 20,
+  "sizes": [
+    2000,
+    8000
+  ],
+  "alpha": 0.05,
+  "teacher_and_probes": "Previously frozen representation study, all three fitted pairs in both conditions",
+  "comparator": "TV Floodgate with exact averaging over the known binary conditional feature law; asymptotic normal bound and separate bounded-betting variant",
+  "status": "Fresh comparison; complete design written before execution. Not external preregistration.",
+  "code_sha256": "157e1aca03c1746901f0f412c00390dcd6d9353fde0d2f3249fc1f87bb52c27f"
+}

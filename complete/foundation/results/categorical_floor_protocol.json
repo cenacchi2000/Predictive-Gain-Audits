@@ -1,0 +1,22 @@
+{
+  "K": [
+    3,
+    10,
+    50,
+    100
+  ],
+  "S": [
+    100,
+    1000,
+    10000
+  ],
+  "beta": 0.01,
+  "delta": 0.02,
+  "reps": 1000,
+  "seed": 20260928,
+  "u": "Dirichlet(5,...,5), one fixed vector per K",
+  "p": "least-mass extremizer at delta=.02",
+  "report": "Jeffreys-smoothed empirical vector",
+  "status": "Design and full grid recorded before first execution. Comparison uses paired samples.",
+  "code_sha256": "811f9c214a10b2774f418c3413a6bc09de27c625400e74b4716365bffa598495"
+}

@@ -1,0 +1,9 @@
+{
+  "dataset": "ShapesAll",
+  "backbone": "Hydra",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.9106145251396648,
+    "Hydra": 0.9162011173184358
+  }
+}

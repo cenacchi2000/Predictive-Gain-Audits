@@ -1,0 +1,9 @@
+{
+  "dataset": "HandOutlines",
+  "backbone": "Hydra",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.9459459459459459,
+    "Hydra": 0.954954954954955
+  }
+}

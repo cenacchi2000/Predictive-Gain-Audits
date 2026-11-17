@@ -1,0 +1,51 @@
+{
+  "version": "SEB-v3-fresh-validation",
+  "recorded_utc": "2026-09-25T07:49:07.484667+00:00",
+  "status": "frozen before downloading or fitting fresh-suite datasets",
+  "development_evidence": "The previous 12-dataset 48-configuration study is fully inspected and remains development evidence. This revision follows its results, not independent preregistration.",
+  "datasets": [
+    "Yoga",
+    "Mallat",
+    "MixedShapesRegularTrain",
+    "CinCECGTorso",
+    "Symbols",
+    "ShapesAll",
+    "EthanolLevel",
+    "SemgHandGenderCh2",
+    "MedicalImages",
+    "HandOutlines"
+  ],
+  "seed": 17,
+  "audit_split": {
+    "calibration": 0.3,
+    "gate": 0.5,
+    "assessment": 0.2
+  },
+  "eligibility": "Same input-only exact normalized-waveform deduplication as v2. No replacements or outcome-based exclusions.",
+  "backbone_selection": "Fit MiniRocket and Hydra on official TRAIN. Choose one by calibration classification accuracy; tie by backbone name. The other remains an agreement feature only.",
+  "reference": "Same strong v2 reference library, chosen by three-fold calibration log loss.",
+  "correction": "Same 29 invariant spectral features and direct/offset learners. Bounds .125,.25,.5,1,2. Select candidate, bound and fixed bet jointly by maximum calibration out-of-fold mean log wealth over dimensionless fractions {0,2^-8,2^-7,...,2^-1}. No positive evidence forces no-update candidate with zero fixed bet.",
+  "gate": "0.95 times wealth from calibration-selected fixed bet plus 0.05 times original predictable adaptive wealth. Calibration and gate independent. Same positive expected proper-score target.",
+  "family": 10,
+  "alpha": 0.05,
+  "primary_unit": "one pre-gate-selected policy per dataset, not all backbone/seed combinations",
+  "assessment_release": "No fresh gate outcomes or assessment results inspected until all 10 selected policies are frozen. Progress logs omit gate outcomes.",
+  "primary_endpoints": [
+    "independent authorization count",
+    "assessment log-score gain vs frozen selected reference",
+    "assessment deployed-policy log-score gain"
+  ],
+  "secondary": [
+    "AUROC",
+    "Brier",
+    "ECE",
+    "AURC and AUGRC",
+    "false confidence",
+    "harm and utility"
+  ],
+  "aggregation": "Equal dataset weight; 10000 dataset bootstrap replicates descriptive only. No seeds treated as independent replicates.",
+  "comparison": "Replay old equal-weight mixture at family 10 and identical fitted candidates as a prespecified diagnostic, without using its outcomes to choose deployment.",
+  "success_interpretation": "No guaranteed success. Positive authorization supports only the declared fitted-score claim. All failures and harmful changes remain reported. No further design changes from these validation outcomes.",
+  "sequential_monitoring": "Not used; one terminal gate decision.",
+  "contingencies": "Stop and report unavailable data or technical failures; no favorable-result substitution. Fix implementation bugs only with a documented amendment before unblinding, preserving original artifacts."
+}

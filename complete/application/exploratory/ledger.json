@@ -1,0 +1,398 @@
+[
+  {
+    "dataset": "ECG200",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "allocations": [
+      0.043818135994145996,
+      0.048984518843339694,
+      0.04586592155785832,
+      0.04753634557635636
+    ]
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "allocations": [
+      -0.007141410379177768,
+      -0.013146659271370733,
+      -0.010872197851165858,
+      -0.045576607023769186
+    ]
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "allocations": [
+      0.02044600077112425,
+      0.027088565327470934,
+      0.015705730281617772,
+      0.014235122751352835
+    ]
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "allocations": [
+      -0.007141410379177768,
+      -0.013146659271370733,
+      -0.010872197851165858,
+      -0.045576607023769186
+    ]
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "allocations": [
+      -0.007976819956756628,
+      -0.003244648436575186,
+      -0.0058909195790055454,
+      -0.021760656108335732
+    ]
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "allocations": [
+      -0.007141410379177768,
+      -0.013146659271370733,
+      -0.010872197851165858,
+      -0.045576607023769186
+    ]
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "allocations": [
+      0.0007147204203230857,
+      0.0004353820332132937,
+      -0.008960865022256998,
+      -0.0005126338635452216
+    ]
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "allocations": [
+      0.0022313699299221137,
+      0.000455932318837702,
+      0.0033154551653719363,
+      -0.00233280324464122
+    ]
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "allocations": [
+      -0.0012536438542958559,
+      0.0012559181195350218,
+      -0.008669755513679012,
+      -0.0005813733167190934
+    ]
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "allocations": [
+      0.0022313699299221137,
+      0.000455932318837702,
+      0.0033154551653719363,
+      -0.00233280324464122
+    ]
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "allocations": [
+      0.0010059945438702634,
+      0.0008581597224730505,
+      -0.00558691440370653,
+      -0.001606395340189665
+    ]
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "allocations": [
+      0.0022313699299221137,
+      0.000455932318837702,
+      0.0033154551653719363,
+      -0.00233280324464122
+    ]
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "allocations": [
+      0.00013199667779476728,
+      -7.888248088401526e-05,
+      -0.00012702476172435739,
+      0.001317255318724716
+    ]
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "allocations": [
+      -0.0004220592732965911,
+      0.00030350011728897243,
+      0.0001734473331541867,
+      -0.0005011831807113969
+    ]
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "allocations": [
+      -0.0012787435450984143,
+      0.0011569475980939966,
+      -0.0014496418639877583,
+      0.00033582427310766124
+    ]
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "allocations": [
+      -0.0004220592732965911,
+      0.00030350011728897243,
+      0.0001734473331541867,
+      -0.0005011831807113969
+    ]
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "allocations": [
+      3.277344866943338e-06,
+      -8.549049787617731e-05,
+      -0.0001323247517204078,
+      0.001719892877453634
+    ]
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "allocations": [
+      -0.0004220592732965911,
+      0.00030350011728897243,
+      0.0001734473331541867,
+      -0.0005011831807113969
+    ]
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "allocations": [
+      -0.00043202393823468853,
+      0.0006177572959578802,
+      -0.004034760772971824,
+      -0.0020085838846504124
+    ]
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "allocations": [
+      0.006793809311235034,
+      0.0002482222522582725,
+      0.012990356389078236,
+      0.0171155798953154
+    ]
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "allocations": [
+      0.0008325426043672222,
+      0.0006530442532827179,
+      -0.004539358942685418,
+      -0.0041048172238896926
+    ]
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "allocations": [
+      0.006793809311235034,
+      0.0002482222522582725,
+      0.012990356389078236,
+      0.0171155798953154
+    ]
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "allocations": [
+      -0.006471123252361868,
+      -0.0007916773022623262,
+      -0.004834928826400591,
+      -0.012716592286284746
+    ]
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "allocations": [
+      0.006793809311235034,
+      0.0002482222522582725,
+      0.012990356389078236,
+      0.0171155798953154
+    ]
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "allocations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "allocations": [
+      0.0009542710747302481,
+      0.0006990073841482479,
+      0.0017946356040679284,
+      7.732359905876537e-19
+    ]
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "allocations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "allocations": [
+      0.0009542710747302481,
+      0.0006990073841482479,
+      0.0017946356040679284,
+      7.732359905876537e-19
+    ]
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "allocations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "allocations": [
+      0.0009542710747302481,
+      0.0006990073841482479,
+      0.0017946356040679284,
+      7.732359905876537e-19
+    ]
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "allocations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "allocations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "allocations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "allocations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "allocations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "allocations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+]

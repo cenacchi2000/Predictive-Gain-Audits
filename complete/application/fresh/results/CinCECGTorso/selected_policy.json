@@ -1,0 +1,9 @@
+{
+  "dataset": "CinCECGTorso",
+  "backbone": "Hydra",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.8671497584541062,
+    "Hydra": 1.0
+  }
+}

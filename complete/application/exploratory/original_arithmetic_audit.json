@@ -1,0 +1,29 @@
+{
+  "dataset_table": {
+    "base": 0.73825,
+    "policy": 0.7823333333333333,
+    "gap": 0.044083333333333335
+  },
+  "backbone_table": {
+    "base": 0.75925,
+    "policy": 0.817375,
+    "gap": 0.05812499999999997
+  },
+  "headline": {
+    "base": 0.759,
+    "policy": 0.824,
+    "gap": 0.065
+  },
+  "forda_instance": {
+    "printed_gain": 0.388,
+    "implied_gain": 1.8949437054632865
+  },
+  "utility_80pct_implied_error_prevalence": {
+    "reference": 0.1476,
+    "policy": 0.15660000000000002
+  },
+  "original_role_totals": {
+    "train": 21999,
+    "test": 22585
+  }
+}

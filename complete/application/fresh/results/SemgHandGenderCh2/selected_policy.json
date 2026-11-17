@@ -1,0 +1,9 @@
+{
+  "dataset": "SemgHandGenderCh2",
+  "backbone": "MiniRocket",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.9111111111111111,
+    "Hydra": 0.8444444444444444
+  }
+}

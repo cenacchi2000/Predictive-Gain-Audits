@@ -1,0 +1,542 @@
+[
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "reference",
+    "n": 1152,
+    "errors": 650,
+    "accuracy": 0.4357638888888889,
+    "auc": 0.596028194912657,
+    "nll": 1.2821639913382752,
+    "brier": 0.39223975700695113,
+    "ece": 0.3557108870474889,
+    "fce": 0.3523076923076923,
+    "aurc": 0.4527864143378984,
+    "excess_aurc": 0.2502748576104217,
+    "prevalence": 0.5642361111111112,
+    "aurc_tie_averaged": 0.4527864143378984,
+    "excess_aurc_tie_averaged": 0.2502748576104217,
+    "augrc": 0.25850724585262347,
+    "oracle_aurc": 0.2025115567274767,
+    "utility_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.5533498759305211,
+      "precision": 0.5895953757225434,
+      "recall": 0.31384615384615383,
+      "reviewed": 346,
+      "captured": 204
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.5533498759305211,
+      "precision": 0.5895953757225434,
+      "recall": 0.31384615384615383,
+      "reviewed": 346,
+      "captured": 204.0,
+      "oracle_risk": 0.3771712158808933
+    },
+    "utility_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.5559174809989142,
+      "precision": 0.5974025974025974,
+      "recall": 0.2123076923076923,
+      "reviewed": 231,
+      "captured": 138
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.5559174809989142,
+      "precision": 0.5974025974025974,
+      "recall": 0.2123076923076923,
+      "reviewed": 231,
+      "captured": 138.0,
+      "oracle_risk": 0.4549402823018458
+    },
+    "utility_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.5521235521235521,
+      "precision": 0.6724137931034483,
+      "recall": 0.12,
+      "reviewed": 116,
+      "captured": 78
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.5521235521235521,
+      "precision": 0.6724137931034483,
+      "recall": 0.12,
+      "reviewed": 116,
+      "captured": 78.0,
+      "oracle_risk": 0.5154440154440154
+    },
+    "utility_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.556672760511883,
+      "precision": 0.7068965517241379,
+      "recall": 0.06307692307692307,
+      "reviewed": 58,
+      "captured": 41
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.556672760511883,
+      "precision": 0.7068965517241379,
+      "recall": 0.06307692307692307,
+      "reviewed": 58,
+      "captured": 41.0,
+      "oracle_risk": 0.5411334552102377
+    }
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "candidate",
+    "n": 1152,
+    "errors": 650,
+    "accuracy": 0.4357638888888889,
+    "auc": 0.6083174992338339,
+    "nll": 1.2923642197550795,
+    "brier": 0.38978145714149715,
+    "ece": 0.3624529947283221,
+    "fce": 0.34923076923076923,
+    "aurc": 0.4511809080143393,
+    "excess_aurc": 0.2486693512868626,
+    "prevalence": 0.5642361111111112,
+    "aurc_tie_averaged": 0.4511809080143393,
+    "excess_aurc_tie_averaged": 0.2486693512868626,
+    "augrc": 0.25548562885802467,
+    "oracle_aurc": 0.2025115567274767,
+    "utility_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.543424317617866,
+      "precision": 0.6127167630057804,
+      "recall": 0.3261538461538461,
+      "reviewed": 346,
+      "captured": 212
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.543424317617866,
+      "precision": 0.6127167630057804,
+      "recall": 0.3261538461538461,
+      "reviewed": 346,
+      "captured": 212.0,
+      "oracle_risk": 0.3771712158808933
+    },
+    "utility_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.5526601520086862,
+      "precision": 0.6103896103896104,
+      "recall": 0.2169230769230769,
+      "reviewed": 231,
+      "captured": 141
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.5526601520086862,
+      "precision": 0.6103896103896104,
+      "recall": 0.2169230769230769,
+      "reviewed": 231,
+      "captured": 141.0,
+      "oracle_risk": 0.4549402823018458
+    },
+    "utility_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.5540540540540541,
+      "precision": 0.6551724137931034,
+      "recall": 0.11692307692307692,
+      "reviewed": 116,
+      "captured": 76
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.5540540540540541,
+      "precision": 0.6551724137931034,
+      "recall": 0.11692307692307692,
+      "reviewed": 116,
+      "captured": 76.0,
+      "oracle_risk": 0.5154440154440154
+    },
+    "utility_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.5575868372943327,
+      "precision": 0.6896551724137931,
+      "recall": 0.06153846153846154,
+      "reviewed": 58,
+      "captured": 40
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.5575868372943327,
+      "precision": 0.6896551724137931,
+      "recall": 0.06153846153846154,
+      "reviewed": 58,
+      "captured": 40.0,
+      "oracle_risk": 0.5411334552102377
+    }
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "policy",
+    "n": 1152,
+    "errors": 650,
+    "accuracy": 0.4357638888888889,
+    "auc": 0.596028194912657,
+    "nll": 1.2821639913382752,
+    "brier": 0.39223975700695113,
+    "ece": 0.3557108870474889,
+    "fce": 0.3523076923076923,
+    "aurc": 0.4527864143378984,
+    "excess_aurc": 0.2502748576104217,
+    "prevalence": 0.5642361111111112,
+    "aurc_tie_averaged": 0.4527864143378984,
+    "excess_aurc_tie_averaged": 0.2502748576104217,
+    "augrc": 0.25850724585262347,
+    "oracle_aurc": 0.2025115567274767,
+    "utility_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.5533498759305211,
+      "precision": 0.5895953757225434,
+      "recall": 0.31384615384615383,
+      "reviewed": 346,
+      "captured": 204
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.5533498759305211,
+      "precision": 0.5895953757225434,
+      "recall": 0.31384615384615383,
+      "reviewed": 346,
+      "captured": 204.0,
+      "oracle_risk": 0.3771712158808933
+    },
+    "utility_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.5559174809989142,
+      "precision": 0.5974025974025974,
+      "recall": 0.2123076923076923,
+      "reviewed": 231,
+      "captured": 138
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.5559174809989142,
+      "precision": 0.5974025974025974,
+      "recall": 0.2123076923076923,
+      "reviewed": 231,
+      "captured": 138.0,
+      "oracle_risk": 0.4549402823018458
+    },
+    "utility_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.5521235521235521,
+      "precision": 0.6724137931034483,
+      "recall": 0.12,
+      "reviewed": 116,
+      "captured": 78
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.5521235521235521,
+      "precision": 0.6724137931034483,
+      "recall": 0.12,
+      "reviewed": 116,
+      "captured": 78.0,
+      "oracle_risk": 0.5154440154440154
+    },
+    "utility_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.556672760511883,
+      "precision": 0.7068965517241379,
+      "recall": 0.06307692307692307,
+      "reviewed": 58,
+      "captured": 41
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.556672760511883,
+      "precision": 0.7068965517241379,
+      "recall": 0.06307692307692307,
+      "reviewed": 58,
+      "captured": 41.0,
+      "oracle_risk": 0.5411334552102377
+    }
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "reference",
+    "n": 1152,
+    "errors": 544,
+    "accuracy": 0.5277777777777778,
+    "auc": 0.533469185371517,
+    "nll": 1.1165586347432184,
+    "brier": 0.33878764992158295,
+    "ece": 0.26930994249984036,
+    "fce": 0.3327205882352941,
+    "aurc": 0.4525323062488561,
+    "excess_aurc": 0.31739741303705743,
+    "prevalence": 0.4722222222222222,
+    "aurc_tie_averaged": 0.4525323062488561,
+    "excess_aurc_tie_averaged": 0.31739741303705743,
+    "augrc": 0.22776963975694445,
+    "oracle_aurc": 0.13513489321179867,
+    "utility_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.45285359801488834,
+      "precision": 0.5173410404624278,
+      "recall": 0.3290441176470588,
+      "reviewed": 346,
+      "captured": 179
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.45285359801488834,
+      "precision": 0.5173410404624278,
+      "recall": 0.3290441176470588,
+      "reviewed": 346,
+      "captured": 179.0,
+      "oracle_risk": 0.2456575682382134
+    },
+    "utility_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.4581976112920738,
+      "precision": 0.5281385281385281,
+      "recall": 0.22426470588235295,
+      "reviewed": 231,
+      "captured": 122
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.4581976112920738,
+      "precision": 0.5281385281385281,
+      "recall": 0.22426470588235295,
+      "reviewed": 231,
+      "captured": 122.0,
+      "oracle_risk": 0.33984799131378934
+    },
+    "utility_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.45366795366795365,
+      "precision": 0.6379310344827587,
+      "recall": 0.13602941176470587,
+      "reviewed": 116,
+      "captured": 74
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.45366795366795365,
+      "precision": 0.6379310344827587,
+      "recall": 0.13602941176470587,
+      "reviewed": 116,
+      "captured": 74.0,
+      "oracle_risk": 0.41312741312741313
+    },
+    "utility_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.45978062157221206,
+      "precision": 0.7068965517241379,
+      "recall": 0.07536764705882353,
+      "reviewed": 58,
+      "captured": 41
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.45978062157221206,
+      "precision": 0.7068965517241379,
+      "recall": 0.07536764705882353,
+      "reviewed": 58,
+      "captured": 41.0,
+      "oracle_risk": 0.44424131627056673
+    }
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "candidate",
+    "n": 1152,
+    "errors": 544,
+    "accuracy": 0.5277777777777778,
+    "auc": 0.547821328366873,
+    "nll": 1.0622249705762232,
+    "brier": 0.326848303518161,
+    "ece": 0.24480677159530922,
+    "fce": 0.32169117647058826,
+    "aurc": 0.4265890771774641,
+    "excess_aurc": 0.2914541839656654,
+    "prevalence": 0.4722222222222222,
+    "aurc_tie_averaged": 0.4265890771774641,
+    "excess_aurc_tie_averaged": 0.2914541839656654,
+    "augrc": 0.22419267819251543,
+    "oracle_aurc": 0.13513489321179867,
+    "utility_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.4491315136476427,
+      "precision": 0.5260115606936416,
+      "recall": 0.33455882352941174,
+      "reviewed": 346,
+      "captured": 182
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.4491315136476427,
+      "precision": 0.5260115606936416,
+      "recall": 0.33455882352941174,
+      "reviewed": 346,
+      "captured": 182.0,
+      "oracle_risk": 0.2456575682382134
+    },
+    "utility_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.46145494028230183,
+      "precision": 0.5151515151515151,
+      "recall": 0.21875,
+      "reviewed": 231,
+      "captured": 119
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.46145494028230183,
+      "precision": 0.5151515151515151,
+      "recall": 0.21875,
+      "reviewed": 231,
+      "captured": 119.0,
+      "oracle_risk": 0.33984799131378934
+    },
+    "utility_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.4584942084942085,
+      "precision": 0.5948275862068966,
+      "recall": 0.12683823529411764,
+      "reviewed": 116,
+      "captured": 69
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.4584942084942085,
+      "precision": 0.5948275862068966,
+      "recall": 0.12683823529411764,
+      "reviewed": 116,
+      "captured": 69.0,
+      "oracle_risk": 0.41312741312741313
+    },
+    "utility_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.463436928702011,
+      "precision": 0.6379310344827587,
+      "recall": 0.06801470588235294,
+      "reviewed": 58,
+      "captured": 37
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.463436928702011,
+      "precision": 0.6379310344827587,
+      "recall": 0.06801470588235294,
+      "reviewed": 58,
+      "captured": 37.0,
+      "oracle_risk": 0.44424131627056673
+    }
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "policy",
+    "n": 1152,
+    "errors": 544,
+    "accuracy": 0.5277777777777778,
+    "auc": 0.533469185371517,
+    "nll": 1.1165586347432184,
+    "brier": 0.33878764992158295,
+    "ece": 0.26930994249984036,
+    "fce": 0.3327205882352941,
+    "aurc": 0.4525323062488561,
+    "excess_aurc": 0.31739741303705743,
+    "prevalence": 0.4722222222222222,
+    "aurc_tie_averaged": 0.4525323062488561,
+    "excess_aurc_tie_averaged": 0.31739741303705743,
+    "augrc": 0.22776963975694445,
+    "oracle_aurc": 0.13513489321179867,
+    "utility_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.45285359801488834,
+      "precision": 0.5173410404624278,
+      "recall": 0.3290441176470588,
+      "reviewed": 346,
+      "captured": 179
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6996527777777778,
+      "risk": 0.45285359801488834,
+      "precision": 0.5173410404624278,
+      "recall": 0.3290441176470588,
+      "reviewed": 346,
+      "captured": 179.0,
+      "oracle_risk": 0.2456575682382134
+    },
+    "utility_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.4581976112920738,
+      "precision": 0.5281385281385281,
+      "recall": 0.22426470588235295,
+      "reviewed": 231,
+      "captured": 122
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7994791666666666,
+      "risk": 0.4581976112920738,
+      "precision": 0.5281385281385281,
+      "recall": 0.22426470588235295,
+      "reviewed": 231,
+      "captured": 122.0,
+      "oracle_risk": 0.33984799131378934
+    },
+    "utility_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.45366795366795365,
+      "precision": 0.6379310344827587,
+      "recall": 0.13602941176470587,
+      "reviewed": 116,
+      "captured": 74
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8993055555555556,
+      "risk": 0.45366795366795365,
+      "precision": 0.6379310344827587,
+      "recall": 0.13602941176470587,
+      "reviewed": 116,
+      "captured": 74.0,
+      "oracle_risk": 0.41312741312741313
+    },
+    "utility_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.45978062157221206,
+      "precision": 0.7068965517241379,
+      "recall": 0.07536764705882353,
+      "reviewed": 58,
+      "captured": 41
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9496527777777778,
+      "risk": 0.45978062157221206,
+      "precision": 0.7068965517241379,
+      "recall": 0.07536764705882353,
+      "reviewed": 58,
+      "captured": 41.0,
+      "oracle_risk": 0.44424131627056673
+    }
+  }
+]

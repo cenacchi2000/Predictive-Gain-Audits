@@ -1,0 +1,21 @@
+{
+  "dataset": "Mallat",
+  "backbone": "MiniRocket",
+  "seed": 17,
+  "reference": "agreement/lr1",
+  "candidate": "spectral_controls/lr1",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.04433037707556882,
+  "calibration_candidate_nll": 0.04341892967412245,
+  "calibration_n": 703,
+  "gate_n": 1173,
+  "assessment_n": 469,
+  "calibration_errors": 22,
+  "fraction": 0.5,
+  "calibration_logwealth_rate": 0.0021502728680052605,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.968705547652916,
+    "Hydra": 0.9587482219061166
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}

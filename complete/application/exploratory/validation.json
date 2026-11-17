@@ -1,0 +1,42 @@
+{
+  "configurations_verified": 36,
+  "authorized": 0,
+  "insufficient_classes": 30,
+  "conditional_null_information": 0,
+  "conditional_null_fitted_gain": 0.2952343130193718,
+  "mean_test_gain": 0.0018565681698349702,
+  "mean_negative_fraction": 0.41643488379149024,
+  "mean_correct_gain": 0.006765892442755713,
+  "mean_error_gain": -0.041454696289677725,
+  "undefined_auc_per_method": {
+    "raw": 0,
+    "intercept": 0,
+    "output": 0,
+    "output_quadratic": 0,
+    "time": 0,
+    "random_projection": 0,
+    "agreement": 0,
+    "atypicality": 0,
+    "all_features": 0,
+    "spectral": 0,
+    "reference": 0,
+    "policy": 0
+  },
+  "undefined_fce_per_method": {
+    "raw": 0,
+    "intercept": 0,
+    "output": 0,
+    "output_quadratic": 0,
+    "time": 0,
+    "random_projection": 0,
+    "agreement": 0,
+    "atypicality": 0,
+    "all_features": 0,
+    "spectral": 0,
+    "reference": 0,
+    "policy": 0
+  },
+  "missing_fit_classes_configs": 6,
+  "maximum_closure_error": 8.881784197001252e-16,
+  "log_radius_min": 1.9005128656864523
+}

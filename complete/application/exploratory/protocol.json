@@ -1,0 +1,35 @@
+{
+  "datasets": [
+    "ECG200",
+    "FordA",
+    "Wafer",
+    "ECG5000",
+    "ItalyPowerDemand",
+    "TwoLeadECG"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "backbones": [
+    "ExtraTrees",
+    "RandomConv"
+  ],
+  "family_size": 36,
+  "alpha": 0.05,
+  "clip": 1e-06,
+  "split": [
+    0.5,
+    0.25,
+    0.25
+  ],
+  "role_assignment": "sha256(dataset:train:id:SEB2027); same across seeds/backbones",
+  "gate": "7 one-sided bounds/configuration, global Bonferroni",
+  "stress": [
+    "block",
+    "dominant",
+    "band"
+  ],
+  "new_study": true
+}

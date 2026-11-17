@@ -1,0 +1,17 @@
+{
+  "dataset": "ElectricDevices",
+  "backbone": "Hydra",
+  "seed": 29,
+  "reference": "all_controls/gb15",
+  "candidate": "spectral_controls/gb15",
+  "bound": 1.0,
+  "calibration_reference_nll": 0.22992099961745097,
+  "calibration_candidate_nll": 0.22516448205574155,
+  "calibration_n": 2961,
+  "gate_n": 2221,
+  "assessment_n": 2221,
+  "calibration_errors": 688,
+  "code_sha256": "309124e19a87e7f28e9913314212ea33bd508963070361d9bcc549365fc81576",
+  "gate_order": "hash-v1",
+  "gate_order_correction_sha256": "5ac35e6f93253356acfa0b3fbcc9f80b211aa95c80d79ded1eab063caa71edbd"
+}

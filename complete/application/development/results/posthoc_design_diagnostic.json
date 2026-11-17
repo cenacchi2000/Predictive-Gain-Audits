@@ -1,0 +1,482 @@
+[
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": 0.006602212144143992,
+    "gate_sd": 0.12755130044134755,
+    "log_mixture": 1.5145318916120694,
+    "best_fixed_component_logwealth": 2.7228920314967024,
+    "assessment_gain": 0.0004573291690133645
+  },
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": 0.002537455795664245,
+    "gate_sd": 0.059528046303892426,
+    "log_mixture": 0.8466307818416814,
+    "best_fixed_component_logwealth": 1.8452344036630772,
+    "assessment_gain": 0.0020716531919110406
+  },
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": 0.0006626654890942279,
+    "gate_sd": 0.12577413839951293,
+    "log_mixture": -0.18777962896058797,
+    "best_fixed_component_logwealth": 0.028843578849919893,
+    "assessment_gain": 0.0005658020326122792
+  },
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": 0.003861633151913097,
+    "gate_sd": 0.11424756771889112,
+    "log_mixture": 0.4124561496839947,
+    "best_fixed_component_logwealth": 1.2417400401804475,
+    "assessment_gain": 0.0006841773069958805
+  },
+  {
+    "dataset": "StarLightCurves",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": 0.0020521903765576143,
+    "gate_sd": 0.050188555350549224,
+    "log_mixture": 0.9305771484633398,
+    "best_fixed_component_logwealth": 1.7490998756892475,
+    "assessment_gain": 0.000704914088825099
+  },
+  {
+    "dataset": "StarLightCurves",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": 0.001235130673226329,
+    "gate_sd": 0.02857156971586883,
+    "log_mixture": 0.952415033296802,
+    "best_fixed_component_logwealth": 2.00835996574895,
+    "assessment_gain": 0.0014009836933001837
+  },
+  {
+    "dataset": "StarLightCurves",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": 0.001436870444609565,
+    "gate_sd": 0.02931893676797904,
+    "log_mixture": 1.362875368699127,
+    "best_fixed_component_logwealth": 2.483957562193046,
+    "assessment_gain": 0.0010194470358252594
+  },
+  {
+    "dataset": "StarLightCurves",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": 0.0020929130655800415,
+    "gate_sd": 0.04208372819389797,
+    "log_mixture": 1.4818340538880763,
+    "best_fixed_component_logwealth": 3.1111525320129267,
+    "assessment_gain": -0.001640668210168033
+  },
+  {
+    "dataset": "Crop",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": 0.001452960185120664,
+    "gate_sd": 0.14855270316529173,
+    "log_mixture": -0.3837781820464452,
+    "best_fixed_component_logwealth": 0.18440205181497216,
+    "assessment_gain": 0.0027373304433041252
+  },
+  {
+    "dataset": "Crop",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": 0.0038497206758943215,
+    "gate_sd": 0.08183418373863648,
+    "log_mixture": 4.1049287255113365,
+    "best_fixed_component_logwealth": 4.210721973820457,
+    "assessment_gain": 0.0041564533091586675
+  },
+  {
+    "dataset": "Crop",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": 0.0034142495137955893,
+    "gate_sd": 0.08305717086564783,
+    "log_mixture": 1.6354699525004444,
+    "best_fixed_component_logwealth": 3.2507580102606886,
+    "assessment_gain": 0.0036857343452895274
+  },
+  {
+    "dataset": "Crop",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": 0.0025208378316183984,
+    "gate_sd": 0.08337329584855412,
+    "log_mixture": 0.8784934436573386,
+    "best_fixed_component_logwealth": 1.5961790715430335,
+    "assessment_gain": 0.002203789419389972
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": 0.01436010557037692,
+    "gate_sd": 0.14688661090732222,
+    "log_mixture": 3.2364080331358966,
+    "best_fixed_component_logwealth": 5.105552721617425,
+    "assessment_gain": 0.007600951825609922
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": 0.013217511595771479,
+    "gate_sd": 0.11064072933461994,
+    "log_mixture": 6.474936956171006,
+    "best_fixed_component_logwealth": 8.2254069352216,
+    "assessment_gain": 0.00099703259469064
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": 0.0028655266621965317,
+    "gate_sd": 0.13661503862420254,
+    "log_mixture": -0.2542303127665111,
+    "best_fixed_component_logwealth": 0.24577917063989158,
+    "assessment_gain": -0.0028177032676483444
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": 0.017711472828923373,
+    "gate_sd": 0.15610160388269886,
+    "log_mixture": 4.995444234001439,
+    "best_fixed_component_logwealth": 6.787931714759514,
+    "assessment_gain": 0.014075695769667267
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": -0.008601074955313141,
+    "gate_sd": 0.13608866832318592,
+    "log_mixture": -0.5426168878373943,
+    "best_fixed_component_logwealth": -0.019872815745719367,
+    "assessment_gain": 0.012933936742247337
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": -0.0014367996848799677,
+    "gate_sd": 0.09247957158902306,
+    "log_mixture": -0.40208762627665684,
+    "best_fixed_component_logwealth": -0.006765386585315888,
+    "assessment_gain": -0.0009407734192994355
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": 0.0012186623554993005,
+    "gate_sd": 0.04419131707207988,
+    "log_mixture": -0.12944274142238976,
+    "best_fixed_component_logwealth": 0.21463088292147647,
+    "assessment_gain": 0.0035143176454462163
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": -0.008905860214655418,
+    "gate_sd": 0.1629807596003798,
+    "log_mixture": -0.5947779336585581,
+    "best_fixed_component_logwealth": -0.020610260073149995,
+    "assessment_gain": -0.005577535966184878
+  },
+  {
+    "dataset": "Phoneme",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": -0.0035219399421422245,
+    "gate_sd": 0.18719246628452604,
+    "log_mixture": -0.62661231164114,
+    "best_fixed_component_logwealth": -0.016264759208430818,
+    "assessment_gain": 0.015700145741049932
+  },
+  {
+    "dataset": "Phoneme",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": 0.012997590474951262,
+    "gate_sd": 0.10033626742913254,
+    "log_mixture": 2.8573482101280563,
+    "best_fixed_component_logwealth": 4.584988220996377,
+    "assessment_gain": 0.008909012647297028
+  },
+  {
+    "dataset": "Phoneme",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": 0.006576367011017976,
+    "gate_sd": 0.1896641869171093,
+    "log_mixture": -0.17290282032434456,
+    "best_fixed_component_logwealth": 0.30763641371042094,
+    "assessment_gain": 0.01090422241586388
+  },
+  {
+    "dataset": "Phoneme",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": 0.019925421901923084,
+    "gate_sd": 0.19174982019214246,
+    "log_mixture": 1.660154455199042,
+    "best_fixed_component_logwealth": 3.099595183131298,
+    "assessment_gain": 0.018558734363914205
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": 0.002650663109376918,
+    "gate_sd": 0.058144656697087994,
+    "log_mixture": 0.3146372131257089,
+    "best_fixed_component_logwealth": 0.9973943209725028,
+    "assessment_gain": -0.00046181416071105374
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": -0.0006606918746437947,
+    "gate_sd": 0.09829096023673195,
+    "log_mixture": -0.20544338208690327,
+    "best_fixed_component_logwealth": -0.0014070111121502883,
+    "assessment_gain": 0.0002219331155866494
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": -0.0006508879168158215,
+    "gate_sd": 0.05214714972374809,
+    "log_mixture": -0.38028523831869965,
+    "best_fixed_component_logwealth": -0.005555755620427552,
+    "assessment_gain": -0.001791857917928927
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": 0.005142101041090306,
+    "gate_sd": 0.10755162955101918,
+    "log_mixture": 0.3609062618331871,
+    "best_fixed_component_logwealth": 1.0769176165634313,
+    "assessment_gain": 0.0007786792807718137
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": 0.006551894887602528,
+    "gate_sd": 0.10072702741933735,
+    "log_mixture": 0.3238590658676115,
+    "best_fixed_component_logwealth": 1.1842079268136887,
+    "assessment_gain": -0.00256573990003859
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": 4.454600383350895e-05,
+    "gate_sd": 0.09948268401902456,
+    "log_mixture": -0.515864598885166,
+    "best_fixed_component_logwealth": -0.000304411670115298,
+    "assessment_gain": 0.004243629070122982
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": 0.00227594178908914,
+    "gate_sd": 0.09841256884098379,
+    "log_mixture": -0.29367327611117355,
+    "best_fixed_component_logwealth": 0.15717285862604136,
+    "assessment_gain": 0.00840775177908911
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": -0.0007776812195345082,
+    "gate_sd": 0.09643920492662862,
+    "log_mixture": -0.5418878238741047,
+    "best_fixed_component_logwealth": -0.007892346481144077,
+    "assessment_gain": 0.003659743296509646
+  },
+  {
+    "dataset": "FaceAll",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": -0.00282998649106747,
+    "gate_sd": 0.08248778162307148,
+    "log_mixture": -0.3220214601536777,
+    "best_fixed_component_logwealth": -0.0056199908193237625,
+    "assessment_gain": -0.0016211822631155908
+  },
+  {
+    "dataset": "FaceAll",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": -0.006426651002951548,
+    "gate_sd": 0.15185804020093788,
+    "log_mixture": -0.3287586324234628,
+    "best_fixed_component_logwealth": -0.006373677420987182,
+    "assessment_gain": 0.005702066858819959
+  },
+  {
+    "dataset": "FaceAll",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": -0.004682223816892226,
+    "gate_sd": 0.10156756850708362,
+    "log_mixture": -0.23478990174152292,
+    "best_fixed_component_logwealth": -0.00463734611087864,
+    "assessment_gain": -0.000380789407395931
+  },
+  {
+    "dataset": "FaceAll",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": 0.003267335364478574,
+    "gate_sd": 0.04973964643403239,
+    "log_mixture": 0.17433199602714433,
+    "best_fixed_component_logwealth": 0.649096316274852,
+    "assessment_gain": 0.0008118962692786289
+  },
+  {
+    "dataset": "TwoPatterns",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": -0.00011644734513448561,
+    "gate_sd": 0.020839325208529713,
+    "log_mixture": -0.17981322513099762,
+    "best_fixed_component_logwealth": -0.0011075982070131304,
+    "assessment_gain": -0.0002587509963907543
+  },
+  {
+    "dataset": "TwoPatterns",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": -7.548308464982741e-05,
+    "gate_sd": 0.033101894539040604,
+    "log_mixture": -0.04259323476803356,
+    "best_fixed_component_logwealth": -0.0001794214138477121,
+    "assessment_gain": -0.0009926510593090013
+  },
+  {
+    "dataset": "TwoPatterns",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": 0.0002239285962383206,
+    "gate_sd": 0.011252035784976836,
+    "log_mixture": -0.04809766651955982,
+    "best_fixed_component_logwealth": 0.2000389205819631,
+    "assessment_gain": -0.00045915924117667076
+  },
+  {
+    "dataset": "TwoPatterns",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": -7.950857049679195e-06,
+    "gate_sd": 0.011559462873298575,
+    "log_mixture": -0.08413815929934865,
+    "best_fixed_component_logwealth": -7.943908957620783e-05,
+    "assessment_gain": -0.0001687532124306786
+  },
+  {
+    "dataset": "PenDigits",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": 0.00118077951503249,
+    "gate_sd": 0.05033400403265758,
+    "log_mixture": -0.05674422484497299,
+    "best_fixed_component_logwealth": 0.2855449956561288,
+    "assessment_gain": -0.0014335241877018324
+  },
+  {
+    "dataset": "PenDigits",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": 0.006772025211462097,
+    "gate_sd": 0.11072520262574034,
+    "log_mixture": 0.8270441080586748,
+    "best_fixed_component_logwealth": 2.0543272985097385,
+    "assessment_gain": 0.0066671248002117085
+  },
+  {
+    "dataset": "PenDigits",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": 0.0009075520818413443,
+    "gate_sd": 0.13845725412429946,
+    "log_mixture": -0.1894371187925854,
+    "best_fixed_component_logwealth": 0.01991471452341652,
+    "assessment_gain": 0.0006298449815798542
+  },
+  {
+    "dataset": "PenDigits",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": 0.0013708144527244265,
+    "gate_sd": 0.0487783664126619,
+    "log_mixture": -0.005444698434744044,
+    "best_fixed_component_logwealth": 0.39914908133603216,
+    "assessment_gain": -0.004197275377388433
+  },
+  {
+    "dataset": "LSST",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "gate_gain": 0.0035767481766424618,
+    "gate_sd": 0.18390457647823935,
+    "log_mixture": -0.34439505787347136,
+    "best_fixed_component_logwealth": 0.13459236962837262,
+    "assessment_gain": 0.007368896320200011
+  },
+  {
+    "dataset": "LSST",
+    "backbone": "MiniRocket",
+    "seed": 29,
+    "gate_gain": 0.004502091822076113,
+    "gate_sd": 0.09919484984899725,
+    "log_mixture": 0.038437866079559235,
+    "best_fixed_component_logwealth": 0.7518908444855412,
+    "assessment_gain": 0.007029092502243135
+  },
+  {
+    "dataset": "LSST",
+    "backbone": "Hydra",
+    "seed": 17,
+    "gate_gain": -0.008525936719794161,
+    "gate_sd": 0.18944326713681656,
+    "log_mixture": -0.8631579616481482,
+    "best_fixed_component_logwealth": -0.050103036861982836,
+    "assessment_gain": 0.0011137252115495156
+  },
+  {
+    "dataset": "LSST",
+    "backbone": "Hydra",
+    "seed": 29,
+    "gate_gain": 0.003618101121024852,
+    "gate_sd": 0.09744148150556786,
+    "log_mixture": -0.1384776501760303,
+    "best_fixed_component_logwealth": 0.45103206918624805,
+    "assessment_gain": 0.008428573101718346
+  }
+]

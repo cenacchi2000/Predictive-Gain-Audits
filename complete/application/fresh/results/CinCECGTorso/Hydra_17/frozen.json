@@ -1,0 +1,21 @@
+{
+  "dataset": "CinCECGTorso",
+  "backbone": "Hydra",
+  "seed": 17,
+  "reference": "constant",
+  "candidate": "no_update",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.0012055456553486702,
+  "calibration_candidate_nll": 0.0012055456553486702,
+  "calibration_n": 414,
+  "gate_n": 690,
+  "assessment_n": 276,
+  "calibration_errors": 0,
+  "fraction": 0.0,
+  "calibration_logwealth_rate": -0.0,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.8671497584541062,
+    "Hydra": 1.0
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}

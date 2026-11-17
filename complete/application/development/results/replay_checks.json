@@ -1,0 +1,386 @@
+[
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "ElectricDevices",
+    "records_sha256": "dcaac3cb9442e40550b8bda146910bf4311ed92450f2e8ec1d210dc94e716054",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "ElectricDevices",
+    "records_sha256": "97c498103a2ac8f014167ebb7a655c5914d563f1c4e0d26a7f4f1d3cac8fbf3e",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "ElectricDevices",
+    "records_sha256": "006a2aed3f0683b83b638e4cc1c9a6c565c4fef869e878a5b1e784dec63ae229",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "ElectricDevices",
+    "records_sha256": "85e8e4331c126a8d86845b09a1dfcc3e9941857268fdf6399c804edf951b4f37",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "StarLightCurves",
+    "records_sha256": "0f51b8f5662ca15e6578f2fa3a986eeaa8d6f458b1dae02729575a20f930e78f",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "StarLightCurves",
+    "records_sha256": "88f7835f25c957b4f052fbaf08e547d9caf51f5833f7b154ce416816bf729f3a",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "StarLightCurves",
+    "records_sha256": "44c55c4ba351438a550f18250d7a653e5390b23e54c7165b204db8b6e059800e",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "StarLightCurves",
+    "records_sha256": "3d3a56b149af8fa44de4c40de5f6cf2643576e08bdeb1f9f7d45071f25eeb7d8",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "Crop",
+    "records_sha256": "098d72e4d07c90ce44a56696003e5091790a6c34583920abe7ef1649b9e54a19",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "Crop",
+    "records_sha256": "82cb0ef7862cbaaf9fbf459f08e51d4e0a583b853413eca55f7649664300a63d",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "Crop",
+    "records_sha256": "6397b1021333a0f7377f5719a2c9fea5260bd1fc92ff6cbfa51021c8a935fd51",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "Crop",
+    "records_sha256": "c061fb5e9db0fe3c234b44b82e76d30ff0dae8f8c40a53e25e5e8a583b4caca0",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "ChlorineConcentration",
+    "records_sha256": "e964550cee6e8d883ee96781e9ca9123ed1f132e0308ac68cb24bb4e6f5c288f",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "ChlorineConcentration",
+    "records_sha256": "473dddc78b781c30d4110b434a8bec7d4bc32297b4d614170c389e18c151a032",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "ChlorineConcentration",
+    "records_sha256": "84a20c17b73537d6a11fce7dd99890cfaa9674fd90e2b6420bab9ff6b07ccf3a",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "ChlorineConcentration",
+    "records_sha256": "e06c6a802fa633e64d2ef7c2db0a3903744e5c6236dd38f514cc81597fc7e545",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "records_sha256": "7f3169dbb842f491e126ebe7bad34cc441eb32ede0d1a714615e58a8153ade68",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "records_sha256": "44e3fb6383b979bf843e91b6f899b316769c06a2ee2de5a44fe789e30f827d14",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "records_sha256": "2c0831b2daeb902ce0cd816e379848a92c43ea1c3dddb3ef722ee5a77a887c02",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "records_sha256": "f207b39fffe04d53e3e044c3aa6347347071f922632f9fb1b5e5ffe2c2c72f38",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "Phoneme",
+    "records_sha256": "009f12c107b48e8237f8fa06b7378edc383486732ca9aa47bff4561cb5ba4227",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "Phoneme",
+    "records_sha256": "366903154c23158f23218e0109b55a766ed041293b2becffc8245be04e0e5d26",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "Phoneme",
+    "records_sha256": "c3ffa4b901079cf670dd8659583a9a42e95071a4dde56278bd4f4839861f28cb",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "Phoneme",
+    "records_sha256": "b8f49a273ea361e7e36a83621b31044ea3ff82b4eb185e9af45d6b0d722fbfd8",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "UWaveGestureLibraryAll",
+    "records_sha256": "506b12b9c4aef7c0894030f169f300b5120fc4e2216658d0a36954975d2f6458",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "UWaveGestureLibraryAll",
+    "records_sha256": "e94aa3ec89d7c8db175d9fbb7b772f75c03f58d248ac53c754246722675eba10",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "UWaveGestureLibraryAll",
+    "records_sha256": "10d25c35c19ac4f393164bdb42fca992b0f86090e277bf6af529f6f5d0b65361",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "UWaveGestureLibraryAll",
+    "records_sha256": "863bac11735cf4f9180b3b1ce7e5ea1c689379b64da07db8ba784d59430c2cd8",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "InsectWingbeatSound",
+    "records_sha256": "1baee0af9bb5cfd441f1f6b4655c75a4917928d9daa8c612440864c527c3b0e9",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "InsectWingbeatSound",
+    "records_sha256": "42134a19f259be3dd36d81b8334f53b5bcd3ab6ff51f842ae3eeb4755d7ab7aa",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "InsectWingbeatSound",
+    "records_sha256": "b2b0e5398957f310799fc84cb79baf6d4a42c32c2725486543162885f92e6b0f",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "InsectWingbeatSound",
+    "records_sha256": "c3a1f4c13cae62f70647e38789a88f46e8f4adf62724872ac5ffb5b759ba78f6",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "FaceAll",
+    "records_sha256": "135e40445b5bbf344fecf76b1256bbae9465bb80414c7c33f8ec9e9cbd9fe843",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "FaceAll",
+    "records_sha256": "c8ff2e9b56b93d7625831ccd63f7a596ce1db9f824e35aa229501a0cb9cd6d42",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "FaceAll",
+    "records_sha256": "87208705564c26011cd4508c41c054e9b5e9c46f1bcfadd1afaa1c924756e892",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "FaceAll",
+    "records_sha256": "cec4bd5d15576c9462eb3d5478620558258eb4f229de33aaba6fc64726cb1265",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "TwoPatterns",
+    "records_sha256": "a8a2c1a2b4553ae1bfd8bc0cb775c471deb13fd58b8103378f2b6d9cf6f0a663",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "TwoPatterns",
+    "records_sha256": "a5e6bfddab512ab3c8dc28ae4730c0b609591c8ef415085e50a93912a7db0a9d",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "TwoPatterns",
+    "records_sha256": "ddccf1e490e28822fc9aba3cbc2774e92d5136b6d0d5b642369f5463048d5459",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "TwoPatterns",
+    "records_sha256": "5012d8531b10bda4f15930cbdd07f3f70c12a38ba3c05fa52aa72c88dbd9803b",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "PenDigits",
+    "records_sha256": "07d5693285dccab25962de0eb6753305a885a0b0271ac7616ce21341f66537ec",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "PenDigits",
+    "records_sha256": "72237cc515f5b13b16aa42acaf016ade968cfe5b1a070b812cf78d07f3f03aef",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "PenDigits",
+    "records_sha256": "00afd03ec120999afa5bad1a8dd9f7b16902c9f93ca70f504b75e4bf80d07c40",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "PenDigits",
+    "records_sha256": "45f39791e69b431b8d606ee496b765e3e7bcad29e0d18398946429b9073a16ef",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_17",
+    "dataset": "LSST",
+    "records_sha256": "e55e5f54f653fa95baa53b4c525a698a05474c2de41da97132636f79a3770f23",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "MiniRocket_29",
+    "dataset": "LSST",
+    "records_sha256": "89c2d0714cb7bf78417db1c060c637667786c52822cf532e6089efd03ae59001",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_17",
+    "dataset": "LSST",
+    "records_sha256": "2c7d2448d34843567fa1c865885eedf062ec1ecb2fe8578178b0c24c65229069",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  },
+  {
+    "configuration": "Hydra_29",
+    "dataset": "LSST",
+    "records_sha256": "3e095d26d517bc7d3eb67f0dd5586ee07b6fc4b64c6265e71f5c51eede0d76ce",
+    "gate_replay": true,
+    "fallback_exact": true,
+    "all_finite": true
+  }
+]

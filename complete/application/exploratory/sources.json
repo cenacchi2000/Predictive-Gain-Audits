@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "ECG200",
+    "url": "https://www.timeseriesclassification.com/aeon-toolkit/ECG200.zip",
+    "zip_sha256": "755937ea37849346ea20033666b19d17345bb039971e8fa33458b16b62c09380",
+    "train": 100,
+    "test": 100,
+    "length": 96
+  },
+  {
+    "dataset": "FordA",
+    "url": "https://www.timeseriesclassification.com/aeon-toolkit/FordA.zip",
+    "zip_sha256": "4d78a72e5165e8da40c51115a8219c9d01978aafac6334ed8dfabd29da359ffb",
+    "train": 3601,
+    "test": 1320,
+    "length": 500
+  },
+  {
+    "dataset": "Wafer",
+    "url": "https://www.timeseriesclassification.com/aeon-toolkit/Wafer.zip",
+    "zip_sha256": "06032db83b3f6f3f39ef4b65433061dde9b2593b956caa1ad1ae9ad260a36be4",
+    "train": 1000,
+    "test": 6164,
+    "length": 152
+  },
+  {
+    "dataset": "ECG5000",
+    "url": "https://www.timeseriesclassification.com/aeon-toolkit/ECG5000.zip",
+    "zip_sha256": "41f6de20ac895e9ce31753860995518951f1ed42a405d0e51c909d27e3b3c5a4",
+    "train": 500,
+    "test": 4500,
+    "length": 140
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "url": "https://www.timeseriesclassification.com/aeon-toolkit/ItalyPowerDemand.zip",
+    "zip_sha256": "4b68635dc79855fbdb7787d5dff5bac978fd0448afaa8eb7811dae52d43e5e46",
+    "train": 67,
+    "test": 1029,
+    "length": 24
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "url": "https://www.timeseriesclassification.com/aeon-toolkit/TwoLeadECG.zip",
+    "zip_sha256": "f747b239fdc4f2657546ad2789290029c219b06fe0b58059a83c004a16f3d9a8",
+    "train": 23,
+    "test": 1139,
+    "length": 82
+  }
+]

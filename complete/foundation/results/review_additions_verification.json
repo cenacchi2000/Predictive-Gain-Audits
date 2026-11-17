@@ -1,0 +1,16 @@
+{
+  "natural_cases": 9,
+  "disjoint_splits": true,
+  "score_replay_max_error": 0,
+  "betting_inversion_checked": true,
+  "CP_intervals_checked": true,
+  "family_error_allocation": 0.05,
+  "independent_LP_comparisons": 200,
+  "greedy_vs_LP_max_error": 5.551115123125783e-16,
+  "numerical_cleanup_max_change": {
+    "mean_gain": 0.00018459654057673136,
+    "betting_lower": 0.00012471344205144952,
+    "eb_lower": 0.0001417933538703786
+  },
+  "numerical_cleanup_conclusions_unchanged": true
+}

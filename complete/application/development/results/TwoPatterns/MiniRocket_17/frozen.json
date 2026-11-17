@@ -1,0 +1,17 @@
+{
+  "dataset": "TwoPatterns",
+  "backbone": "MiniRocket",
+  "seed": 17,
+  "reference": "agreement/lr1",
+  "candidate": "offset_spectral/1.0",
+  "bound": 0.5,
+  "calibration_reference_nll": 0.002087430855643841,
+  "calibration_candidate_nll": 0.0019110727993404445,
+  "calibration_n": 1600,
+  "gate_n": 1200,
+  "assessment_n": 1200,
+  "calibration_errors": 4,
+  "code_sha256": "f0ce00e93f9ae13bd290198ae15f851db4b69de5bb1d1e041af401f28838cb31",
+  "gate_order": "hash-v1",
+  "gate_order_correction_sha256": "5ac35e6f93253356acfa0b3fbcc9f80b211aa95c80d79ded1eab063caa71edbd"
+}

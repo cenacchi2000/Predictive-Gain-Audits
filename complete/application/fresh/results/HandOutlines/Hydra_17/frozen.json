@@ -1,0 +1,21 @@
+{
+  "dataset": "HandOutlines",
+  "backbone": "Hydra",
+  "seed": 17,
+  "reference": "representation/lr01",
+  "candidate": "spectral/lr1",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.16301711371698377,
+  "calibration_candidate_nll": 0.16023878631923918,
+  "calibration_n": 111,
+  "gate_n": 185,
+  "assessment_n": 74,
+  "calibration_errors": 5,
+  "fraction": 0.5,
+  "calibration_logwealth_rate": 0.006809377163592212,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.9459459459459459,
+    "Hydra": 0.954954954954955
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}

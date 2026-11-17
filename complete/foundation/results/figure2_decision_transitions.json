@@ -1,0 +1,44 @@
+[
+  {
+    "draws": 512,
+    "step": "confidence",
+    "gained": 82,
+    "lost": 0,
+    "unchanged": 418
+  },
+  {
+    "draws": 512,
+    "step": "joint",
+    "gained": 0,
+    "lost": 25,
+    "unchanged": 475
+  },
+  {
+    "draws": 1024,
+    "step": "confidence",
+    "gained": 393,
+    "lost": 0,
+    "unchanged": 107
+  },
+  {
+    "draws": 1024,
+    "step": "joint",
+    "gained": 2,
+    "lost": 0,
+    "unchanged": 498
+  },
+  {
+    "draws": 2048,
+    "step": "confidence",
+    "gained": 202,
+    "lost": 0,
+    "unchanged": 298
+  },
+  {
+    "draws": 2048,
+    "step": "joint",
+    "gained": 0,
+    "lost": 0,
+    "unchanged": 500
+  }
+]

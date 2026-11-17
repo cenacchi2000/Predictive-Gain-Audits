@@ -1,0 +1,17 @@
+{
+  "dataset": "LSST",
+  "backbone": "MiniRocket",
+  "seed": 29,
+  "reference": "agreement/lr01",
+  "candidate": "spectral_controls/gb7",
+  "bound": 0.25,
+  "calibration_reference_nll": 0.5461224994404189,
+  "calibration_candidate_nll": 0.5423827411557433,
+  "calibration_n": 986,
+  "gate_n": 740,
+  "assessment_n": 740,
+  "calibration_errors": 413,
+  "code_sha256": "f0ce00e93f9ae13bd290198ae15f851db4b69de5bb1d1e041af401f28838cb31",
+  "gate_order": "hash-v1",
+  "gate_order_correction_sha256": "5ac35e6f93253356acfa0b3fbcc9f80b211aa95c80d79ded1eab063caa71edbd"
+}

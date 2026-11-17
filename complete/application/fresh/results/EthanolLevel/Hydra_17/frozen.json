@@ -1,0 +1,21 @@
+{
+  "dataset": "EthanolLevel",
+  "backbone": "Hydra",
+  "seed": 17,
+  "reference": "agreement/lr01",
+  "candidate": "spectral/gb15",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.5133112515029867,
+  "calibration_candidate_nll": 0.5087873295169115,
+  "calibration_n": 150,
+  "gate_n": 250,
+  "assessment_n": 100,
+  "calibration_errors": 49,
+  "fraction": 0.25,
+  "calibration_logwealth_rate": 0.003861608186261826,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.6533333333333333,
+    "Hydra": 0.6733333333333333
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}

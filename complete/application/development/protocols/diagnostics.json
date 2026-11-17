@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-25T07:14:38.932028+00:00",
+  "status": "specified_before_assessment_release",
+  "harm_tolerance_nats": 1e-12,
+  "harm_summary": "fraction of realized paired gains below minus tolerance, conditional means by correctness, quantiles, error score .9 crossings",
+  "stress": {
+    "datasets": "all twelve declared datasets",
+    "seeds": [
+      17
+    ],
+    "backbones": [
+      "MiniRocket",
+      "Hydra"
+    ],
+    "interventions": [
+      "remove largest 20% of positive frequency bins by pooled channel power",
+      "remove random contiguous 20% band",
+      "zero a contiguous 20% time block"
+    ],
+    "clean_gate_fixed": true,
+    "labels": "Retain archive labels for diagnostics only; semantic label preservation is not assumed."
+  },
+  "reporting_refinement_utc": "2026-09-25T07:33:39.489992+00:00",
+  "tie_handling": "Add exact uniform-tie averaged AURC and fixed-coverage utility as primary summaries; retain original-ID variants. Add AUGRC and its AUROC/accuracy identity check. Specified before any primary assessment release; does not change NLL, models, data roles, or authorization."
+}

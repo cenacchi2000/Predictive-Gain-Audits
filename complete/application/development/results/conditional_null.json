@@ -1,0 +1,56 @@
+[
+  {
+    "scenario": "conditional_null_misspecified_reference",
+    "n": 100,
+    "repeats": 5000,
+    "conditional_information": 0,
+    "true_fitted_gain": 0.2952343130193718,
+    "bound": 2.5190789094576287,
+    "authorization_rate": 0.255
+  },
+  {
+    "scenario": "conditional_null_correct_reference",
+    "n": 100,
+    "repeats": 5000,
+    "conditional_information": 0,
+    "true_fitted_gain": 0,
+    "bound": 2.5190789094576287,
+    "authorization_rate": 0.0
+  },
+  {
+    "scenario": "conditional_null_misspecified_reference",
+    "n": 250,
+    "repeats": 5000,
+    "conditional_information": 0,
+    "true_fitted_gain": 0.2952343130193718,
+    "bound": 2.5190789094576287,
+    "authorization_rate": 0.955
+  },
+  {
+    "scenario": "conditional_null_correct_reference",
+    "n": 250,
+    "repeats": 5000,
+    "conditional_information": 0,
+    "true_fitted_gain": 0,
+    "bound": 2.5190789094576287,
+    "authorization_rate": 0.0
+  },
+  {
+    "scenario": "conditional_null_misspecified_reference",
+    "n": 1000,
+    "repeats": 5000,
+    "conditional_information": 0,
+    "true_fitted_gain": 0.2952343130193718,
+    "bound": 2.5190789094576287,
+    "authorization_rate": 1.0
+  },
+  {
+    "scenario": "conditional_null_correct_reference",
+    "n": 1000,
+    "repeats": 5000,
+    "conditional_information": 0,
+    "true_fitted_gain": 0,
+    "bound": 2.5190789094576287,
+    "authorization_rate": 0.0
+  }
+]

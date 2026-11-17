@@ -1,0 +1,21 @@
+{
+  "dataset": "SemgHandGenderCh2",
+  "backbone": "MiniRocket",
+  "seed": 17,
+  "reference": "agreement/lr01",
+  "candidate": "no_update",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.24261961053644615,
+  "calibration_candidate_nll": 0.24261961053644615,
+  "calibration_n": 180,
+  "gate_n": 300,
+  "assessment_n": 120,
+  "calibration_errors": 16,
+  "fraction": 0.0,
+  "calibration_logwealth_rate": -0.0,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.9111111111111111,
+    "Hydra": 0.8444444444444444
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}

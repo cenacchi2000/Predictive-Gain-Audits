@@ -1,0 +1,338 @@
+[
+  {
+    "dataset": "ElectricDevices",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 1.6342482922482304e-13,
+    "finite": true
+  },
+  {
+    "dataset": "ElectricDevices",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 7.993605777301127e-15,
+    "finite": true
+  },
+  {
+    "dataset": "ElectricDevices",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 1.971756091734278e-13,
+    "finite": true
+  },
+  {
+    "dataset": "ElectricDevices",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 5.10702591327572e-15,
+    "finite": true
+  },
+  {
+    "dataset": "StarLightCurves",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 4.440892098500626e-14,
+    "finite": true
+  },
+  {
+    "dataset": "StarLightCurves",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 5.551115123125783e-15,
+    "finite": true
+  },
+  {
+    "dataset": "StarLightCurves",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 6.927791673660977e-14,
+    "finite": true
+  },
+  {
+    "dataset": "StarLightCurves",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 4.218847493575595e-15,
+    "finite": true
+  },
+  {
+    "dataset": "Crop",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 8.171241461241152e-14,
+    "finite": true
+  },
+  {
+    "dataset": "Crop",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 2.886579864025407e-15,
+    "finite": true
+  },
+  {
+    "dataset": "Crop",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 1.865174681370263e-13,
+    "finite": true
+  },
+  {
+    "dataset": "Crop",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 5.329070518200751e-15,
+    "finite": true
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 1.2505552149377763e-12,
+    "finite": true
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 5.773159728050814e-15,
+    "finite": true
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 5.542233338928781e-13,
+    "finite": true
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 8.43769498715119e-15,
+    "finite": true
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 3.836930773104541e-13,
+    "finite": true
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 8.659739592076221e-15,
+    "finite": true
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 8.526512829121202e-13,
+    "finite": true
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 1.0436096431476471e-14,
+    "finite": true
+  },
+  {
+    "dataset": "Phoneme",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 1.5987211554602254e-13,
+    "finite": true
+  },
+  {
+    "dataset": "Phoneme",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 3.3306690738754696e-15,
+    "finite": true
+  },
+  {
+    "dataset": "Phoneme",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 2.3092638912203256e-13,
+    "finite": true
+  },
+  {
+    "dataset": "Phoneme",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 3.1086244689504383e-15,
+    "finite": true
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 5.950795411990839e-14,
+    "finite": true
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 7.549516567451064e-15,
+    "finite": true
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 3.979039320256561e-13,
+    "finite": true
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 7.105427357601002e-15,
+    "finite": true
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 5.062616992290714e-14,
+    "finite": true
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 4.440892098500626e-15,
+    "finite": true
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 8.526512829121202e-14,
+    "finite": true
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 5.10702591327572e-15,
+    "finite": true
+  },
+  {
+    "dataset": "FaceAll",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 6.039613253960852e-14,
+    "finite": true
+  },
+  {
+    "dataset": "FaceAll",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 9.103828801926284e-15,
+    "finite": true
+  },
+  {
+    "dataset": "FaceAll",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 5.950795411990839e-14,
+    "finite": true
+  },
+  {
+    "dataset": "FaceAll",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 5.551115123125783e-15,
+    "finite": true
+  },
+  {
+    "dataset": "TwoPatterns",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 2.6290081223123707e-13,
+    "finite": true
+  },
+  {
+    "dataset": "TwoPatterns",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 5.773159728050814e-15,
+    "finite": true
+  },
+  {
+    "dataset": "TwoPatterns",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 3.197442310920451e-13,
+    "finite": true
+  },
+  {
+    "dataset": "TwoPatterns",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 3.9968028886505635e-15,
+    "finite": true
+  },
+  {
+    "dataset": "PenDigits",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 2.930988785010413e-14,
+    "finite": true
+  },
+  {
+    "dataset": "PenDigits",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 1.7763568394002505e-15,
+    "finite": true
+  },
+  {
+    "dataset": "PenDigits",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 2.1760371282653068e-14,
+    "finite": true
+  },
+  {
+    "dataset": "PenDigits",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 3.552713678800501e-15,
+    "finite": true
+  },
+  {
+    "dataset": "LSST",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 1.0658141036401503e-13,
+    "finite": true
+  },
+  {
+    "dataset": "LSST",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 4.107825191113079e-15,
+    "finite": true
+  },
+  {
+    "dataset": "LSST",
+    "seed": 29,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 4.973799150320701e-14,
+    "finite": true
+  },
+  {
+    "dataset": "LSST",
+    "seed": 29,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 3.219646771412954e-15,
+    "finite": true
+  }
+]

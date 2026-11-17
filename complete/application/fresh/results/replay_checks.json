@@ -1,0 +1,72 @@
+[
+  {
+    "dataset": "Yoga",
+    "records_sha256": "e981a33c5837e8d241f7aad84765e89a023e0f1993d7da8e60d19a715adc31eb",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  },
+  {
+    "dataset": "Mallat",
+    "records_sha256": "eeed17d80c1606a2b555eb702e5d156393c2e5e19a1cde1a2ca1af9fe5202c1e",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  },
+  {
+    "dataset": "MixedShapesRegularTrain",
+    "records_sha256": "3c53b2bedf15251b814179c847524517994d005e32d6dd05a73b9ec476f9401a",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  },
+  {
+    "dataset": "CinCECGTorso",
+    "records_sha256": "ab3c5539a599ee8a58d71da46ab22e8e0f67b1dc6ce58135d25019df5aed9542",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  },
+  {
+    "dataset": "Symbols",
+    "records_sha256": "78dc6a85ceb2d0ee8e38c29a5bcb07ef219a7bec213c1435fa4f16c835a0bc80",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  },
+  {
+    "dataset": "ShapesAll",
+    "records_sha256": "eac5183a91d1971c5249a663cbc1f81521b5534f249a9711c55428dbd099ba75",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  },
+  {
+    "dataset": "EthanolLevel",
+    "records_sha256": "31364209746b586f78c0bd8695daa2fbcc29901d2d5f5c088125b387729ff33e",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  },
+  {
+    "dataset": "SemgHandGenderCh2",
+    "records_sha256": "9f199f0de8ea31d2c42c7d2e250e7f64123dcbf02629de58f55447514b732e85",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  },
+  {
+    "dataset": "MedicalImages",
+    "records_sha256": "c640516caf67030cc9086450f064ec5f556e8d21728e42265fc09a14ddacbeb4",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  },
+  {
+    "dataset": "HandOutlines",
+    "records_sha256": "fa6e5569fe13cdf8d0ba0f6f6dedf1385c3d9f95b9984251178213ae97318b82",
+    "gate_replay": true,
+    "exact_fallback": true,
+    "finite": true
+  }
+]

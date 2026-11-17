@@ -1,0 +1,17 @@
+{
+  "dataset": "StarLightCurves",
+  "backbone": "Hydra",
+  "seed": 17,
+  "reference": "agreement/gb15",
+  "candidate": "spectral/gb15",
+  "bound": 0.25,
+  "calibration_reference_nll": 0.06313082750190208,
+  "calibration_candidate_nll": 0.06271786984435823,
+  "calibration_n": 3294,
+  "gate_n": 2471,
+  "assessment_n": 2471,
+  "calibration_errors": 67,
+  "code_sha256": "309124e19a87e7f28e9913314212ea33bd508963070361d9bcc549365fc81576",
+  "gate_order": "hash-v1",
+  "gate_order_correction_sha256": "5ac35e6f93253356acfa0b3fbcc9f80b211aa95c80d79ded1eab063caa71edbd"
+}

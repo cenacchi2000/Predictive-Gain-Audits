@@ -1,0 +1,46 @@
+{
+  "datasets": 10,
+  "authorizations": 0,
+  "old_rule_authorizations": 0,
+  "positive_assessment_gains": 5,
+  "assessment_nll_gain": {
+    "mean": 0.001242357660578977,
+    "descriptive_dataset_bootstrap_95ci": [
+      -3.893204898174776e-05,
+      0.0026582899691417914
+    ],
+    "valid_datasets": 10
+  },
+  "assessment_policy_nll_gain": {
+    "mean": 0.0,
+    "descriptive_dataset_bootstrap_95ci": [
+      0.0,
+      0.0
+    ],
+    "valid_datasets": 10
+  },
+  "assessment_auc_gain": {
+    "mean": 0.0018719141687793723,
+    "descriptive_dataset_bootstrap_95ci": [
+      -0.0008616040197453889,
+      0.006203349727310679
+    ],
+    "valid_datasets": 9
+  },
+  "assessment_policy_auc_gain": {
+    "mean": 0.0,
+    "descriptive_dataset_bootstrap_95ci": [
+      0.0,
+      0.0
+    ],
+    "valid_datasets": 9
+  },
+  "assessment_harm_fraction": {
+    "mean": 0.34353683009738856,
+    "descriptive_dataset_bootstrap_95ci": [
+      0.20304457088667616,
+      0.4782966392839786
+    ],
+    "valid_datasets": 10
+  }
+}

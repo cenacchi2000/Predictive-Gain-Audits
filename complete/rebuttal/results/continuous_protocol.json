@@ -1,0 +1,22 @@
+{
+  "seed": 20261108,
+  "normalizer_proposals": 100000,
+  "repetitions": 20,
+  "audit_sizes": [
+    2000,
+    8000
+  ],
+  "quadrature_nodes": [
+    32,
+    128,
+    512
+  ],
+  "alpha": 0.045,
+  "global_normalizer_failure": 0.005,
+  "prior_sd": 2.0,
+  "cap": 2.0,
+  "target": "continuous-context posterior-predictive information under a fitted one-coefficient Bayesian logistic model; G is fair +/-1 independent of H",
+  "witness": "rejection-envelope normalizer UCB + deterministic convex-chord ELBO bound + uniform Gaussian quantile quadrature error",
+  "status": "full grid saved before first execution; small nonconjugate example, not arbitrary high-dimensional validated inference",
+  "code_sha256": "80ec1dfd93bd443ba8d35e821bbbfb522e37a39ea495e6759cbefda7c2bea8b1"
+}

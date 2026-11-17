@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-09-25T06:48:26.947710+00:00",
+  "status": "frozen_before_new_suite_training_and_assessment",
+  "datasets": [
+    "ElectricDevices",
+    "StarLightCurves",
+    "Crop",
+    "ChlorineConcentration",
+    "NonInvasiveFetalECGThorax1",
+    "Phoneme",
+    "UWaveGestureLibraryAll",
+    "InsectWingbeatSound",
+    "FaceAll",
+    "TwoPatterns",
+    "PenDigits",
+    "LSST"
+  ],
+  "seeds": [
+    17,
+    29
+  ],
+  "backbones": [
+    "MiniRocket",
+    "Hydra"
+  ],
+  "family": 48,
+  "alpha": 0.05,
+  "roles": {
+    "train": "official TRAIN",
+    "calibration": "40% official TEST",
+    "gate": "30% official TEST",
+    "assessment": "remaining 30% official TEST"
+  },
+  "assignment": "SHA256(SEB-v2:dataset:audit:row), ascending; floor boundaries",
+  "reference_selection": "minimum 3-fold calibration NLL across all controls, raw, intercept",
+  "candidate_selection": "minimum calibration NLL across spectral learner, spectral plus controls, offset spectral, and budgets .25,.5,1,2",
+  "gate": "equal mixture of nine constant bets and one predictable adaptive bet; fixed-sample threshold M/alpha",
+  "primary_endpoint": "paired assessment log-loss gain versus frozen selected reference",
+  "secondary": [
+    "correctness AUROC",
+    "Brier",
+    "ECE",
+    "AURC",
+    "excess AURC",
+    "false-high-confidence error rate",
+    "selective risk at 70/80/90/95% coverage"
+  ],
+  "code_sha256": {
+    "offset.py": "ac6fee16ac8522de96472edcdbbd6af6572252af1196d71dbe41224c0ffa2a60",
+    "seb.py": "da67d17a20ff85284538551fc077375ad48e47d245ba7e0496434e61a809f07f",
+    "simulate.py": "52b2974060373540e1ab298886fedb76152adc36d30e7019afbb18add3caa4b3",
+    "study.py": "069b8b7570292b486e1f72e15848618e006d5a835f49b56c19eebc959b780553",
+    "test_update.py": "25d8418a05eb7853a3babc364eb0fef6c45ac31dc3f3de5001495317b4118560"
+  },
+  "all_failures_retained": true,
+  "no_outcome_based_dataset_replacement": true,
+  "development": [
+    "FordA",
+    "ECG5000",
+    "Wafer"
+  ],
+  "notes": "Local timestamp and hashes establish an audit trail, not an independent preregistration."
+}

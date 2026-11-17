@@ -1,0 +1,274 @@
+{
+  "separation": [
+    {
+      "n": 100,
+      "true_information": 0.0,
+      "p": 0.31622776601683794,
+      "log_q": -10.0,
+      "reverse_kl": 0.3796660205762969,
+      "fitted_gain": 2.53831541574555,
+      "true_mc_standard_error": 0.42914159424773857
+    },
+    {
+      "n": 1000,
+      "true_information": 0.0,
+      "p": 0.1778279410038923,
+      "log_q": -31.622776601683793,
+      "reverse_kl": 0.19580558831572417,
+      "fitted_gain": 5.155329393639511,
+      "true_mc_standard_error": 0.3638540915092148
+    },
+    {
+      "n": 10000,
+      "true_information": 0.0,
+      "p": 0.1,
+      "log_q": -100.0,
+      "reverse_kl": 0.10536051565782631,
+      "fitted_gain": 9.674917026608552,
+      "true_mc_standard_error": 0.29340832626799135
+    },
+    {
+      "n": 100000,
+      "true_information": 0.0,
+      "p": 0.05623413251903491,
+      "log_q": -316.22776601683796,
+      "reverse_kl": 0.0578771653353796,
+      "fitted_gain": 17.56631676316942,
+      "true_mc_standard_error": 0.22831865435932264
+    },
+    {
+      "n": 1000000,
+      "true_information": 0.0,
+      "p": 0.03162277660168379,
+      "log_q": -1000.0,
+      "reverse_kl": 0.03213357402308583,
+      "fitted_gain": 31.482437979490275,
+      "true_mc_standard_error": 0.17439486384387254
+    },
+    {
+      "n": 10000000,
+      "true_information": 0.0,
+      "p": 0.01778279410038923,
+      "log_q": -3162.2776601683795,
+      "reverse_kl": 0.017942807815489566,
+      "fitted_gain": 56.14485259041355,
+      "true_mc_standard_error": 0.13199348166658254
+    },
+    {
+      "n": 100000000,
+      "true_information": 0.0,
+      "p": 0.01,
+      "log_q": -10000.0,
+      "reverse_kl": 0.010050335853501442,
+      "fitted_gain": 99.94399846564515,
+      "true_mc_standard_error": 0.09945302284543317
+    },
+    {
+      "n": 1000000000,
+      "true_information": 0.0,
+      "p": 0.005623413251903491,
+      "log_q": -31622.776601683792,
+      "reverse_kl": 0.005639284167314646,
+      "fitted_gain": 177.79319955981774,
+      "true_mc_standard_error": 0.07476603769904694
+    },
+    {
+      "n": 10000000000,
+      "true_information": 0.0,
+      "p": 0.0031622776601683794,
+      "log_q": -100000.0,
+      "reverse_kl": 0.003167288226157326,
+      "fitted_gain": 316.20640521095606,
+      "true_mc_standard_error": 0.05614191794825433
+    },
+    {
+      "n": 100000000000,
+      "true_information": 0.0,
+      "p": 0.0017782794100389228,
+      "log_q": -316227.7660168379,
+      "reverse_kl": 0.0017798624258436528,
+      "fitted_gain": 562.3282882339489,
+      "true_mc_standard_error": 0.042131295536490386
+    },
+    {
+      "n": 1000000000000,
+      "true_information": 0.0,
+      "p": 0.001,
+      "log_q": -1000000.0,
+      "reverse_kl": 0.0010005003335835335,
+      "fitted_gain": 999.9920927448877,
+      "true_mc_standard_error": 0.031606742957027506
+    }
+  ],
+  "mixture_vi": {
+    "mixture_weight": 0.01,
+    "separation": 16.0,
+    "optimizer_success": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "best_gaussian_mean": 0.0,
+    "best_gaussian_sd": 1.0,
+    "best_gaussian_reverse_kl_quadrature": 0.010050335853501222,
+    "reference_probability": 3.774501335093382e-11,
+    "true_probability": 0.010000000036990114,
+    "true_information": 0.0,
+    "posterior_reverse_kl_upper": 0.010050335853501442,
+    "predictive_forward_kl": 0.18400014385654573,
+    "binary_witness": 0.18400015793484456,
+    "quadrature_nodes": 100,
+    "reference": "N(0,1), matching the numerically optimized Gaussian to reported precision"
+  },
+  "audit_simulations": [
+    {
+      "scenario": "redundant_evidence",
+      "n": 100,
+      "trials": 5000,
+      "true_information": 0.0,
+      "baseline_witness": 0.18400015793484456,
+      "fitted_gain_authorization_rate": 0.0,
+      "information_authorization_rate": 0.0,
+      "mean_fitted_lower": -1.9125338366814175,
+      "mean_information_lower": -2.0965339946162618
+    },
+    {
+      "scenario": "redundant_evidence",
+      "n": 500,
+      "trials": 5000,
+      "true_information": 0.0,
+      "baseline_witness": 0.18400015793484456,
+      "fitted_gain_authorization_rate": 0.0,
+      "information_authorization_rate": 0.0,
+      "mean_fitted_lower": -0.3783459964923931,
+      "mean_information_lower": -0.5623461544272376
+    },
+    {
+      "scenario": "redundant_evidence",
+      "n": 2000,
+      "trials": 5000,
+      "true_information": 0.0,
+      "baseline_witness": 0.18400015793484456,
+      "fitted_gain_authorization_rate": 0.2744,
+      "information_authorization_rate": 0.0,
+      "mean_fitted_lower": -0.016403322190193928,
+      "mean_information_lower": -0.20040348012503847
+    },
+    {
+      "scenario": "redundant_evidence",
+      "n": 10000,
+      "trials": 5000,
+      "true_information": 0.0,
+      "baseline_witness": 0.18400015793484456,
+      "fitted_gain_authorization_rate": 1.0,
+      "information_authorization_rate": 0.0,
+      "mean_fitted_lower": 0.11480579338503867,
+      "mean_information_lower": -0.06919436454980588
+    },
+    {
+      "scenario": "genuine_evidence",
+      "n": 100,
+      "trials": 5000,
+      "true_information": 0.368064207168497,
+      "baseline_witness": 0.0099335993028552,
+      "fitted_gain_authorization_rate": 0.8044,
+      "information_authorization_rate": 0.8044,
+      "mean_fitted_lower": 0.06695323572018859,
+      "mean_information_lower": 0.05701963641733339
+    },
+    {
+      "scenario": "genuine_evidence",
+      "n": 500,
+      "trials": 5000,
+      "true_information": 0.368064207168497,
+      "baseline_witness": 0.0099335993028552,
+      "fitted_gain_authorization_rate": 1.0,
+      "information_authorization_rate": 1.0,
+      "mean_fitted_lower": 0.26420300645374334,
+      "mean_information_lower": 0.25426940715088814
+    },
+    {
+      "scenario": "genuine_evidence",
+      "n": 2000,
+      "trials": 5000,
+      "true_information": 0.368064207168497,
+      "baseline_witness": 0.0099335993028552,
+      "fitted_gain_authorization_rate": 1.0,
+      "information_authorization_rate": 1.0,
+      "mean_fitted_lower": 0.31841888089800746,
+      "mean_information_lower": 0.30848528159515226
+    },
+    {
+      "scenario": "genuine_evidence",
+      "n": 10000,
+      "trials": 5000,
+      "true_information": 0.368064207168497,
+      "baseline_witness": 0.0099335993028552,
+      "fitted_gain_authorization_rate": 1.0,
+      "information_authorization_rate": 1.0,
+      "mean_fitted_lower": 0.3415063202953841,
+      "mean_information_lower": 0.3315727209925289
+    }
+  ],
+  "gaussian_reparameterization": [
+    {
+      "rho": 0.1,
+      "posterior_reverse_kl": 0.005025167926750722,
+      "predictive_forward_kl": 0.002875297726642405,
+      "rotated_meanfield_forward_kl": 0.0,
+      "true_new_information": 0.0
+    },
+    {
+      "rho": 0.3,
+      "posterior_reverse_kl": 0.04715533973562066,
+      "predictive_forward_kl": 0.035948242316348106,
+      "rotated_meanfield_forward_kl": 0.0,
+      "true_new_information": 0.0
+    },
+    {
+      "rho": 0.5,
+      "posterior_reverse_kl": 0.14384103622589045,
+      "predictive_forward_kl": 0.15342640972002736,
+      "rotated_meanfield_forward_kl": 0.0,
+      "true_new_information": 0.0
+    },
+    {
+      "rho": 0.7,
+      "posterior_reverse_kl": 0.33667227663188276,
+      "predictive_forward_kl": 0.5646802645036986,
+      "rotated_meanfield_forward_kl": 0.0,
+      "true_new_information": 0.0
+    },
+    {
+      "rho": 0.9,
+      "posterior_reverse_kl": 0.8303656034108255,
+      "predictive_forward_kl": 3.348707453502978,
+      "rotated_meanfield_forward_kl": 0.0,
+      "true_new_information": 0.0
+    },
+    {
+      "rho": 0.99,
+      "posterior_reverse_kl": 1.9585177736258443,
+      "predictive_forward_kl": 47.197414907005886,
+      "rotated_meanfield_forward_kl": 0.0,
+      "true_new_information": 0.0
+    }
+  ],
+  "slow_switch_sampler": {
+    "chains": 4,
+    "draws_per_chain": 10000,
+    "switch_probability_scale": 1e-05,
+    "mode_switches": 0,
+    "rank_split_rhat": 1.0000383615228339,
+    "sample_mean": -0.009221845775218798,
+    "true_mean": 0.16,
+    "within_mode_iid_standard_error": 0.00497810613126123,
+    "probability_all_chains_stay_common": 0.996008387550182,
+    "initialization": "all chains in common mode; this is a deliberately adverse diagnostic example, not a representative MCMC benchmark"
+  },
+  "tests": {
+    "binary_envelope_cases": 2000,
+    "passed": true
+  }
+}

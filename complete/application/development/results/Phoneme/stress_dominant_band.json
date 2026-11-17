@@ -1,0 +1,542 @@
+[
+  {
+    "dataset": "Phoneme",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "dominant_band",
+    "method": "reference",
+    "n": 569,
+    "errors": 520,
+    "accuracy": 0.08611599297012303,
+    "auc": 0.6547488226059655,
+    "nll": 0.45087696914586417,
+    "brier": 0.1443347777409077,
+    "ece": 0.22151143905381224,
+    "fce": 0.0,
+    "aurc": 0.8675680996761254,
+    "excess_aurc": 0.16404559116738782,
+    "prevalence": 0.9138840070298769,
+    "aurc_tie_averaged": 0.8675680996761254,
+    "excess_aurc_tie_averaged": 0.16404559116738782,
+    "augrc": 0.44476326673070565,
+    "oracle_aurc": 0.7035225085087375,
+    "utility_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8969849246231156,
+      "precision": 0.9532163742690059,
+      "recall": 0.31346153846153846,
+      "reviewed": 171,
+      "captured": 163
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8969849246231156,
+      "precision": 0.9532163742690059,
+      "recall": 0.31346153846153846,
+      "reviewed": 171,
+      "captured": 163.0,
+      "oracle_risk": 0.8768844221105527
+    },
+    "utility_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8989010989010989,
+      "precision": 0.9736842105263158,
+      "recall": 0.21346153846153845,
+      "reviewed": 114,
+      "captured": 111
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8989010989010989,
+      "precision": 0.9736842105263158,
+      "recall": 0.21346153846153845,
+      "reviewed": 114,
+      "captured": 111.0,
+      "oracle_risk": 0.8923076923076924
+    },
+    "utility_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.904296875,
+      "precision": 1.0,
+      "recall": 0.10961538461538461,
+      "reviewed": 57,
+      "captured": 57
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.904296875,
+      "precision": 1.0,
+      "recall": 0.10961538461538461,
+      "reviewed": 57,
+      "captured": 57.0,
+      "oracle_risk": 0.904296875
+    },
+    "utility_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.9092592592592592,
+      "precision": 1.0,
+      "recall": 0.05576923076923077,
+      "reviewed": 29,
+      "captured": 29
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.9092592592592592,
+      "precision": 1.0,
+      "recall": 0.05576923076923077,
+      "reviewed": 29,
+      "captured": 29.0,
+      "oracle_risk": 0.9092592592592592
+    }
+  },
+  {
+    "dataset": "Phoneme",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "dominant_band",
+    "method": "candidate",
+    "n": 569,
+    "errors": 520,
+    "accuracy": 0.08611599297012303,
+    "auc": 0.7023155416012559,
+    "nll": 0.4110295506446666,
+    "brier": 0.12598421364454754,
+    "ece": 0.202287162118761,
+    "fce": 0.0,
+    "aurc": 0.8378342301654441,
+    "excess_aurc": 0.13431172165670657,
+    "prevalence": 0.9138840070298769,
+    "aurc_tie_averaged": 0.8378342301654441,
+    "excess_aurc_tie_averaged": 0.13431172165670657,
+    "augrc": 0.44101976457942743,
+    "oracle_aurc": 0.7035225085087375,
+    "utility_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8919597989949749,
+      "precision": 0.9649122807017544,
+      "recall": 0.3173076923076923,
+      "reviewed": 171,
+      "captured": 165
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8919597989949749,
+      "precision": 0.9649122807017544,
+      "recall": 0.3173076923076923,
+      "reviewed": 171,
+      "captured": 165.0,
+      "oracle_risk": 0.8768844221105527
+    },
+    "utility_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.9032967032967033,
+      "precision": 0.956140350877193,
+      "recall": 0.20961538461538462,
+      "reviewed": 114,
+      "captured": 109
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.9032967032967033,
+      "precision": 0.956140350877193,
+      "recall": 0.20961538461538462,
+      "reviewed": 114,
+      "captured": 109.0,
+      "oracle_risk": 0.8923076923076924
+    },
+    "utility_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.908203125,
+      "precision": 0.9649122807017544,
+      "recall": 0.10576923076923077,
+      "reviewed": 57,
+      "captured": 55
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.908203125,
+      "precision": 0.9649122807017544,
+      "recall": 0.10576923076923077,
+      "reviewed": 57,
+      "captured": 55.0,
+      "oracle_risk": 0.904296875
+    },
+    "utility_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.9111111111111111,
+      "precision": 0.9655172413793104,
+      "recall": 0.05384615384615385,
+      "reviewed": 29,
+      "captured": 28
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.9111111111111111,
+      "precision": 0.9655172413793104,
+      "recall": 0.05384615384615385,
+      "reviewed": 29,
+      "captured": 28.0,
+      "oracle_risk": 0.9092592592592592
+    }
+  },
+  {
+    "dataset": "Phoneme",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "dominant_band",
+    "method": "policy",
+    "n": 569,
+    "errors": 520,
+    "accuracy": 0.08611599297012303,
+    "auc": 0.6547488226059655,
+    "nll": 0.45087696914586417,
+    "brier": 0.1443347777409077,
+    "ece": 0.22151143905381224,
+    "fce": 0.0,
+    "aurc": 0.8675680996761254,
+    "excess_aurc": 0.16404559116738782,
+    "prevalence": 0.9138840070298769,
+    "aurc_tie_averaged": 0.8675680996761254,
+    "excess_aurc_tie_averaged": 0.16404559116738782,
+    "augrc": 0.44476326673070565,
+    "oracle_aurc": 0.7035225085087375,
+    "utility_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8969849246231156,
+      "precision": 0.9532163742690059,
+      "recall": 0.31346153846153846,
+      "reviewed": 171,
+      "captured": 163
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8969849246231156,
+      "precision": 0.9532163742690059,
+      "recall": 0.31346153846153846,
+      "reviewed": 171,
+      "captured": 163.0,
+      "oracle_risk": 0.8768844221105527
+    },
+    "utility_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8989010989010989,
+      "precision": 0.9736842105263158,
+      "recall": 0.21346153846153845,
+      "reviewed": 114,
+      "captured": 111
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8989010989010989,
+      "precision": 0.9736842105263158,
+      "recall": 0.21346153846153845,
+      "reviewed": 114,
+      "captured": 111.0,
+      "oracle_risk": 0.8923076923076924
+    },
+    "utility_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.904296875,
+      "precision": 1.0,
+      "recall": 0.10961538461538461,
+      "reviewed": 57,
+      "captured": 57
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.904296875,
+      "precision": 1.0,
+      "recall": 0.10961538461538461,
+      "reviewed": 57,
+      "captured": 57.0,
+      "oracle_risk": 0.904296875
+    },
+    "utility_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.9092592592592592,
+      "precision": 1.0,
+      "recall": 0.05576923076923077,
+      "reviewed": 29,
+      "captured": 29
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.9092592592592592,
+      "precision": 1.0,
+      "recall": 0.05576923076923077,
+      "reviewed": 29,
+      "captured": 29.0,
+      "oracle_risk": 0.9092592592592592
+    }
+  },
+  {
+    "dataset": "Phoneme",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "dominant_band",
+    "method": "reference",
+    "n": 569,
+    "errors": 508,
+    "accuracy": 0.10720562390158173,
+    "auc": 0.6931392797211824,
+    "nll": 0.4414770831748179,
+    "brier": 0.13553504119007542,
+    "ece": 0.1795131472905915,
+    "fce": 0.007874015748031496,
+    "aurc": 0.8133265523287583,
+    "excess_aurc": 0.15914088266569515,
+    "prevalence": 0.8927943760984183,
+    "aurc_tie_averaged": 0.8133265523287583,
+    "excess_aurc_tie_averaged": 0.15914088266569515,
+    "augrc": 0.4279113296536643,
+    "oracle_aurc": 0.6541856696630631,
+    "utility_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8768844221105527,
+      "precision": 0.9298245614035088,
+      "recall": 0.31299212598425197,
+      "reviewed": 171,
+      "captured": 159
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8768844221105527,
+      "precision": 0.9298245614035088,
+      "recall": 0.31299212598425197,
+      "reviewed": 171,
+      "captured": 159.0,
+      "oracle_risk": 0.8467336683417085
+    },
+    "utility_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8813186813186813,
+      "precision": 0.9385964912280702,
+      "recall": 0.2106299212598425,
+      "reviewed": 114,
+      "captured": 107
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8813186813186813,
+      "precision": 0.9385964912280702,
+      "recall": 0.2106299212598425,
+      "reviewed": 114,
+      "captured": 107.0,
+      "oracle_risk": 0.865934065934066
+    },
+    "utility_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.888671875,
+      "precision": 0.9298245614035088,
+      "recall": 0.10433070866141732,
+      "reviewed": 57,
+      "captured": 53
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.888671875,
+      "precision": 0.9298245614035088,
+      "recall": 0.10433070866141732,
+      "reviewed": 57,
+      "captured": 53.0,
+      "oracle_risk": 0.880859375
+    },
+    "utility_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.8907407407407407,
+      "precision": 0.9310344827586207,
+      "recall": 0.0531496062992126,
+      "reviewed": 29,
+      "captured": 27
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.8907407407407407,
+      "precision": 0.9310344827586207,
+      "recall": 0.0531496062992126,
+      "reviewed": 29,
+      "captured": 27.0,
+      "oracle_risk": 0.8870370370370371
+    }
+  },
+  {
+    "dataset": "Phoneme",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "dominant_band",
+    "method": "candidate",
+    "n": 569,
+    "errors": 508,
+    "accuracy": 0.10720562390158173,
+    "auc": 0.7102426745837098,
+    "nll": 0.40501092838731273,
+    "brier": 0.12137810185338999,
+    "ece": 0.15566621639177272,
+    "fce": 0.003937007874015748,
+    "aurc": 0.8133835939401461,
+    "excess_aurc": 0.159197924277083,
+    "prevalence": 0.8927943760984183,
+    "aurc_tie_averaged": 0.8133835939401461,
+    "excess_aurc_tie_averaged": 0.159197924277083,
+    "augrc": 0.4262743196370162,
+    "oracle_aurc": 0.6541856696630631,
+    "utility_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8693467336683417,
+      "precision": 0.9473684210526315,
+      "recall": 0.3188976377952756,
+      "reviewed": 171,
+      "captured": 162
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8693467336683417,
+      "precision": 0.9473684210526315,
+      "recall": 0.3188976377952756,
+      "reviewed": 171,
+      "captured": 162.0,
+      "oracle_risk": 0.8467336683417085
+    },
+    "utility_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8835164835164835,
+      "precision": 0.9298245614035088,
+      "recall": 0.20866141732283464,
+      "reviewed": 114,
+      "captured": 106
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8835164835164835,
+      "precision": 0.9298245614035088,
+      "recall": 0.20866141732283464,
+      "reviewed": 114,
+      "captured": 106.0,
+      "oracle_risk": 0.865934065934066
+    },
+    "utility_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.890625,
+      "precision": 0.9122807017543859,
+      "recall": 0.10236220472440945,
+      "reviewed": 57,
+      "captured": 52
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.890625,
+      "precision": 0.9122807017543859,
+      "recall": 0.10236220472440945,
+      "reviewed": 57,
+      "captured": 52.0,
+      "oracle_risk": 0.880859375
+    },
+    "utility_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.8907407407407407,
+      "precision": 0.9310344827586207,
+      "recall": 0.0531496062992126,
+      "reviewed": 29,
+      "captured": 27
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.8907407407407407,
+      "precision": 0.9310344827586207,
+      "recall": 0.0531496062992126,
+      "reviewed": 29,
+      "captured": 27.0,
+      "oracle_risk": 0.8870370370370371
+    }
+  },
+  {
+    "dataset": "Phoneme",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "dominant_band",
+    "method": "policy",
+    "n": 569,
+    "errors": 508,
+    "accuracy": 0.10720562390158173,
+    "auc": 0.6931392797211824,
+    "nll": 0.4414770831748179,
+    "brier": 0.13553504119007542,
+    "ece": 0.1795131472905915,
+    "fce": 0.007874015748031496,
+    "aurc": 0.8133265523287583,
+    "excess_aurc": 0.15914088266569515,
+    "prevalence": 0.8927943760984183,
+    "aurc_tie_averaged": 0.8133265523287583,
+    "excess_aurc_tie_averaged": 0.15914088266569515,
+    "augrc": 0.4279113296536643,
+    "oracle_aurc": 0.6541856696630631,
+    "utility_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8768844221105527,
+      "precision": 0.9298245614035088,
+      "recall": 0.31299212598425197,
+      "reviewed": 171,
+      "captured": 159
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.6994727592267135,
+      "risk": 0.8768844221105527,
+      "precision": 0.9298245614035088,
+      "recall": 0.31299212598425197,
+      "reviewed": 171,
+      "captured": 159.0,
+      "oracle_risk": 0.8467336683417085
+    },
+    "utility_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8813186813186813,
+      "precision": 0.9385964912280702,
+      "recall": 0.2106299212598425,
+      "reviewed": 114,
+      "captured": 107
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996485061511424,
+      "risk": 0.8813186813186813,
+      "precision": 0.9385964912280702,
+      "recall": 0.2106299212598425,
+      "reviewed": 114,
+      "captured": 107.0,
+      "oracle_risk": 0.865934065934066
+    },
+    "utility_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.888671875,
+      "precision": 0.9298245614035088,
+      "recall": 0.10433070866141732,
+      "reviewed": 57,
+      "captured": 53
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8998242530755711,
+      "risk": 0.888671875,
+      "precision": 0.9298245614035088,
+      "recall": 0.10433070866141732,
+      "reviewed": 57,
+      "captured": 53.0,
+      "oracle_risk": 0.880859375
+    },
+    "utility_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.8907407407407407,
+      "precision": 0.9310344827586207,
+      "recall": 0.0531496062992126,
+      "reviewed": 29,
+      "captured": 27
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9490333919156415,
+      "risk": 0.8907407407407407,
+      "precision": 0.9310344827586207,
+      "recall": 0.0531496062992126,
+      "reviewed": 29,
+      "captured": 27.0,
+      "oracle_risk": 0.8870370370370371
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "dataset": "MixedShapesRegularTrain",
+  "backbone": "Hydra",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.9724137931034482,
+    "Hydra": 0.9862068965517241
+  }
+}

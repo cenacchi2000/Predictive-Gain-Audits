@@ -1,0 +1,20 @@
+{
+  "purpose": "Fresh evaluation after exploratory design; known-generator fitted categorical candidate",
+  "seed": 30092026,
+  "draws": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "trials": 500,
+  "train_n": 4000,
+  "calibration_n": 300,
+  "audit_n": 2000,
+  "code_sha256": "05362088389e20171480953f742471a911370b1eb1dc38f5835f8760af3d960e",
+  "changes_after_results": "none at protocol creation"
+}

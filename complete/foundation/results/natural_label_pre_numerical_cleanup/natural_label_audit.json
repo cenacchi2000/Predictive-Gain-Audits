@@ -1,0 +1,353 @@
+{
+  "config": {
+    "seeds": [
+      20260927,
+      20261001,
+      20261007
+    ],
+    "train_fraction": 0.4,
+    "witness_fraction": 0.3,
+    "audit_fraction": 0.3,
+    "B": 2.0,
+    "epsilon": 0.02,
+    "posterior_draws": 512,
+    "prior_precision": 1.0,
+    "alpha_per_audit": 0.002777777777777778,
+    "gamma_per_witness": 0.002777777777777778,
+    "family_total_error": 0.05,
+    "family_size": 9,
+    "permutations": 999,
+    "H": "two groups from training median of mean texture (WDBC), mean pixel intensity (digits), alcohol (wine)",
+    "labels": "natural labels: malignant; digit>=5; wine class0",
+    "candidate": "Laplace approximation to continuous Bayesian logistic posterior with standard-normal prior",
+    "scope": "finite-context natural-label information, iid-superpopulation assumption; not conditional on the original unbinned covariate",
+    "status": "Fixed before first execution; exploratory new experiment, not external preregistration"
+  },
+  "rows": [
+    {
+      "dataset": "WDBC",
+      "seed": 20260927,
+      "N": 569,
+      "train": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "dimensions": 31,
+      "mean_gain": 0.4193841141905956,
+      "mean_witness": 0.1712263938552564,
+      "betting_lower": 0.11054799780189774,
+      "eb_lower": -0.14504118215594025,
+      "log_e_zero": 14.412732031660658,
+      "permutation_p": 0.001,
+      "support_lower": -1.9486535271570862,
+      "support_upper": 1.2310934977214736,
+      "accuracy": 0.9767441860465116,
+      "witness_counts": [
+        {
+          "h": 0,
+          "n": 90,
+          "successes": 15,
+          "lower": 0.0651652896372666,
+          "upper": 0.3219351939910376,
+          "witness": 0.08973266208318402
+        },
+        {
+          "h": 1,
+          "n": 80,
+          "successes": 52,
+          "lower": 0.4658635699194703,
+          "upper": 0.8072097798741694,
+          "witness": 0.2546376251984364
+        }
+      ]
+    },
+    {
+      "dataset": "WDBC",
+      "seed": 20261001,
+      "N": 569,
+      "train": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "dimensions": 31,
+      "mean_gain": 0.36161935192999756,
+      "mean_witness": 0.08856312918635607,
+      "betting_lower": 0.14930893261903858,
+      "eb_lower": -0.08859730330729454,
+      "log_e_zero": 17.524909380237055,
+      "permutation_p": 0.001,
+      "support_lower": -1.9188417346721367,
+      "support_upper": 1.1886285810596464,
+      "accuracy": 0.9709302325581395,
+      "witness_counts": [
+        {
+          "h": 0,
+          "n": 79,
+          "successes": 13,
+          "lower": 0.05893300357140148,
+          "upper": 0.33168094498712525,
+          "witness": 0.07738863450936179
+        },
+        {
+          "h": 1,
+          "n": 91,
+          "successes": 57,
+          "lower": 0.4538849940984153,
+          "upper": 0.7788774245883479,
+          "witness": 0.09973762386335039
+        }
+      ]
+    },
+    {
+      "dataset": "WDBC",
+      "seed": 20261007,
+      "N": 569,
+      "train": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "dimensions": 31,
+      "mean_gain": 0.35256482751942925,
+      "mean_witness": 0.09366811190846328,
+      "betting_lower": 0.12214148545952483,
+      "eb_lower": -0.09707349075447103,
+      "log_e_zero": 15.526856991154231,
+      "permutation_p": 0.001,
+      "support_lower": -1.8893384460262872,
+      "support_upper": 1.1143824693743625,
+      "accuracy": 0.9767441860465116,
+      "witness_counts": [
+        {
+          "h": 0,
+          "n": 79,
+          "successes": 15,
+          "lower": 0.07478354715181623,
+          "upper": 0.36170763580332993,
+          "witness": 0.07467277451138199
+        },
+        {
+          "h": 1,
+          "n": 91,
+          "successes": 57,
+          "lower": 0.4538849940984153,
+          "upper": 0.7788774245883479,
+          "witness": 0.11551274991510674
+        }
+      ]
+    },
+    {
+      "dataset": "Digits",
+      "seed": 20260927,
+      "N": 1797,
+      "train": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "dimensions": 65,
+      "mean_gain": 0.36532530321680107,
+      "mean_witness": 0.0271627452931788,
+      "betting_lower": 0.25266848514531887,
+      "eb_lower": 0.21324676805926912,
+      "log_e_zero": 66.87898949091196,
+      "permutation_p": 0.001,
+      "support_lower": -1.4669865197664564,
+      "support_upper": 0.5457068865962426,
+      "accuracy": 0.8777777777777778,
+      "witness_counts": [
+        {
+          "h": 0,
+          "n": 291,
+          "successes": 153,
+          "lower": 0.4307689833887361,
+          "upper": 0.619494275651197,
+          "witness": 0.02687912628750666
+        },
+        {
+          "h": 1,
+          "n": 248,
+          "successes": 120,
+          "lower": 0.3820687369851514,
+          "upper": 0.5866153581622261,
+          "witness": 0.027428066298484988
+        }
+      ]
+    },
+    {
+      "dataset": "Digits",
+      "seed": 20261001,
+      "N": 1797,
+      "train": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "dimensions": 65,
+      "mean_gain": 0.3382262362617696,
+      "mean_witness": 0.026135593351380236,
+      "betting_lower": 0.2199654730880292,
+      "eb_lower": 0.180126842220792,
+      "log_e_zero": 52.29236050049239,
+      "permutation_p": 0.001,
+      "support_lower": -1.4841022835677367,
+      "support_upper": 0.561202139673736,
+      "accuracy": 0.8703703703703703,
+      "witness_counts": [
+        {
+          "h": 0,
+          "n": 267,
+          "successes": 136,
+          "lower": 0.41049644444420624,
+          "upper": 0.6077221030386155,
+          "witness": 0.02967056476772023
+        },
+        {
+          "h": 1,
+          "n": 272,
+          "successes": 137,
+          "lower": 0.40585963331418096,
+          "upper": 0.6012974923954224,
+          "witness": 0.022328701056860245
+        }
+      ]
+    },
+    {
+      "dataset": "Digits",
+      "seed": 20261007,
+      "N": 1797,
+      "train": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "dimensions": 65,
+      "mean_gain": 0.37747636890539144,
+      "mean_witness": 0.03212687660670486,
+      "betting_lower": 0.2594965117441299,
+      "eb_lower": 0.21904238546455382,
+      "log_e_zero": 69.16823978559604,
+      "permutation_p": 0.001,
+      "support_lower": -1.5128481777113616,
+      "support_upper": 0.5618933806204086,
+      "accuracy": 0.8944444444444445,
+      "witness_counts": [
+        {
+          "h": 0,
+          "n": 280,
+          "successes": 133,
+          "lower": 0.37944498021521667,
+          "upper": 0.5718485596028273,
+          "witness": 0.04239469315551225
+        },
+        {
+          "h": 1,
+          "n": 259,
+          "successes": 130,
+          "lower": 0.40174078622221193,
+          "upper": 0.6020122367277791,
+          "witness": 0.020565476870646138
+        }
+      ]
+    },
+    {
+      "dataset": "Wine",
+      "seed": 20260927,
+      "N": 178,
+      "train": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "dimensions": 14,
+      "mean_gain": 0.27700191134351704,
+      "mean_witness": 0.2536534157033206,
+      "betting_lower": -0.31174912960428813,
+      "eb_lower": -1.15439372361291,
+      "log_e_zero": 0.03534518580824697,
+      "permutation_p": 0.001,
+      "support_lower": -2.100885861121784,
+      "support_upper": 1.3410508787711328,
+      "accuracy": 0.9814814814814815,
+      "witness_counts": [
+        {
+          "h": 0,
+          "n": 32,
+          "successes": 2,
+          "lower": 0.0011974932983977104,
+          "upper": 0.3138994745634039,
+          "witness": 0.1862178581605421
+        },
+        {
+          "h": 1,
+          "n": 21,
+          "successes": 13,
+          "lower": 0.26529909406607693,
+          "upper": 0.8981244069110015,
+          "witness": 0.311787517033302
+        }
+      ]
+    },
+    {
+      "dataset": "Wine",
+      "seed": 20261001,
+      "N": 178,
+      "train": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "dimensions": 14,
+      "mean_gain": 0.2703017350693707,
+      "mean_witness": 0.27806532715128923,
+      "betting_lower": -0.3198166998925147,
+      "eb_lower": -1.060247522801942,
+      "log_e_zero": -0.07800961931841277,
+      "permutation_p": 0.001,
+      "support_lower": -2.0901776462649746,
+      "support_upper": 1.238418320266747,
+      "accuracy": 1.0,
+      "witness_counts": [
+        {
+          "h": 0,
+          "n": 27,
+          "successes": 2,
+          "lower": 0.0014233495169678845,
+          "upper": 0.36201274780940185,
+          "witness": 0.1982022696557302
+        },
+        {
+          "h": 1,
+          "n": 26,
+          "successes": 19,
+          "lower": 0.4017702291188744,
+          "upper": 0.9395893839463676,
+          "witness": 0.3707064738461376
+        }
+      ]
+    },
+    {
+      "dataset": "Wine",
+      "seed": 20261007,
+      "N": 178,
+      "train": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "dimensions": 14,
+      "mean_gain": 0.24431494006822468,
+      "mean_witness": 0.30673441016267555,
+      "betting_lower": -0.40100325573581924,
+      "eb_lower": -1.2482671465429402,
+      "log_e_zero": -0.35812509785545465,
+      "permutation_p": 0.001,
+      "support_lower": -2.2094761932429337,
+      "support_upper": 1.2324605466499832,
+      "accuracy": 0.9629629629629629,
+      "witness_counts": [
+        {
+          "h": 0,
+          "n": 34,
+          "successes": 4,
+          "lower": 0.011878218626516437,
+          "upper": 0.3806565494110048,
+          "witness": 0.2948081902816916
+        },
+        {
+          "h": 1,
+          "n": 19,
+          "successes": 14,
+          "lower": 0.35092043359887465,
+          "upper": 0.9605940681701195,
+          "witness": 0.3240816390804704
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.15861383299488807
+}

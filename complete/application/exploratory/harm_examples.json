@@ -1,0 +1,362 @@
+[
+  {
+    "dataset": "ECG200",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "test_index": 85,
+    "correct": 0,
+    "output": 0.049772496802017674,
+    "spectral": 0.6905845533271077,
+    "gain": -1.122016571476928
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "test_index": 20,
+    "correct": 0,
+    "output": 0.6669141854475809,
+    "spectral": 0.9096495045922344,
+    "gain": -1.3047036579094176
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "test_index": 85,
+    "correct": 0,
+    "output": 0.09795445948576925,
+    "spectral": 0.712567215756341,
+    "gain": -1.1436759681948636
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "test_index": 20,
+    "correct": 0,
+    "output": 0.6669141854475809,
+    "spectral": 0.9096495045922344,
+    "gain": -1.3047036579094176
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "test_index": 24,
+    "correct": 0,
+    "output": 0.446642319881819,
+    "spectral": 0.8805563606776136,
+    "gain": -1.5331599692820168
+  },
+  {
+    "dataset": "ECG200",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "test_index": 20,
+    "correct": 0,
+    "output": 0.6669141854475809,
+    "spectral": 0.9096495045922344,
+    "gain": -1.3047036579094176
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "test_index": 183,
+    "correct": 0,
+    "output": 0.7420016669149658,
+    "spectral": 0.874851333852702,
+    "gain": -0.7234507642010166
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "test_index": 105,
+    "correct": 0,
+    "output": 0.8185492176741097,
+    "spectral": 0.9226347420246793,
+    "gain": -0.8524466287146015
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "test_index": 704,
+    "correct": 0,
+    "output": 0.5752989600845663,
+    "spectral": 0.817815629295856,
+    "gain": -0.8463662857451636
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "test_index": 105,
+    "correct": 0,
+    "output": 0.8185492176741097,
+    "spectral": 0.9226347420246793,
+    "gain": -0.8524466287146015
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "test_index": 1181,
+    "correct": 0,
+    "output": 0.5170703675651113,
+    "spectral": 0.6648145281705966,
+    "gain": -0.36518692862744084
+  },
+  {
+    "dataset": "FordA",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "test_index": 105,
+    "correct": 0,
+    "output": 0.8185492176741097,
+    "spectral": 0.9226347420246793,
+    "gain": -0.8524466287146015
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "test_index": 3818,
+    "correct": 0,
+    "output": 0.5152564927993911,
+    "spectral": 0.9341828418727024,
+    "gain": -1.9967393337617818
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "test_index": 4373,
+    "correct": 0,
+    "output": 0.9132378629274002,
+    "spectral": 0.9923077794802466,
+    "gain": -2.422960821628255
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "test_index": 1585,
+    "correct": 0,
+    "output": 0.9983452937006766,
+    "spectral": 0.999999,
+    "gain": -7.41137880938958
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "test_index": 4373,
+    "correct": 0,
+    "output": 0.9132378629274002,
+    "spectral": 0.9923077794802466,
+    "gain": -2.422960821628255
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "test_index": 4014,
+    "correct": 0,
+    "output": 0.9725265215566316,
+    "spectral": 0.9958350174671365,
+    "gain": -1.8865090372592301
+  },
+  {
+    "dataset": "Wafer",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "test_index": 4373,
+    "correct": 0,
+    "output": 0.9132378629274002,
+    "spectral": 0.9923077794802466,
+    "gain": -2.422960821628255
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "test_index": 2708,
+    "correct": 0,
+    "output": 0.8928150922886515,
+    "spectral": 0.999329619562157,
+    "gain": -5.074465362519181
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "test_index": 3321,
+    "correct": 0,
+    "output": 0.9131351220226538,
+    "spectral": 0.9931789116758485,
+    "gain": -2.5443347471604283
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "test_index": 2708,
+    "correct": 0,
+    "output": 0.8906536725912595,
+    "spectral": 0.9994040127194459,
+    "gain": -5.2120561144015145
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "test_index": 3321,
+    "correct": 0,
+    "output": 0.9131351220226538,
+    "spectral": 0.9931789116758485,
+    "gain": -2.5443347471604283
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "test_index": 3172,
+    "correct": 0,
+    "output": 0.801618253945546,
+    "spectral": 0.9749580768774361,
+    "gain": -2.0696418395419602
+  },
+  {
+    "dataset": "ECG5000",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "test_index": 3321,
+    "correct": 0,
+    "output": 0.9131351220226538,
+    "spectral": 0.9931789116758485,
+    "gain": -2.5443347471604283
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "test_index": 0,
+    "correct": 1,
+    "output": 0.999999,
+    "spectral": 0.999999,
+    "gain": 0.0
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "test_index": 896,
+    "correct": 1,
+    "output": 0.8857561576989413,
+    "spectral": 0.7043231074321965,
+    "gain": -0.22920448539272018
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "test_index": 0,
+    "correct": 1,
+    "output": 0.999999,
+    "spectral": 0.999999,
+    "gain": 0.0
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "test_index": 896,
+    "correct": 1,
+    "output": 0.8857561576989413,
+    "spectral": 0.7043231074321965,
+    "gain": -0.22920448539272018
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "test_index": 0,
+    "correct": 1,
+    "output": 0.999999,
+    "spectral": 0.999999,
+    "gain": 0.0
+  },
+  {
+    "dataset": "ItalyPowerDemand",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "test_index": 896,
+    "correct": 1,
+    "output": 0.8857561576989413,
+    "spectral": 0.7043231074321965,
+    "gain": -0.22920448539272018
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "ExtraTrees",
+    "seed": 17,
+    "test_index": 0,
+    "correct": 1,
+    "output": 0.999999,
+    "spectral": 0.999999,
+    "gain": 0.0
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "RandomConv",
+    "seed": 17,
+    "test_index": 0,
+    "correct": 1,
+    "output": 0.999999,
+    "spectral": 0.999999,
+    "gain": 0.0
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "ExtraTrees",
+    "seed": 29,
+    "test_index": 0,
+    "correct": 1,
+    "output": 0.999999,
+    "spectral": 0.999999,
+    "gain": 0.0
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "RandomConv",
+    "seed": 29,
+    "test_index": 0,
+    "correct": 1,
+    "output": 0.999999,
+    "spectral": 0.999999,
+    "gain": 0.0
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "ExtraTrees",
+    "seed": 43,
+    "test_index": 0,
+    "correct": 1,
+    "output": 0.999999,
+    "spectral": 0.999999,
+    "gain": 0.0
+  },
+  {
+    "dataset": "TwoLeadECG",
+    "backbone": "RandomConv",
+    "seed": 43,
+    "test_index": 0,
+    "correct": 1,
+    "output": 0.999999,
+    "spectral": 0.999999,
+    "gain": 0.0
+  }
+]

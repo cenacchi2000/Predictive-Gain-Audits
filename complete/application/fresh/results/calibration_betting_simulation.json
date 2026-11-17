@@ -1,0 +1,222 @@
+[
+  {
+    "scenario": "negative",
+    "p": 0.7,
+    "expected_gain": -0.02816755759528336,
+    "calibration_n": 500,
+    "gate_n": 100,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0
+  },
+  {
+    "scenario": "negative",
+    "p": 0.7,
+    "expected_gain": -0.02816755759528336,
+    "calibration_n": 500,
+    "gate_n": 250,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0
+  },
+  {
+    "scenario": "negative",
+    "p": 0.7,
+    "expected_gain": -0.02816755759528336,
+    "calibration_n": 500,
+    "gate_n": 500,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0
+  },
+  {
+    "scenario": "negative",
+    "p": 0.7,
+    "expected_gain": -0.02816755759528336,
+    "calibration_n": 500,
+    "gate_n": 1000,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0
+  },
+  {
+    "scenario": "negative",
+    "p": 0.7,
+    "expected_gain": -0.02816755759528336,
+    "calibration_n": 500,
+    "gate_n": 2000,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0
+  },
+  {
+    "scenario": "boundary_null",
+    "p": 0.7522592587465664,
+    "expected_gain": 1.3877787807814457e-17,
+    "calibration_n": 500,
+    "gate_n": 100,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0002
+  },
+  {
+    "scenario": "boundary_null",
+    "p": 0.7522592587465664,
+    "expected_gain": 1.3877787807814457e-17,
+    "calibration_n": 500,
+    "gate_n": 250,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0
+  },
+  {
+    "scenario": "boundary_null",
+    "p": 0.7522592587465664,
+    "expected_gain": 1.3877787807814457e-17,
+    "calibration_n": 500,
+    "gate_n": 500,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0004
+  },
+  {
+    "scenario": "boundary_null",
+    "p": 0.7522592587465664,
+    "expected_gain": 1.3877787807814457e-17,
+    "calibration_n": 500,
+    "gate_n": 1000,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0002
+  },
+  {
+    "scenario": "boundary_null",
+    "p": 0.7522592587465664,
+    "expected_gain": 1.3877787807814457e-17,
+    "calibration_n": 500,
+    "gate_n": 2000,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0004,
+    "old_rate": 0.0002
+  },
+  {
+    "scenario": "small_positive",
+    "p": 0.77,
+    "expected_gain": 0.009562197456004756,
+    "calibration_n": 500,
+    "gate_n": 100,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0
+  },
+  {
+    "scenario": "small_positive",
+    "p": 0.77,
+    "expected_gain": 0.009562197456004756,
+    "calibration_n": 500,
+    "gate_n": 250,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0,
+    "old_rate": 0.0008
+  },
+  {
+    "scenario": "small_positive",
+    "p": 0.77,
+    "expected_gain": 0.009562197456004756,
+    "calibration_n": 500,
+    "gate_n": 500,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.001,
+    "old_rate": 0.0018
+  },
+  {
+    "scenario": "small_positive",
+    "p": 0.77,
+    "expected_gain": 0.009562197456004756,
+    "calibration_n": 500,
+    "gate_n": 1000,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0068,
+    "old_rate": 0.0056
+  },
+  {
+    "scenario": "small_positive",
+    "p": 0.77,
+    "expected_gain": 0.009562197456004756,
+    "calibration_n": 500,
+    "gate_n": 2000,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.032,
+    "old_rate": 0.0242
+  },
+  {
+    "scenario": "positive",
+    "p": 0.8,
+    "expected_gain": 0.02573209247798537,
+    "calibration_n": 500,
+    "gate_n": 100,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0004,
+    "old_rate": 0.0024
+  },
+  {
+    "scenario": "positive",
+    "p": 0.8,
+    "expected_gain": 0.02573209247798537,
+    "calibration_n": 500,
+    "gate_n": 250,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.0148,
+    "old_rate": 0.016
+  },
+  {
+    "scenario": "positive",
+    "p": 0.8,
+    "expected_gain": 0.02573209247798537,
+    "calibration_n": 500,
+    "gate_n": 500,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.1494,
+    "old_rate": 0.079
+  },
+  {
+    "scenario": "positive",
+    "p": 0.8,
+    "expected_gain": 0.02573209247798537,
+    "calibration_n": 500,
+    "gate_n": 1000,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.494,
+    "old_rate": 0.39
+  },
+  {
+    "scenario": "positive",
+    "p": 0.8,
+    "expected_gain": 0.02573209247798537,
+    "calibration_n": 500,
+    "gate_n": 2000,
+    "trials": 5000,
+    "family": 10,
+    "new_rate": 0.8956,
+    "old_rate": 0.883
+  }
+]

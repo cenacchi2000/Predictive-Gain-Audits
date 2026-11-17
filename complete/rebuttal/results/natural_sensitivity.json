@@ -1,0 +1,2143 @@
+{
+  "config": {
+    "seeds": [
+      20260927,
+      20261001,
+      20261007
+    ],
+    "train_witness_splits": [
+      [
+        0.3,
+        0.35
+      ],
+      [
+        0.4,
+        0.3
+      ],
+      [
+        0.5,
+        0.25
+      ]
+    ],
+    "caps": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "alpha": 0.00030864197530864197,
+    "gamma": 0.00030864197530864197,
+    "analyses": 81,
+    "joint_error": 0.05,
+    "candidate": "same Gaussian Laplace/512 draws as original study",
+    "context": "training-median binary context, same feature definitions as original",
+    "status": "full factorial saved before first execution; overlapping data, not independent external replication"
+  },
+  "rows": [
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20260927,
+      "cap": 1.0,
+      "train_n": 170,
+      "witness_n": 199,
+      "audit_n": 200,
+      "threshold": 18.98,
+      "gain": 0.27285213863361446,
+      "counts": [
+        [
+          105,
+          15
+        ],
+        [
+          94,
+          57
+        ]
+      ],
+      "family81_lower": 0.062186877003963505,
+      "family81_witness": 0.12954222606696647,
+      "original_level_lower": 0.09678851557516409,
+      "original_level_witness": 0.1076204442333493
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20260927,
+      "cap": 2.0,
+      "train_n": 170,
+      "witness_n": 199,
+      "audit_n": 200,
+      "threshold": 18.98,
+      "gain": 0.41239054065233716,
+      "counts": [
+        [
+          105,
+          15
+        ],
+        [
+          94,
+          57
+        ]
+      ],
+      "family81_lower": 0.13830168528816594,
+      "family81_witness": 0.12954222606696647,
+      "original_level_lower": 0.1854138010575718,
+      "original_level_witness": 0.1076204442333493
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20260927,
+      "cap": 3.0,
+      "train_n": 170,
+      "witness_n": 199,
+      "audit_n": 200,
+      "threshold": 18.98,
+      "gain": 0.4722191305100579,
+      "counts": [
+        [
+          105,
+          15
+        ],
+        [
+          94,
+          57
+        ]
+      ],
+      "family81_lower": 0.14317234708028312,
+      "family81_witness": 0.12954222606696647,
+      "original_level_lower": 0.20245716157772378,
+      "original_level_witness": 0.1076204442333493
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261001,
+      "cap": 1.0,
+      "train_n": 170,
+      "witness_n": 199,
+      "audit_n": 200,
+      "threshold": 18.84,
+      "gain": 0.2544897085061925,
+      "counts": [
+        [
+          100,
+          20
+        ],
+        [
+          99,
+          61
+        ]
+      ],
+      "family81_lower": 0.058510787456717464,
+      "family81_witness": 0.11376666545179631,
+      "original_level_lower": 0.09959063456960864,
+      "original_level_witness": 0.0873636366391414
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261001,
+      "cap": 2.0,
+      "train_n": 170,
+      "witness_n": 199,
+      "audit_n": 200,
+      "threshold": 18.84,
+      "gain": 0.3754259754980257,
+      "counts": [
+        [
+          100,
+          20
+        ],
+        [
+          99,
+          61
+        ]
+      ],
+      "family81_lower": 0.11775278577068238,
+      "family81_witness": 0.11376666545179631,
+      "original_level_lower": 0.17121789412345692,
+      "original_level_witness": 0.0873636366391414
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261001,
+      "cap": 3.0,
+      "train_n": 170,
+      "witness_n": 199,
+      "audit_n": 200,
+      "threshold": 18.84,
+      "gain": 0.42022923331641837,
+      "counts": [
+        [
+          100,
+          20
+        ],
+        [
+          99,
+          61
+        ]
+      ],
+      "family81_lower": 0.10874934083326343,
+      "family81_witness": 0.11376666545179631,
+      "original_level_lower": 0.1741379338251303,
+      "original_level_witness": 0.0873636366391414
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261007,
+      "cap": 1.0,
+      "train_n": 170,
+      "witness_n": 199,
+      "audit_n": 200,
+      "threshold": 18.375,
+      "gain": 0.2522774348403627,
+      "counts": [
+        [
+          76,
+          11
+        ],
+        [
+          123,
+          73
+        ]
+      ],
+      "family81_lower": 0.06247108045873371,
+      "family81_witness": 0.11362406050821586,
+      "original_level_lower": 0.0951814615886409,
+      "original_level_witness": 0.09374561700608608
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261007,
+      "cap": 2.0,
+      "train_n": 170,
+      "witness_n": 199,
+      "audit_n": 200,
+      "threshold": 18.375,
+      "gain": 0.3639169013697556,
+      "counts": [
+        [
+          76,
+          11
+        ],
+        [
+          123,
+          73
+        ]
+      ],
+      "family81_lower": 0.1159603565978113,
+      "family81_witness": 0.11362406050821586,
+      "original_level_lower": 0.1610535451976888,
+      "original_level_witness": 0.09374561700608608
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261007,
+      "cap": 3.0,
+      "train_n": 170,
+      "witness_n": 199,
+      "audit_n": 200,
+      "threshold": 18.375,
+      "gain": 0.40460281365194495,
+      "counts": [
+        [
+          76,
+          11
+        ],
+        [
+          123,
+          73
+        ]
+      ],
+      "family81_lower": 0.10401623926148551,
+      "family81_witness": 0.11362406050821586,
+      "original_level_lower": 0.16107562794148123,
+      "original_level_witness": 0.09374561700608608
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20260927,
+      "cap": 1.0,
+      "train_n": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "threshold": 18.9,
+      "gain": 0.2763468833150909,
+      "counts": [
+        [
+          90,
+          15
+        ],
+        [
+          80,
+          52
+        ]
+      ],
+      "family81_lower": -0.02201973376034558,
+      "family81_witness": 0.20650594788154683,
+      "original_level_lower": 0.027941894724057,
+      "original_level_witness": 0.1712263938552564
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20260927,
+      "cap": 2.0,
+      "train_n": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "threshold": 18.9,
+      "gain": 0.4193841140870569,
+      "counts": [
+        [
+          90,
+          15
+        ],
+        [
+          80,
+          52
+        ]
+      ],
+      "family81_lower": 0.04597990095905353,
+      "family81_witness": 0.20650594788154683,
+      "original_level_lower": 0.1105479975636889,
+      "original_level_witness": 0.1712263938552564
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20260927,
+      "cap": 3.0,
+      "train_n": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "threshold": 18.9,
+      "gain": 0.4836992974765886,
+      "counts": [
+        [
+          90,
+          15
+        ],
+        [
+          80,
+          52
+        ]
+      ],
+      "family81_lower": 0.047563742613368876,
+      "family81_witness": 0.20650594788154683,
+      "original_level_lower": 0.1262119990244696,
+      "original_level_witness": 0.1712263938552564
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261001,
+      "cap": 1.0,
+      "train_n": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "threshold": 18.75,
+      "gain": 0.24797170039034225,
+      "counts": [
+        [
+          79,
+          13
+        ],
+        [
+          91,
+          57
+        ]
+      ],
+      "family81_lower": 0.046182893070448004,
+      "family81_witness": 0.11690542908927601,
+      "original_level_lower": 0.08999231019846798,
+      "original_level_witness": 0.08856312918635607
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261001,
+      "cap": 2.0,
+      "train_n": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "threshold": 18.75,
+      "gain": 0.3616193518402219,
+      "counts": [
+        [
+          79,
+          13
+        ],
+        [
+          91,
+          57
+        ]
+      ],
+      "family81_lower": 0.09115637368643038,
+      "family81_witness": 0.11690542908927601,
+      "original_level_lower": 0.1493089325059172,
+      "original_level_witness": 0.08856312918635607
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261001,
+      "cap": 3.0,
+      "train_n": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "threshold": 18.75,
+      "gain": 0.401486799742928,
+      "counts": [
+        [
+          79,
+          13
+        ],
+        [
+          91,
+          57
+        ]
+      ],
+      "family81_lower": 0.06877339151790225,
+      "family81_witness": 0.11690542908927601,
+      "original_level_lower": 0.14067976416667233,
+      "original_level_witness": 0.08856312918635607
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261007,
+      "cap": 1.0,
+      "train_n": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "threshold": 18.84,
+      "gain": 0.24688650956746538,
+      "counts": [
+        [
+          79,
+          15
+        ],
+        [
+          91,
+          57
+        ]
+      ],
+      "family81_lower": 0.036289360322245376,
+      "family81_witness": 0.12237178715678292,
+      "original_level_lower": 0.08007090160414523,
+      "original_level_witness": 0.09366811190846328
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261007,
+      "cap": 2.0,
+      "train_n": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "threshold": 18.84,
+      "gain": 0.3525648275182305,
+      "counts": [
+        [
+          79,
+          15
+        ],
+        [
+          91,
+          57
+        ]
+      ],
+      "family81_lower": 0.06417601201226192,
+      "family81_witness": 0.12237178715678292,
+      "original_level_lower": 0.12214148545700265,
+      "original_level_witness": 0.09366811190846328
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261007,
+      "cap": 3.0,
+      "train_n": 227,
+      "witness_n": 170,
+      "audit_n": 172,
+      "threshold": 18.84,
+      "gain": 0.3957091177793882,
+      "counts": [
+        [
+          79,
+          15
+        ],
+        [
+          91,
+          57
+        ]
+      ],
+      "family81_lower": 0.05588614146682369,
+      "family81_witness": 0.12237178715678292,
+      "original_level_lower": 0.1274338131959967,
+      "original_level_witness": 0.09366811190846328
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20260927,
+      "cap": 1.0,
+      "train_n": 284,
+      "witness_n": 142,
+      "audit_n": 143,
+      "threshold": 18.759999999999998,
+      "gain": 0.2680157720359444,
+      "counts": [
+        [
+          66,
+          11
+        ],
+        [
+          76,
+          46
+        ]
+      ],
+      "family81_lower": -0.02148731464981748,
+      "family81_witness": 0.1834339364458042,
+      "original_level_lower": 0.03729415114477123,
+      "original_level_witness": 0.14398770377192527
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20260927,
+      "cap": 2.0,
+      "train_n": 284,
+      "witness_n": 142,
+      "audit_n": 143,
+      "threshold": 18.759999999999998,
+      "gain": 0.4029210057132937,
+      "counts": [
+        [
+          66,
+          11
+        ],
+        [
+          76,
+          46
+        ]
+      ],
+      "family81_lower": 0.023628681592036658,
+      "family81_witness": 0.1834339364458042,
+      "original_level_lower": 0.09981859349624535,
+      "original_level_witness": 0.14398770377192527
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20260927,
+      "cap": 3.0,
+      "train_n": 284,
+      "witness_n": 142,
+      "audit_n": 143,
+      "threshold": 18.759999999999998,
+      "gain": 0.46123971539820424,
+      "counts": [
+        [
+          66,
+          11
+        ],
+        [
+          76,
+          46
+        ]
+      ],
+      "family81_lower": 0.006379779400415502,
+      "family81_witness": 0.1834339364458042,
+      "original_level_lower": 0.09924672905323473,
+      "original_level_witness": 0.14398770377192527
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261001,
+      "cap": 1.0,
+      "train_n": 284,
+      "witness_n": 142,
+      "audit_n": 143,
+      "threshold": 18.759999999999998,
+      "gain": 0.2537654947935548,
+      "counts": [
+        [
+          65,
+          10
+        ],
+        [
+          77,
+          48
+        ]
+      ],
+      "family81_lower": 0.02448586474850574,
+      "family81_witness": 0.13085498170859564,
+      "original_level_lower": 0.07622471874918907,
+      "original_level_witness": 0.09797289050890765
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261001,
+      "cap": 2.0,
+      "train_n": 284,
+      "witness_n": 142,
+      "audit_n": 143,
+      "threshold": 18.759999999999998,
+      "gain": 0.37508898631288773,
+      "counts": [
+        [
+          65,
+          10
+        ],
+        [
+          77,
+          48
+        ]
+      ],
+      "family81_lower": 0.061688440506743485,
+      "family81_witness": 0.13085498170859564,
+      "original_level_lower": 0.13054107378300722,
+      "original_level_witness": 0.09797289050890765
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261001,
+      "cap": 3.0,
+      "train_n": 284,
+      "witness_n": 142,
+      "audit_n": 143,
+      "threshold": 18.759999999999998,
+      "gain": 0.4209061651101262,
+      "counts": [
+        [
+          65,
+          10
+        ],
+        [
+          77,
+          48
+        ]
+      ],
+      "family81_lower": 0.03180027107831571,
+      "family81_witness": 0.13085498170859564,
+      "original_level_lower": 0.11706817719431883,
+      "original_level_witness": 0.09797289050890765
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261007,
+      "cap": 1.0,
+      "train_n": 284,
+      "witness_n": 142,
+      "audit_n": 143,
+      "threshold": 19.03,
+      "gain": 0.265339109664703,
+      "counts": [
+        [
+          76,
+          7
+        ],
+        [
+          66,
+          43
+        ]
+      ],
+      "family81_lower": -0.030284192073899725,
+      "family81_witness": 0.18818532569882165,
+      "original_level_lower": 0.010344060280506127,
+      "original_level_witness": 0.16466761557093942
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261007,
+      "cap": 2.0,
+      "train_n": 284,
+      "witness_n": 142,
+      "audit_n": 143,
+      "threshold": 19.03,
+      "gain": 0.37994992170120345,
+      "counts": [
+        [
+          76,
+          7
+        ],
+        [
+          66,
+          43
+        ]
+      ],
+      "family81_lower": -0.007286218494490313,
+      "family81_witness": 0.18818532569882165,
+      "original_level_lower": 0.050300032437242945,
+      "original_level_witness": 0.16466761557093942
+    },
+    {
+      "dataset": "WDBC",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261007,
+      "cap": 3.0,
+      "train_n": 284,
+      "witness_n": 142,
+      "audit_n": 143,
+      "threshold": 19.03,
+      "gain": 0.4264770784592835,
+      "counts": [
+        [
+          76,
+          7
+        ],
+        [
+          66,
+          43
+        ]
+      ],
+      "family81_lower": -0.023988518194770398,
+      "family81_witness": 0.18818532569882165,
+      "original_level_lower": 0.04986459449787736,
+      "original_level_witness": 0.16466761557093942
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20260927,
+      "cap": 1.0,
+      "train_n": 539,
+      "witness_n": 628,
+      "audit_n": 630,
+      "threshold": 4.90625,
+      "gain": 0.2657518154133425,
+      "counts": [
+        [
+          339,
+          170
+        ],
+        [
+          289,
+          138
+        ]
+      ],
+      "family81_lower": 0.17804579905218457,
+      "family81_witness": 0.033249948836976496,
+      "original_level_lower": 0.19251364850393937,
+      "original_level_witness": 0.025468808975697116
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20260927,
+      "cap": 2.0,
+      "train_n": 539,
+      "witness_n": 628,
+      "audit_n": 630,
+      "threshold": 4.90625,
+      "gain": 0.3681482109185278,
+      "counts": [
+        [
+          339,
+          170
+        ],
+        [
+          289,
+          138
+        ]
+      ],
+      "family81_lower": 0.24728250189618242,
+      "family81_witness": 0.033249948836976496,
+      "original_level_lower": 0.26765433147549655,
+      "original_level_witness": 0.025468808975697116
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20260927,
+      "cap": 3.0,
+      "train_n": 539,
+      "witness_n": 628,
+      "audit_n": 630,
+      "threshold": 4.90625,
+      "gain": 0.39238965446277535,
+      "counts": [
+        [
+          339,
+          170
+        ],
+        [
+          289,
+          138
+        ]
+      ],
+      "family81_lower": 0.24561966267100208,
+      "family81_witness": 0.033249948836976496,
+      "original_level_lower": 0.27172217025596573,
+      "original_level_witness": 0.025468808975697116
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261001,
+      "cap": 1.0,
+      "train_n": 539,
+      "witness_n": 628,
+      "audit_n": 630,
+      "threshold": 4.890625,
+      "gain": 0.24194065340792806,
+      "counts": [
+        [
+          317,
+          158
+        ],
+        [
+          311,
+          158
+        ]
+      ],
+      "family81_lower": 0.15332051291254484,
+      "family81_witness": 0.02751559576865589,
+      "original_level_lower": 0.1678320624762956,
+      "original_level_witness": 0.020454037085671794
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261001,
+      "cap": 2.0,
+      "train_n": 539,
+      "witness_n": 628,
+      "audit_n": 630,
+      "threshold": 4.890625,
+      "gain": 0.32896334557805296,
+      "counts": [
+        [
+          317,
+          158
+        ],
+        [
+          311,
+          158
+        ]
+      ],
+      "family81_lower": 0.20196448542723439,
+      "family81_witness": 0.02751559576865589,
+      "original_level_lower": 0.22174958471826445,
+      "original_level_witness": 0.020454037085671794
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261001,
+      "cap": 3.0,
+      "train_n": 539,
+      "witness_n": 628,
+      "audit_n": 630,
+      "threshold": 4.890625,
+      "gain": 0.3456199328659207,
+      "counts": [
+        [
+          317,
+          158
+        ],
+        [
+          311,
+          158
+        ]
+      ],
+      "family81_lower": 0.189952015893145,
+      "family81_witness": 0.02751559576865589,
+      "original_level_lower": 0.21577710879762754,
+      "original_level_witness": 0.020454037085671794
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261007,
+      "cap": 1.0,
+      "train_n": 539,
+      "witness_n": 628,
+      "audit_n": 630,
+      "threshold": 4.90625,
+      "gain": 0.26989046039171277,
+      "counts": [
+        [
+          328,
+          157
+        ],
+        [
+          300,
+          150
+        ]
+      ],
+      "family81_lower": 0.17966505071763794,
+      "family81_witness": 0.036826423882248514,
+      "original_level_lower": 0.19444351169144997,
+      "original_level_witness": 0.028712884411551672
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261007,
+      "cap": 2.0,
+      "train_n": 539,
+      "witness_n": 628,
+      "audit_n": 630,
+      "threshold": 4.90625,
+      "gain": 0.3696406655998607,
+      "counts": [
+        [
+          328,
+          157
+        ],
+        [
+          300,
+          150
+        ]
+      ],
+      "family81_lower": 0.24429926748232753,
+      "family81_witness": 0.036826423882248514,
+      "original_level_lower": 0.2651599834290951,
+      "original_level_witness": 0.028712884411551672
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261007,
+      "cap": 3.0,
+      "train_n": 539,
+      "witness_n": 628,
+      "audit_n": 630,
+      "threshold": 4.90625,
+      "gain": 0.3963333312016841,
+      "counts": [
+        [
+          328,
+          157
+        ],
+        [
+          300,
+          150
+        ]
+      ],
+      "family81_lower": 0.24694135295983718,
+      "family81_witness": 0.036826423882248514,
+      "original_level_lower": 0.27292591476766137,
+      "original_level_witness": 0.028712884411551672
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20260927,
+      "cap": 1.0,
+      "train_n": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "threshold": 4.8984375,
+      "gain": 0.2645430979200707,
+      "counts": [
+        [
+          291,
+          153
+        ],
+        [
+          248,
+          120
+        ]
+      ],
+      "family81_lower": 0.16829824356301482,
+      "family81_witness": 0.035869743386120326,
+      "original_level_lower": 0.18450709254133157,
+      "original_level_witness": 0.0271627452931788
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20260927,
+      "cap": 2.0,
+      "train_n": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "threshold": 4.8984375,
+      "gain": 0.36514070667622434,
+      "counts": [
+        [
+          291,
+          153
+        ],
+        [
+          248,
+          120
+        ]
+      ],
+      "family81_lower": 0.2294694200995732,
+      "family81_witness": 0.035869743386120326,
+      "original_level_lower": 0.2525437717032674,
+      "original_level_witness": 0.0271627452931788
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20260927,
+      "cap": 3.0,
+      "train_n": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "threshold": 4.8984375,
+      "gain": 0.3919730385966342,
+      "counts": [
+        [
+          291,
+          153
+        ],
+        [
+          248,
+          120
+        ]
+      ],
+      "family81_lower": 0.2258640457081253,
+      "family81_witness": 0.035869743386120326,
+      "original_level_lower": 0.2558391134825339,
+      "original_level_witness": 0.0271627452931788
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261001,
+      "cap": 1.0,
+      "train_n": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "threshold": 4.890625,
+      "gain": 0.2527162640491502,
+      "counts": [
+        [
+          267,
+          136
+        ],
+        [
+          272,
+          137
+        ]
+      ],
+      "family81_lower": 0.15499026502180335,
+      "family81_witness": 0.034688418485539795,
+      "original_level_lower": 0.1712090424310743,
+      "original_level_witness": 0.026135593351380236
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261001,
+      "cap": 2.0,
+      "train_n": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "threshold": 4.890625,
+      "gain": 0.3382329323506884,
+      "counts": [
+        [
+          267,
+          136
+        ],
+        [
+          272,
+          137
+        ]
+      ],
+      "family81_lower": 0.19696471975042942,
+      "family81_witness": 0.034688418485539795,
+      "original_level_lower": 0.219972308007031,
+      "original_level_witness": 0.026135593351380236
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261001,
+      "cap": 3.0,
+      "train_n": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "threshold": 4.890625,
+      "gain": 0.3595121148770556,
+      "counts": [
+        [
+          267,
+          136
+        ],
+        [
+          272,
+          137
+        ]
+      ],
+      "family81_lower": 0.1884741381279853,
+      "family81_witness": 0.034688418485539795,
+      "original_level_lower": 0.2185558900355371,
+      "original_level_witness": 0.026135593351380236
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261007,
+      "cap": 1.0,
+      "train_n": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "threshold": 4.90625,
+      "gain": 0.27861374683435053,
+      "counts": [
+        [
+          280,
+          133
+        ],
+        [
+          259,
+          130
+        ]
+      ],
+      "family81_lower": 0.17960295673501708,
+      "family81_witness": 0.04134870807158047,
+      "original_level_lower": 0.19641452997356032,
+      "original_level_witness": 0.03212687660670486
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261007,
+      "cap": 2.0,
+      "train_n": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "threshold": 4.90625,
+      "gain": 0.37747072052319797,
+      "counts": [
+        [
+          280,
+          133
+        ],
+        [
+          259,
+          130
+        ]
+      ],
+      "family81_lower": 0.23549451128828383,
+      "family81_witness": 0.04134870807158047,
+      "original_level_lower": 0.25949066400675613,
+      "original_level_witness": 0.03212687660670486
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261007,
+      "cap": 3.0,
+      "train_n": 718,
+      "witness_n": 539,
+      "audit_n": 540,
+      "threshold": 4.90625,
+      "gain": 0.40261592032615884,
+      "counts": [
+        [
+          280,
+          133
+        ],
+        [
+          259,
+          130
+        ]
+      ],
+      "family81_lower": 0.23109296231352383,
+      "family81_witness": 0.04134870807158047,
+      "original_level_lower": 0.26112405338839234,
+      "original_level_witness": 0.03212687660670486
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20260927,
+      "cap": 1.0,
+      "train_n": 898,
+      "witness_n": 449,
+      "audit_n": 450,
+      "threshold": 4.890625,
+      "gain": 0.25938486507964104,
+      "counts": [
+        [
+          232,
+          121
+        ],
+        [
+          217,
+          106
+        ]
+      ],
+      "family81_lower": 0.15354534662728905,
+      "family81_witness": 0.0366494411138214,
+      "original_level_lower": 0.171827485082805,
+      "original_level_witness": 0.027104019882419682
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20260927,
+      "cap": 2.0,
+      "train_n": 898,
+      "witness_n": 449,
+      "audit_n": 450,
+      "threshold": 4.890625,
+      "gain": 0.35347971880996165,
+      "counts": [
+        [
+          232,
+          121
+        ],
+        [
+          217,
+          106
+        ]
+      ],
+      "family81_lower": 0.19757772050293665,
+      "family81_witness": 0.0366494411138214,
+      "original_level_lower": 0.22416176050692763,
+      "original_level_witness": 0.027104019882419682
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20260927,
+      "cap": 3.0,
+      "train_n": 898,
+      "witness_n": 449,
+      "audit_n": 450,
+      "threshold": 4.890625,
+      "gain": 0.3774870763967625,
+      "counts": [
+        [
+          232,
+          121
+        ],
+        [
+          217,
+          106
+        ]
+      ],
+      "family81_lower": 0.18490295639145693,
+      "family81_witness": 0.0366494411138214,
+      "original_level_lower": 0.21971908256190203,
+      "original_level_witness": 0.027104019882419682
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261001,
+      "cap": 1.0,
+      "train_n": 898,
+      "witness_n": 449,
+      "audit_n": 450,
+      "threshold": 4.890625,
+      "gain": 0.25309793711007256,
+      "counts": [
+        [
+          225,
+          114
+        ],
+        [
+          224,
+          105
+        ]
+      ],
+      "family81_lower": 0.13326207395469963,
+      "family81_witness": 0.05082540209023767,
+      "original_level_lower": 0.15332690309183578,
+      "original_level_witness": 0.039627752015236994
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261001,
+      "cap": 2.0,
+      "train_n": 898,
+      "witness_n": 449,
+      "audit_n": 450,
+      "threshold": 4.890625,
+      "gain": 0.3459422816432617,
+      "counts": [
+        [
+          225,
+          114
+        ],
+        [
+          224,
+          105
+        ]
+      ],
+      "family81_lower": 0.1787891303477088,
+      "family81_witness": 0.05082540209023767,
+      "original_level_lower": 0.20721495280883157,
+      "original_level_witness": 0.039627752015236994
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261001,
+      "cap": 3.0,
+      "train_n": 898,
+      "witness_n": 449,
+      "audit_n": 450,
+      "threshold": 4.890625,
+      "gain": 0.3697860809055674,
+      "counts": [
+        [
+          225,
+          114
+        ],
+        [
+          224,
+          105
+        ]
+      ],
+      "family81_lower": 0.1663812181267147,
+      "family81_witness": 0.05082540209023767,
+      "original_level_lower": 0.20207637539980108,
+      "original_level_witness": 0.039627752015236994
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261007,
+      "cap": 1.0,
+      "train_n": 898,
+      "witness_n": 449,
+      "audit_n": 450,
+      "threshold": 4.890625,
+      "gain": 0.2798478598098141,
+      "counts": [
+        [
+          226,
+          111
+        ],
+        [
+          223,
+          110
+        ]
+      ],
+      "family81_lower": 0.177273959458345,
+      "family81_witness": 0.039530191718846794,
+      "original_level_lower": 0.19592884131168067,
+      "original_level_witness": 0.02961585584847132
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261007,
+      "cap": 2.0,
+      "train_n": 898,
+      "witness_n": 449,
+      "audit_n": 450,
+      "threshold": 4.890625,
+      "gain": 0.3871134681116807,
+      "counts": [
+        [
+          226,
+          111
+        ],
+        [
+          223,
+          110
+        ]
+      ],
+      "family81_lower": 0.23690815988883732,
+      "family81_witness": 0.039530191718846794,
+      "original_level_lower": 0.2641236286151789,
+      "original_level_witness": 0.02961585584847132
+    },
+    {
+      "dataset": "Digits",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261007,
+      "cap": 3.0,
+      "train_n": 898,
+      "witness_n": 449,
+      "audit_n": 450,
+      "threshold": 4.890625,
+      "gain": 0.41726753467445077,
+      "counts": [
+        [
+          226,
+          111
+        ],
+        [
+          223,
+          110
+        ]
+      ],
+      "family81_lower": 0.23574532855633437,
+      "family81_witness": 0.039530191718846794,
+      "original_level_lower": 0.26690240576864754,
+      "original_level_witness": 0.02961585584847132
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20260927,
+      "cap": 1.0,
+      "train_n": 53,
+      "witness_n": 62,
+      "audit_n": 63,
+      "threshold": 13.2,
+      "gain": 0.19648504986671306,
+      "counts": [
+        [
+          40,
+          2
+        ],
+        [
+          22,
+          14
+        ]
+      ],
+      "family81_lower": -0.2654974719846814,
+      "family81_witness": 0.2613163478455696,
+      "original_level_lower": -0.18062454174386164,
+      "original_level_witness": 0.21896891144752642
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20260927,
+      "cap": 2.0,
+      "train_n": 53,
+      "witness_n": 62,
+      "audit_n": 63,
+      "threshold": 13.2,
+      "gain": 0.29275122409155513,
+      "counts": [
+        [
+          40,
+          2
+        ],
+        [
+          22,
+          14
+        ]
+      ],
+      "family81_lower": -0.33941270658499856,
+      "family81_witness": 0.2613163478455696,
+      "original_level_lower": -0.22270318686724308,
+      "original_level_witness": 0.21896891144752642
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20260927,
+      "cap": 3.0,
+      "train_n": 53,
+      "witness_n": 62,
+      "audit_n": 63,
+      "threshold": 13.2,
+      "gain": 0.33622435298632564,
+      "counts": [
+        [
+          40,
+          2
+        ],
+        [
+          22,
+          14
+        ]
+      ],
+      "family81_lower": -0.4572423397044336,
+      "family81_witness": 0.2613163478455696,
+      "original_level_lower": -0.3096441998622615,
+      "original_level_witness": 0.21896891144752642
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261001,
+      "cap": 1.0,
+      "train_n": 53,
+      "witness_n": 62,
+      "audit_n": 63,
+      "threshold": 12.96,
+      "gain": 0.17930376954743557,
+      "counts": [
+        [
+          28,
+          0
+        ],
+        [
+          34,
+          23
+        ]
+      ],
+      "family81_lower": -0.2482684842198734,
+      "family81_witness": 0.2560753444900842,
+      "original_level_lower": -0.15474223724979005,
+      "original_level_witness": 0.1978098162415483
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261001,
+      "cap": 2.0,
+      "train_n": 53,
+      "witness_n": 62,
+      "audit_n": 63,
+      "threshold": 12.96,
+      "gain": 0.25397624322525175,
+      "counts": [
+        [
+          28,
+          0
+        ],
+        [
+          34,
+          23
+        ]
+      ],
+      "family81_lower": -0.34367450071687666,
+      "family81_witness": 0.2560753444900842,
+      "original_level_lower": -0.21535736876271658,
+      "original_level_witness": 0.1978098162415483
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261001,
+      "cap": 3.0,
+      "train_n": 53,
+      "witness_n": 62,
+      "audit_n": 63,
+      "threshold": 12.96,
+      "gain": 0.27375232248384374,
+      "counts": [
+        [
+          28,
+          0
+        ],
+        [
+          34,
+          23
+        ]
+      ],
+      "family81_lower": -0.4849554876556852,
+      "family81_witness": 0.2560753444900842,
+      "original_level_lower": -0.32325059878361384,
+      "original_level_witness": 0.1978098162415483
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261007,
+      "cap": 1.0,
+      "train_n": 53,
+      "witness_n": 62,
+      "audit_n": 63,
+      "threshold": 13.23,
+      "gain": 0.1648090409536183,
+      "counts": [
+        [
+          39,
+          3
+        ],
+        [
+          23,
+          14
+        ]
+      ],
+      "family81_lower": -0.3651955152181511,
+      "family81_witness": 0.34005794531194383,
+      "original_level_lower": -0.24723427461881226,
+      "original_level_witness": 0.25703299809041336
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261007,
+      "cap": 2.0,
+      "train_n": 53,
+      "witness_n": 62,
+      "audit_n": 63,
+      "threshold": 13.23,
+      "gain": 0.2516751702978645,
+      "counts": [
+        [
+          39,
+          3
+        ],
+        [
+          23,
+          14
+        ]
+      ],
+      "family81_lower": -0.45540603897490034,
+      "family81_witness": 0.34005794531194383,
+      "original_level_lower": -0.3048605467838317,
+      "original_level_witness": 0.25703299809041336
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.3,
+      "witness_fraction": 0.35,
+      "seed": 20261007,
+      "cap": 3.0,
+      "train_n": 53,
+      "witness_n": 62,
+      "audit_n": 63,
+      "threshold": 13.23,
+      "gain": 0.29563003253590453,
+      "counts": [
+        [
+          39,
+          3
+        ],
+        [
+          23,
+          14
+        ]
+      ],
+      "family81_lower": -0.5782682953201429,
+      "family81_witness": 0.34005794531194383,
+      "original_level_lower": -0.39345978188430203,
+      "original_level_witness": 0.25703299809041336
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20260927,
+      "cap": 1.0,
+      "train_n": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "threshold": 13.05,
+      "gain": 0.195403818159259,
+      "counts": [
+        [
+          32,
+          2
+        ],
+        [
+          21,
+          13
+        ]
+      ],
+      "family81_lower": -0.3569412318662695,
+      "family81_witness": 0.3410661035552766,
+      "original_level_lower": -0.2300446183430647,
+      "original_level_witness": 0.2536534157033206
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20260927,
+      "cap": 2.0,
+      "train_n": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "threshold": 13.05,
+      "gain": 0.2770019113435191,
+      "counts": [
+        [
+          32,
+          2
+        ],
+        [
+          21,
+          13
+        ]
+      ],
+      "family81_lower": -0.47807054416531986,
+      "family81_witness": 0.3410661035552766,
+      "original_level_lower": -0.3117491296042862,
+      "original_level_witness": 0.2536534157033206
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20260927,
+      "cap": 3.0,
+      "train_n": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "threshold": 13.05,
+      "gain": 0.30922964573643413,
+      "counts": [
+        [
+          32,
+          2
+        ],
+        [
+          21,
+          13
+        ]
+      ],
+      "family81_lower": -0.6343463018617128,
+      "family81_witness": 0.3410661035552766,
+      "original_level_lower": -0.4296158343490768,
+      "original_level_witness": 0.2536534157033206
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261001,
+      "cap": 1.0,
+      "train_n": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "threshold": 13.05,
+      "gain": 0.19011077681267638,
+      "counts": [
+        [
+          27,
+          2
+        ],
+        [
+          26,
+          19
+        ]
+      ],
+      "family81_lower": -0.36079967037206684,
+      "family81_witness": 0.3513929397819486,
+      "original_level_lower": -0.24363051136050654,
+      "original_level_witness": 0.27806532715128923
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261001,
+      "cap": 2.0,
+      "train_n": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "threshold": 13.05,
+      "gain": 0.2703017350693707,
+      "counts": [
+        [
+          27,
+          2
+        ],
+        [
+          26,
+          19
+        ]
+      ],
+      "family81_lower": -0.47617887301378314,
+      "family81_witness": 0.3513929397819486,
+      "original_level_lower": -0.31981669989251477,
+      "original_level_witness": 0.27806532715128923
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261001,
+      "cap": 3.0,
+      "train_n": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "threshold": 13.05,
+      "gain": 0.29484371394063175,
+      "counts": [
+        [
+          27,
+          2
+        ],
+        [
+          26,
+          19
+        ]
+      ],
+      "family81_lower": -0.6377981612496814,
+      "family81_witness": 0.3513929397819486,
+      "original_level_lower": -0.4436617655398982,
+      "original_level_witness": 0.27806532715128923
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261007,
+      "cap": 1.0,
+      "train_n": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "threshold": 13.2,
+      "gain": 0.16145569919999528,
+      "counts": [
+        [
+          34,
+          4
+        ],
+        [
+          19,
+          14
+        ]
+      ],
+      "family81_lower": -0.4459593851445242,
+      "family81_witness": 0.383256557706873,
+      "original_level_lower": -0.32301669675405753,
+      "original_level_witness": 0.30673441016267555
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261007,
+      "cap": 2.0,
+      "train_n": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "threshold": 13.2,
+      "gain": 0.24431494006822466,
+      "counts": [
+        [
+          34,
+          4
+        ],
+        [
+          19,
+          14
+        ]
+      ],
+      "family81_lower": -0.5630539323751699,
+      "family81_witness": 0.383256557706873,
+      "original_level_lower": -0.40100325573581924,
+      "original_level_witness": 0.30673441016267555
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.4,
+      "witness_fraction": 0.3,
+      "seed": 20261007,
+      "cap": 3.0,
+      "train_n": 71,
+      "witness_n": 53,
+      "audit_n": 54,
+      "threshold": 13.2,
+      "gain": 0.2767036426273479,
+      "counts": [
+        [
+          34,
+          4
+        ],
+        [
+          19,
+          14
+        ]
+      ],
+      "family81_lower": -0.7182577558070988,
+      "family81_witness": 0.383256557706873,
+      "original_level_lower": -0.518199637220458,
+      "original_level_witness": 0.30673441016267555
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20260927,
+      "cap": 1.0,
+      "train_n": 89,
+      "witness_n": 44,
+      "audit_n": 45,
+      "threshold": 12.93,
+      "gain": 0.19280416613464668,
+      "counts": [
+        [
+          20,
+          0
+        ],
+        [
+          24,
+          13
+        ]
+      ],
+      "family81_lower": -0.522510849085316,
+      "family81_witness": 0.4398003372161941,
+      "original_level_lower": -0.34680853514235804,
+      "original_level_witness": 0.3278868186196641
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20260927,
+      "cap": 2.0,
+      "train_n": 89,
+      "witness_n": 44,
+      "audit_n": 45,
+      "threshold": 12.93,
+      "gain": 0.2651409954404748,
+      "counts": [
+        [
+          20,
+          0
+        ],
+        [
+          24,
+          13
+        ]
+      ],
+      "family81_lower": -0.6821409065275172,
+      "family81_witness": 0.4398003372161941,
+      "original_level_lower": -0.46158811048096426,
+      "original_level_witness": 0.3278868186196641
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20260927,
+      "cap": 3.0,
+      "train_n": 89,
+      "witness_n": 44,
+      "audit_n": 45,
+      "threshold": 12.93,
+      "gain": 0.28288687341691965,
+      "counts": [
+        [
+          20,
+          0
+        ],
+        [
+          24,
+          13
+        ]
+      ],
+      "family81_lower": -0.8821008993273215,
+      "family81_witness": 0.4398003372161941,
+      "original_level_lower": -0.6183184731405867,
+      "original_level_witness": 0.3278868186196641
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261001,
+      "cap": 1.0,
+      "train_n": 89,
+      "witness_n": 44,
+      "audit_n": 45,
+      "threshold": 13.03,
+      "gain": 0.18993004882782302,
+      "counts": [
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          16
+        ]
+      ],
+      "family81_lower": -0.46898551132101085,
+      "family81_witness": 0.37510477959152916,
+      "original_level_lower": -0.3054202707247673,
+      "original_level_witness": 0.27924210629780466
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261001,
+      "cap": 2.0,
+      "train_n": 89,
+      "witness_n": 44,
+      "audit_n": 45,
+      "threshold": 13.03,
+      "gain": 0.26972632355576903,
+      "counts": [
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          16
+        ]
+      ],
+      "family81_lower": -0.6208869364653429,
+      "family81_witness": 0.37510477959152916,
+      "original_level_lower": -0.41279285712546,
+      "original_level_witness": 0.27924210629780466
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261001,
+      "cap": 3.0,
+      "train_n": 89,
+      "witness_n": 44,
+      "audit_n": 45,
+      "threshold": 13.03,
+      "gain": 0.2994142404200073,
+      "counts": [
+        [
+          21,
+          0
+        ],
+        [
+          23,
+          16
+        ]
+      ],
+      "family81_lower": -0.81001875025766,
+      "family81_witness": 0.37510477959152916,
+      "original_level_lower": -0.5585182960992915,
+      "original_level_witness": 0.27924210629780466
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261007,
+      "cap": 1.0,
+      "train_n": 89,
+      "witness_n": 44,
+      "audit_n": 45,
+      "threshold": 13.05,
+      "gain": 0.1691213127405508,
+      "counts": [
+        [
+          22,
+          2
+        ],
+        [
+          22,
+          15
+        ]
+      ],
+      "family81_lower": -0.6368335315645921,
+      "family81_witness": 0.5087881669739708,
+      "original_level_lower": -0.4593119950087605,
+      "original_level_witness": 0.39866682176684126
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261007,
+      "cap": 2.0,
+      "train_n": 89,
+      "witness_n": 44,
+      "audit_n": 45,
+      "threshold": 13.05,
+      "gain": 0.2405412008399896,
+      "counts": [
+        [
+          22,
+          2
+        ],
+        [
+          22,
+          15
+        ]
+      ],
+      "family81_lower": -0.7929607072266749,
+      "family81_witness": 0.5087881669739708,
+      "original_level_lower": -0.5720041577804907,
+      "original_level_witness": 0.39866682176684126
+    },
+    {
+      "dataset": "Wine",
+      "train_fraction": 0.5,
+      "witness_fraction": 0.25,
+      "seed": 20261007,
+      "cap": 3.0,
+      "train_n": 89,
+      "witness_n": 44,
+      "audit_n": 45,
+      "threshold": 13.05,
+      "gain": 0.2671643492184969,
+      "counts": [
+        [
+          22,
+          2
+        ],
+        [
+          22,
+          15
+        ]
+      ],
+      "family81_lower": -0.9836105319412658,
+      "family81_witness": 0.5087881669739708,
+      "original_level_lower": -0.7196182836063725,
+      "original_level_witness": 0.39866682176684126
+    }
+  ]
+}

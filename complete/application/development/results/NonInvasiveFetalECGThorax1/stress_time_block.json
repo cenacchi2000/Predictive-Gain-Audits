@@ -1,0 +1,542 @@
+[
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "reference",
+    "n": 590,
+    "errors": 437,
+    "accuracy": 0.2593220338983051,
+    "auc": 0.634375794558861,
+    "nll": 0.8006781783561506,
+    "brier": 0.27803774332269215,
+    "ece": 0.27245268150624374,
+    "fce": 0.06864988558352403,
+    "aurc": 0.6243017453554813,
+    "excess_aurc": 0.23299990674896925,
+    "prevalence": 0.7406779661016949,
+    "aurc_tie_averaged": 0.6243017453554813,
+    "excess_aurc_tie_averaged": 0.23299990674896925,
+    "augrc": 0.3445288710140764,
+    "oracle_aurc": 0.3913018386065121,
+    "utility_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6973365617433414,
+      "precision": 0.8418079096045198,
+      "recall": 0.34096109839816935,
+      "reviewed": 177,
+      "captured": 149
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6973365617433414,
+      "precision": 0.8418079096045198,
+      "recall": 0.34096109839816935,
+      "reviewed": 177,
+      "captured": 149.0,
+      "oracle_risk": 0.6295399515738499
+    },
+    "utility_0.8": {
+      "coverage": 0.8,
+      "risk": 0.7203389830508474,
+      "precision": 0.8220338983050848,
+      "recall": 0.2219679633867277,
+      "reviewed": 118,
+      "captured": 97
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.8,
+      "risk": 0.7203389830508474,
+      "precision": 0.8220338983050848,
+      "recall": 0.2219679633867277,
+      "reviewed": 118,
+      "captured": 97.0,
+      "oracle_risk": 0.6758474576271186
+    },
+    "utility_0.9": {
+      "coverage": 0.9,
+      "risk": 0.736346516007533,
+      "precision": 0.7796610169491526,
+      "recall": 0.10526315789473684,
+      "reviewed": 59,
+      "captured": 46
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.9,
+      "risk": 0.736346516007533,
+      "precision": 0.7796610169491526,
+      "recall": 0.10526315789473684,
+      "reviewed": 59,
+      "captured": 46.0,
+      "oracle_risk": 0.711864406779661
+    },
+    "utility_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.7392857142857143,
+      "precision": 0.7666666666666667,
+      "recall": 0.05263157894736842,
+      "reviewed": 30,
+      "captured": 23
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.7392857142857143,
+      "precision": 0.7666666666666667,
+      "recall": 0.05263157894736842,
+      "reviewed": 30,
+      "captured": 23.0,
+      "oracle_risk": 0.7267857142857143
+    }
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "candidate",
+    "n": 590,
+    "errors": 437,
+    "accuracy": 0.2593220338983051,
+    "auc": 0.6145062143850675,
+    "nll": 0.7835008732476749,
+    "brier": 0.28172464703439276,
+    "ece": 0.2794479922679562,
+    "fce": 0.038901601830663615,
+    "aurc": 0.6405966455132451,
+    "excess_aurc": 0.24929480690673306,
+    "prevalence": 0.7406779661016949,
+    "aurc_tie_averaged": 0.6405903702100914,
+    "excess_aurc_tie_averaged": 0.24928853160357928,
+    "augrc": 0.3483453030738294,
+    "oracle_aurc": 0.3913018386065121,
+    "utility_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6997578692493946,
+      "precision": 0.8361581920903954,
+      "recall": 0.33867276887871856,
+      "reviewed": 177,
+      "captured": 148
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6997578692493946,
+      "precision": 0.8361581920903954,
+      "recall": 0.33867276887871856,
+      "reviewed": 177,
+      "captured": 148.0,
+      "oracle_risk": 0.6295399515738499
+    },
+    "utility_0.8": {
+      "coverage": 0.8,
+      "risk": 0.722457627118644,
+      "precision": 0.8135593220338984,
+      "recall": 0.21967963386727687,
+      "reviewed": 118,
+      "captured": 96
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.8,
+      "risk": 0.722457627118644,
+      "precision": 0.8135593220338984,
+      "recall": 0.21967963386727687,
+      "reviewed": 118,
+      "captured": 96.0,
+      "oracle_risk": 0.6758474576271186
+    },
+    "utility_0.9": {
+      "coverage": 0.9,
+      "risk": 0.7288135593220338,
+      "precision": 0.847457627118644,
+      "recall": 0.11441647597254005,
+      "reviewed": 59,
+      "captured": 50
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.9,
+      "risk": 0.7288135593220338,
+      "precision": 0.847457627118644,
+      "recall": 0.11441647597254005,
+      "reviewed": 59,
+      "captured": 50.0,
+      "oracle_risk": 0.711864406779661
+    },
+    "utility_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.7392857142857143,
+      "precision": 0.7666666666666667,
+      "recall": 0.05263157894736842,
+      "reviewed": 30,
+      "captured": 23
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.7392857142857143,
+      "precision": 0.7666666666666667,
+      "recall": 0.05263157894736842,
+      "reviewed": 30,
+      "captured": 23.0,
+      "oracle_risk": 0.7267857142857143
+    }
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "policy",
+    "n": 590,
+    "errors": 437,
+    "accuracy": 0.2593220338983051,
+    "auc": 0.634375794558861,
+    "nll": 0.8006781783561506,
+    "brier": 0.27803774332269215,
+    "ece": 0.27245268150624374,
+    "fce": 0.06864988558352403,
+    "aurc": 0.6243017453554813,
+    "excess_aurc": 0.23299990674896925,
+    "prevalence": 0.7406779661016949,
+    "aurc_tie_averaged": 0.6243017453554813,
+    "excess_aurc_tie_averaged": 0.23299990674896925,
+    "augrc": 0.3445288710140764,
+    "oracle_aurc": 0.3913018386065121,
+    "utility_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6973365617433414,
+      "precision": 0.8418079096045198,
+      "recall": 0.34096109839816935,
+      "reviewed": 177,
+      "captured": 149
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6973365617433414,
+      "precision": 0.8418079096045198,
+      "recall": 0.34096109839816935,
+      "reviewed": 177,
+      "captured": 149.0,
+      "oracle_risk": 0.6295399515738499
+    },
+    "utility_0.8": {
+      "coverage": 0.8,
+      "risk": 0.7203389830508474,
+      "precision": 0.8220338983050848,
+      "recall": 0.2219679633867277,
+      "reviewed": 118,
+      "captured": 97
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.8,
+      "risk": 0.7203389830508474,
+      "precision": 0.8220338983050848,
+      "recall": 0.2219679633867277,
+      "reviewed": 118,
+      "captured": 97.0,
+      "oracle_risk": 0.6758474576271186
+    },
+    "utility_0.9": {
+      "coverage": 0.9,
+      "risk": 0.736346516007533,
+      "precision": 0.7796610169491526,
+      "recall": 0.10526315789473684,
+      "reviewed": 59,
+      "captured": 46
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.9,
+      "risk": 0.736346516007533,
+      "precision": 0.7796610169491526,
+      "recall": 0.10526315789473684,
+      "reviewed": 59,
+      "captured": 46.0,
+      "oracle_risk": 0.711864406779661
+    },
+    "utility_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.7392857142857143,
+      "precision": 0.7666666666666667,
+      "recall": 0.05263157894736842,
+      "reviewed": 30,
+      "captured": 23
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.7392857142857143,
+      "precision": 0.7666666666666667,
+      "recall": 0.05263157894736842,
+      "reviewed": 30,
+      "captured": 23.0,
+      "oracle_risk": 0.7267857142857143
+    }
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "reference",
+    "n": 590,
+    "errors": 358,
+    "accuracy": 0.39322033898305087,
+    "auc": 0.5769962434983625,
+    "nll": 1.3390417653324298,
+    "brier": 0.4326612653094466,
+    "ece": 0.4152477999187352,
+    "fce": 0.40782122905027934,
+    "aurc": 0.48667342861380064,
+    "excess_aurc": 0.2464060932897467,
+    "prevalence": 0.6067796610169491,
+    "aurc_tie_averaged": 0.48667342861380064,
+    "excess_aurc_tie_averaged": 0.2464060932897467,
+    "augrc": 0.2850186727951738,
+    "oracle_aurc": 0.24026733532405395,
+    "utility_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6029055690072639,
+      "precision": 0.615819209039548,
+      "recall": 0.30446927374301674,
+      "reviewed": 177,
+      "captured": 109
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6029055690072639,
+      "precision": 0.615819209039548,
+      "recall": 0.30446927374301674,
+      "reviewed": 177,
+      "captured": 109.0,
+      "oracle_risk": 0.43825665859564167
+    },
+    "utility_0.8": {
+      "coverage": 0.8,
+      "risk": 0.6038135593220338,
+      "precision": 0.6186440677966102,
+      "recall": 0.20391061452513967,
+      "reviewed": 118,
+      "captured": 73
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.8,
+      "risk": 0.6038135593220338,
+      "precision": 0.6186440677966102,
+      "recall": 0.20391061452513967,
+      "reviewed": 118,
+      "captured": 73.0,
+      "oracle_risk": 0.5084745762711864
+    },
+    "utility_0.9": {
+      "coverage": 0.9,
+      "risk": 0.60075329566855,
+      "precision": 0.6610169491525424,
+      "recall": 0.10893854748603352,
+      "reviewed": 59,
+      "captured": 39
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.9,
+      "risk": 0.60075329566855,
+      "precision": 0.6610169491525424,
+      "recall": 0.10893854748603352,
+      "reviewed": 59,
+      "captured": 39.0,
+      "oracle_risk": 0.5630885122410546
+    },
+    "utility_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.6017857142857143,
+      "precision": 0.7,
+      "recall": 0.05865921787709497,
+      "reviewed": 30,
+      "captured": 21
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.6017857142857143,
+      "precision": 0.7,
+      "recall": 0.05865921787709497,
+      "reviewed": 30,
+      "captured": 21.0,
+      "oracle_risk": 0.5857142857142857
+    }
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "candidate",
+    "n": 590,
+    "errors": 358,
+    "accuracy": 0.39322033898305087,
+    "auc": 0.578705933346176,
+    "nll": 1.3681697875898315,
+    "brier": 0.4428356976574109,
+    "ece": 0.43280652133468467,
+    "fce": 0.4022346368715084,
+    "aurc": 0.48468061280790814,
+    "excess_aurc": 0.2444132774838542,
+    "prevalence": 0.6067796610169491,
+    "aurc_tie_averaged": 0.48468061280790814,
+    "excess_aurc_tie_averaged": 0.2444132774838542,
+    "augrc": 0.2846107440390692,
+    "oracle_aurc": 0.24026733532405395,
+    "utility_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6077481840193705,
+      "precision": 0.6045197740112994,
+      "recall": 0.2988826815642458,
+      "reviewed": 177,
+      "captured": 107
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6077481840193705,
+      "precision": 0.6045197740112994,
+      "recall": 0.2988826815642458,
+      "reviewed": 177,
+      "captured": 107.0,
+      "oracle_risk": 0.43825665859564167
+    },
+    "utility_0.8": {
+      "coverage": 0.8,
+      "risk": 0.6080508474576272,
+      "precision": 0.6016949152542372,
+      "recall": 0.19832402234636873,
+      "reviewed": 118,
+      "captured": 71
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.8,
+      "risk": 0.6080508474576272,
+      "precision": 0.6016949152542372,
+      "recall": 0.19832402234636873,
+      "reviewed": 118,
+      "captured": 71.0,
+      "oracle_risk": 0.5084745762711864
+    },
+    "utility_0.9": {
+      "coverage": 0.9,
+      "risk": 0.60075329566855,
+      "precision": 0.6610169491525424,
+      "recall": 0.10893854748603352,
+      "reviewed": 59,
+      "captured": 39
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.9,
+      "risk": 0.60075329566855,
+      "precision": 0.6610169491525424,
+      "recall": 0.10893854748603352,
+      "reviewed": 59,
+      "captured": 39.0,
+      "oracle_risk": 0.5630885122410546
+    },
+    "utility_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.6017857142857143,
+      "precision": 0.7,
+      "recall": 0.05865921787709497,
+      "reviewed": 30,
+      "captured": 21
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.6017857142857143,
+      "precision": 0.7,
+      "recall": 0.05865921787709497,
+      "reviewed": 30,
+      "captured": 21.0,
+      "oracle_risk": 0.5857142857142857
+    }
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "policy",
+    "n": 590,
+    "errors": 358,
+    "accuracy": 0.39322033898305087,
+    "auc": 0.5769962434983625,
+    "nll": 1.3390417653324298,
+    "brier": 0.4326612653094466,
+    "ece": 0.4152477999187352,
+    "fce": 0.40782122905027934,
+    "aurc": 0.48667342861380064,
+    "excess_aurc": 0.2464060932897467,
+    "prevalence": 0.6067796610169491,
+    "aurc_tie_averaged": 0.48667342861380064,
+    "excess_aurc_tie_averaged": 0.2464060932897467,
+    "augrc": 0.2850186727951738,
+    "oracle_aurc": 0.24026733532405395,
+    "utility_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6029055690072639,
+      "precision": 0.615819209039548,
+      "recall": 0.30446927374301674,
+      "reviewed": 177,
+      "captured": 109
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.7,
+      "risk": 0.6029055690072639,
+      "precision": 0.615819209039548,
+      "recall": 0.30446927374301674,
+      "reviewed": 177,
+      "captured": 109.0,
+      "oracle_risk": 0.43825665859564167
+    },
+    "utility_0.8": {
+      "coverage": 0.8,
+      "risk": 0.6038135593220338,
+      "precision": 0.6186440677966102,
+      "recall": 0.20391061452513967,
+      "reviewed": 118,
+      "captured": 73
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.8,
+      "risk": 0.6038135593220338,
+      "precision": 0.6186440677966102,
+      "recall": 0.20391061452513967,
+      "reviewed": 118,
+      "captured": 73.0,
+      "oracle_risk": 0.5084745762711864
+    },
+    "utility_0.9": {
+      "coverage": 0.9,
+      "risk": 0.60075329566855,
+      "precision": 0.6610169491525424,
+      "recall": 0.10893854748603352,
+      "reviewed": 59,
+      "captured": 39
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.9,
+      "risk": 0.60075329566855,
+      "precision": 0.6610169491525424,
+      "recall": 0.10893854748603352,
+      "reviewed": 59,
+      "captured": 39.0,
+      "oracle_risk": 0.5630885122410546
+    },
+    "utility_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.6017857142857143,
+      "precision": 0.7,
+      "recall": 0.05865921787709497,
+      "reviewed": 30,
+      "captured": 21
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9491525423728814,
+      "risk": 0.6017857142857143,
+      "precision": 0.7,
+      "recall": 0.05865921787709497,
+      "reviewed": 30,
+      "captured": 21.0,
+      "oracle_risk": 0.5857142857142857
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "dataset": "EthanolLevel",
+  "backbone": "Hydra",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.6533333333333333,
+    "Hydra": 0.6733333333333333
+  }
+}

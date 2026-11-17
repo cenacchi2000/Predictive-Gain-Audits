@@ -1,0 +1,8 @@
+{
+  "decomposition_and_failure_inequality_cases": 10000,
+  "adaptive_quadrature_reference_probability": 3.7745013360016444e-11,
+  "quad_reported_absolute_error": 6.338561504841055e-21,
+  "difference_from_100_node_quadrature": 9.08262407159124e-21,
+  "mixture_gain_independent_quadrature": 0.1840001438541394,
+  "passed": true
+}

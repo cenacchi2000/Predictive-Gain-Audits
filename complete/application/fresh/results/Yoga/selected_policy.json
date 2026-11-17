@@ -1,0 +1,9 @@
+{
+  "dataset": "Yoga",
+  "backbone": "Hydra",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.9,
+    "Hydra": 0.92
+  }
+}

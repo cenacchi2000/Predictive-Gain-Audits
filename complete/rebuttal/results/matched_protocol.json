@@ -1,0 +1,34 @@
+{
+  "seed": 20261107,
+  "repetitions": 100,
+  "K": [
+    3,
+    10,
+    50,
+    100
+  ],
+  "S": [
+    1000,
+    10000,
+    100000
+  ],
+  "n": [
+    2000,
+    8000
+  ],
+  "signal": [
+    0.7,
+    0.9
+  ],
+  "delta": 0.02,
+  "gamma": 0.01,
+  "alpha": 0.04,
+  "u": "fixed Dirichlet(5) per K",
+  "p": "least-mass extremizer",
+  "candidate": "fixed true conditional in controlled experiment, identical across every witness comparator",
+  "audit": "same outcomes and predictors for all witnesses; global witness event gamma; mean-score EB alpha",
+  "status": "full grid saved before first execution; reviewer-requested controlled experiment, not real-world validation",
+  "code_sha256": "9578fc6c2826893a4cb868cc41b47bd150a1375ca06003a58d1b84c1b31e16b8",
+  "original_code_sha256": "86cb9d9d68f7c155f7363e3d4938777f02bb6d773b0c6ec9c1388c3fedb389d5",
+  "execution_note": "First run completed computation but JSON serialization rejected numpy int64. Fixed scalar serialization only, reran identical seeds/grid."
+}

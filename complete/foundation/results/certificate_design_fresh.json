@@ -1,0 +1,1317 @@
+{
+  "seed": 30092026,
+  "calibration_cases": 300,
+  "audit_cases": 2000,
+  "trials": 500,
+  "epsilon": 0.01,
+  "alpha": 0.05,
+  "beta_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "B_grid": [
+    0.5,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "approximate_predictive": [
+    0.5,
+    0.05
+  ],
+  "true_baseline_predictive": [
+    0.5,
+    0.1
+  ],
+  "reverse_budgets": [
+    0.005,
+    0.021706501178764655
+  ],
+  "true_information_positive": 0.15540238305024476,
+  "summary": [
+    {
+      "S": 16,
+      "genuine": false,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.9058608990701259,
+      "lower_quantiles": [
+        -0.9224174199736453,
+        -0.9141115379227981,
+        -0.905522574808451,
+        -0.8965946589003101,
+        -0.8898729032182515
+      ],
+      "mean_gain": 0.049963933361058414,
+      "mean_witness": 0.8388697627964944,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 16,
+      "genuine": false,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.9122639179978635,
+      "lower_quantiles": [
+        -0.9300553187668965,
+        -0.921224775444747,
+        -0.9117133886998122,
+        -0.9028764375370831,
+        -0.8950159899195294
+      ],
+      "mean_gain": 0.050224501529209056,
+      "mean_witness": 0.8388697627964944,
+      "mean_beta": 0.01,
+      "mean_B": 2.65
+    },
+    {
+      "S": 16,
+      "genuine": false,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.8781588766268076,
+      "lower_quantiles": [
+        -0.8930181831073382,
+        -0.8860646473715159,
+        -0.8777975093856307,
+        -0.869983007024215,
+        -0.86354567133248
+      ],
+      "mean_gain": 0.049963933361058414,
+      "mean_witness": 0.7214459902947267,
+      "mean_beta": 0.030000000000000006,
+      "mean_B": 2.0
+    },
+    {
+      "S": 16,
+      "genuine": false,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.8790676023216276,
+      "lower_quantiles": [
+        -0.8939352935808453,
+        -0.8869730095569195,
+        -0.8782740787775405,
+        -0.8712017740713535,
+        -0.864871107397894
+      ],
+      "mean_gain": 0.04372151690947501,
+      "mean_witness": 0.7214459902947267,
+      "mean_beta": 0.030000000000000006,
+      "mean_B": 1.54
+    },
+    {
+      "S": 16,
+      "genuine": true,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.7713933153485681,
+      "lower_quantiles": [
+        -0.7928022399464141,
+        -0.7829817031061455,
+        -0.7725680061808317,
+        -0.7596505611467448,
+        -0.7481882883952997
+      ],
+      "mean_gain": 0.19709005291133885,
+      "mean_witness": 0.8386825713843861,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 16,
+      "genuine": true,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.7741090721859737,
+      "lower_quantiles": [
+        -0.7973411176644467,
+        -0.7854805910115614,
+        -0.7754133424537557,
+        -0.7612950238054175,
+        -0.749669240571888
+      ],
+      "mean_gain": 0.20584625636857745,
+      "mean_witness": 0.8386825713843861,
+      "mean_beta": 0.01,
+      "mean_B": 2.896
+    },
+    {
+      "S": 16,
+      "genuine": true,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.7439309629911924,
+      "lower_quantiles": [
+        -0.7642919288492405,
+        -0.7546288133078431,
+        -0.7447579502997683,
+        -0.7328884364544791,
+        -0.7220809857064338
+      ],
+      "mean_gain": 0.19709005291133885,
+      "mean_witness": 0.7212275535523818,
+      "mean_beta": 0.030000000000000006,
+      "mean_B": 2.0
+    },
+    {
+      "S": 16,
+      "genuine": true,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.7456884229144343,
+      "lower_quantiles": [
+        -0.7687141874755757,
+        -0.7576012898692437,
+        -0.7464241610453212,
+        -0.7338519904884391,
+        -0.7226629396701905
+      ],
+      "mean_gain": 0.1995186881761946,
+      "mean_witness": 0.7212275535523818,
+      "mean_beta": 0.030000000000000006,
+      "mean_B": 2.33
+    },
+    {
+      "S": 32,
+      "genuine": false,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.5715022225805699,
+      "lower_quantiles": [
+        -0.5819516305610858,
+        -0.576995195477837,
+        -0.571932432788679,
+        -0.5660601820467708,
+        -0.5606323411199539
+      ],
+      "mean_gain": 0.030811408728424226,
+      "mean_witness": 0.4962583263745561,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 32,
+      "genuine": false,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.5760280610328403,
+      "lower_quantiles": [
+        -0.5883245337192954,
+        -0.5829280628705611,
+        -0.5768146295051655,
+        -0.5687023317811726,
+        -0.5627282074608121
+      ],
+      "mean_gain": 0.029853990194531208,
+      "mean_witness": 0.4962583263745561,
+      "mean_beta": 0.01,
+      "mean_B": 2.404
+    },
+    {
+      "S": 32,
+      "genuine": false,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.5715022225805699,
+      "lower_quantiles": [
+        -0.5819516305610858,
+        -0.576995195477837,
+        -0.571932432788679,
+        -0.5660601820467708,
+        -0.5606323411199539
+      ],
+      "mean_gain": 0.030811408728424226,
+      "mean_witness": 0.4962583263745561,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 32,
+      "genuine": false,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.5677466542533645,
+      "lower_quantiles": [
+        -0.5772596110414495,
+        -0.5726941154960318,
+        -0.5680812888314228,
+        -0.562427922993588,
+        -0.5578530825724377
+      ],
+      "mean_gain": 0.023245318266884914,
+      "mean_witness": 0.4962583263745561,
+      "mean_beta": 0.01,
+      "mean_B": 0.967
+    },
+    {
+      "S": 32,
+      "genuine": true,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.43497141870421213,
+      "lower_quantiles": [
+        -0.45221905111748834,
+        -0.44438464769050123,
+        -0.43576546107061725,
+        -0.4247975569485736,
+        -0.4164201913219658
+      ],
+      "mean_gain": 0.18256032779845122,
+      "mean_witness": 0.4957370153386316,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 32,
+      "genuine": true,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.4401973107930513,
+      "lower_quantiles": [
+        -0.45951393240837074,
+        -0.4499061341222469,
+        -0.4399903335259678,
+        -0.4294350823076997,
+        -0.42023804314544827
+      ],
+      "mean_gain": 0.1851260598240454,
+      "mean_witness": 0.4957370153386316,
+      "mean_beta": 0.01,
+      "mean_B": 2.748
+    },
+    {
+      "S": 32,
+      "genuine": true,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.43497141870421213,
+      "lower_quantiles": [
+        -0.45221905111748834,
+        -0.44438464769050123,
+        -0.43576546107061725,
+        -0.4247975569485736,
+        -0.4164201913219658
+      ],
+      "mean_gain": 0.18256032779845122,
+      "mean_witness": 0.4957370153386316,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 32,
+      "genuine": true,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.4367323397503744,
+      "lower_quantiles": [
+        -0.45534711177835174,
+        -0.4471385913976741,
+        -0.43726263990425634,
+        -0.42639720415871096,
+        -0.4172132080898023
+      ],
+      "mean_gain": 0.1805367094348495,
+      "mean_witness": 0.4957370153386316,
+      "mean_beta": 0.01,
+      "mean_B": 2.02
+    },
+    {
+      "S": 64,
+      "genuine": false,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.38212893757554334,
+      "lower_quantiles": [
+        -0.3902454418505947,
+        -0.3858839346139177,
+        -0.38177572892875095,
+        -0.37793519773724743,
+        -0.37419668485897234
+      ],
+      "mean_gain": 0.022324652811403285,
+      "mean_witness": 0.30329632245590754,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 64,
+      "genuine": false,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.3836739784263359,
+      "lower_quantiles": [
+        -0.39573169239487826,
+        -0.3901680327136319,
+        -0.38370279246626954,
+        -0.37670891951454555,
+        -0.37210659430675636
+      ],
+      "mean_gain": 0.021132809156044336,
+      "mean_witness": 0.30329632245590754,
+      "mean_beta": 0.01,
+      "mean_B": 2.124
+    },
+    {
+      "S": 64,
+      "genuine": false,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.38212893757554334,
+      "lower_quantiles": [
+        -0.3902454418505947,
+        -0.3858839346139177,
+        -0.38177572892875095,
+        -0.37793519773724743,
+        -0.37419668485897234
+      ],
+      "mean_gain": 0.022324652811403285,
+      "mean_witness": 0.30329632245590754,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 64,
+      "genuine": false,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.3739054565111032,
+      "lower_quantiles": [
+        -0.38078344042173917,
+        -0.3773975709307687,
+        -0.37368722031700646,
+        -0.37010185225096626,
+        -0.3674679873803663
+      ],
+      "mean_gain": 0.016088101668182853,
+      "mean_witness": 0.30329632245590754,
+      "mean_beta": 0.01,
+      "mean_B": 0.743
+    },
+    {
+      "S": 64,
+      "genuine": true,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.24663475116041786,
+      "lower_quantiles": [
+        -0.2638060569232291,
+        -0.25578513676995907,
+        -0.2473747414380299,
+        -0.23693888191787016,
+        -0.22885612450162968
+      ],
+      "mean_gain": 0.17560274920355046,
+      "mean_witness": 0.30299460172934256,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 64,
+      "genuine": true,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.2517680113406823,
+      "lower_quantiles": [
+        -0.26975721874056136,
+        -0.26112023790784916,
+        -0.25196646098775527,
+        -0.24194515958632407,
+        -0.23298231246481071
+      ],
+      "mean_gain": 0.17647085104585508,
+      "mean_witness": 0.30299460172934256,
+      "mean_beta": 0.01,
+      "mean_B": 2.618
+    },
+    {
+      "S": 64,
+      "genuine": true,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.24663475116041786,
+      "lower_quantiles": [
+        -0.2638060569232291,
+        -0.25578513676995907,
+        -0.2473747414380299,
+        -0.23693888191787016,
+        -0.22885612450162968
+      ],
+      "mean_gain": 0.17560274920355046,
+      "mean_witness": 0.30299460172934256,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 64,
+      "genuine": true,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.24879125927309756,
+      "lower_quantiles": [
+        -0.2663809458194717,
+        -0.2583911693889331,
+        -0.24932865184941957,
+        -0.23983726230150068,
+        -0.23044800885985112
+      ],
+      "mean_gain": 0.170200423909191,
+      "mean_witness": 0.30299460172934256,
+      "mean_beta": 0.01,
+      "mean_B": 1.832
+    },
+    {
+      "S": 128,
+      "genuine": false,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.27239997417337297,
+      "lower_quantiles": [
+        -0.278691867233625,
+        -0.2757322711237875,
+        -0.27212955772923697,
+        -0.26932251255953554,
+        -0.26621535451837364
+      ],
+      "mean_gain": 0.01568469441923211,
+      "mean_witness": 0.19105406305532177,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 128,
+      "genuine": false,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.2698877532707656,
+      "lower_quantiles": [
+        -0.2796189879540736,
+        -0.2751443816940319,
+        -0.26996478145819647,
+        -0.2640248012060409,
+        -0.26015052836000996
+      ],
+      "mean_gain": 0.014768831011595469,
+      "mean_witness": 0.19105406305532177,
+      "mean_beta": 0.01,
+      "mean_B": 1.7
+    },
+    {
+      "S": 128,
+      "genuine": false,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.27239997417337297,
+      "lower_quantiles": [
+        -0.278691867233625,
+        -0.2757322711237875,
+        -0.27212955772923697,
+        -0.26932251255953554,
+        -0.26621535451837364
+      ],
+      "mean_gain": 0.01568469441923211,
+      "mean_witness": 0.19105406305532177,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 128,
+      "genuine": false,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.26117226181866476,
+      "lower_quantiles": [
+        -0.265964393590723,
+        -0.2636066486831673,
+        -0.26090612603433694,
+        -0.2587773694536705,
+        -0.25648257072149944
+      ],
+      "mean_gain": 0.011300307948746582,
+      "mean_witness": 0.19105406305532177,
+      "mean_beta": 0.01,
+      "mean_B": 0.587
+    },
+    {
+      "S": 128,
+      "genuine": true,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.13858952561290788,
+      "lower_quantiles": [
+        -0.15547538558849655,
+        -0.14801788547162287,
+        -0.13917530108001763,
+        -0.13031116608233811,
+        -0.1222098348223809
+      ],
+      "mean_gain": 0.17089108786967883,
+      "mean_witness": 0.1910573359279214,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 128,
+      "genuine": true,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.14369591243636673,
+      "lower_quantiles": [
+        -0.16075366167031874,
+        -0.15227813900430004,
+        -0.14369350132731717,
+        -0.135035105906977,
+        -0.12674170512186353
+      ],
+      "mean_gain": 0.1705635169874295,
+      "mean_witness": 0.1910573359279214,
+      "mean_beta": 0.01,
+      "mean_B": 2.548
+    },
+    {
+      "S": 128,
+      "genuine": true,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.13858952561290788,
+      "lower_quantiles": [
+        -0.15547538558849655,
+        -0.14801788547162287,
+        -0.13917530108001763,
+        -0.13031116608233811,
+        -0.1222098348223809
+      ],
+      "mean_gain": 0.17089108786967883,
+      "mean_witness": 0.1910573359279214,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 128,
+      "genuine": true,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.14061467137628098,
+      "lower_quantiles": [
+        -0.15597458202582962,
+        -0.149632168542575,
+        -0.14119971994222713,
+        -0.13186515281174627,
+        -0.12471313860419442
+      ],
+      "mean_gain": 0.1629228373683677,
+      "mean_witness": 0.1910573359279214,
+      "mean_beta": 0.01,
+      "mean_B": 1.712
+    },
+    {
+      "S": 256,
+      "genuine": false,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.2080698531549847,
+      "lower_quantiles": [
+        -0.21316122864340029,
+        -0.21077370744935658,
+        -0.20805033181371724,
+        -0.2054445782487508,
+        -0.20229400603005582
+      ],
+      "mean_gain": 0.012635346829254716,
+      "mean_witness": 0.1253982312703643,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 256,
+      "genuine": false,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.20228421291537968,
+      "lower_quantiles": [
+        -0.21146066311045367,
+        -0.2081271567714447,
+        -0.20151845391183254,
+        -0.19668461451744573,
+        -0.19337375893217473
+      ],
+      "mean_gain": 0.011832332036166049,
+      "mean_witness": 0.1253982312703643,
+      "mean_beta": 0.01,
+      "mean_B": 1.371
+    },
+    {
+      "S": 256,
+      "genuine": false,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.19534943017645082,
+      "lower_quantiles": [
+        -0.20067034977439913,
+        -0.19816880528178876,
+        -0.19529707638229818,
+        -0.19270438548331614,
+        -0.18932706134951677
+      ],
+      "mean_gain": 0.012635346829254716,
+      "mean_witness": 0.1537669088437916,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 2.0
+    },
+    {
+      "S": 256,
+      "genuine": false,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.18219720530521732,
+      "lower_quantiles": [
+        -0.18625281298476434,
+        -0.18435948700781396,
+        -0.1820597536666813,
+        -0.18000568981252052,
+        -0.17776333052336354
+      ],
+      "mean_gain": 0.009842286193718809,
+      "mean_witness": 0.1537669088437916,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 0.546
+    },
+    {
+      "S": 256,
+      "genuine": true,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.07630442832864066,
+      "lower_quantiles": [
+        -0.09256827060669702,
+        -0.08476697768988166,
+        -0.07614988300396583,
+        -0.0678822929556007,
+        -0.05991959387407317
+      ],
+      "mean_gain": 0.16759044283666702,
+      "mean_witness": 0.12535497364221482,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 256,
+      "genuine": true,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.08032643909700317,
+      "lower_quantiles": [
+        -0.0967556043862006,
+        -0.08870628400772078,
+        -0.07979949416643747,
+        -0.0717689568314378,
+        -0.06320155567508393
+      ],
+      "mean_gain": 0.16634075389138359,
+      "mean_witness": 0.12535497364221482,
+      "mean_beta": 0.01,
+      "mean_B": 2.384
+    },
+    {
+      "S": 256,
+      "genuine": true,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.06352440744831576,
+      "lower_quantiles": [
+        -0.07993783783090641,
+        -0.07203363902428025,
+        -0.06361734233507987,
+        -0.054985371681450665,
+        -0.04712107637286009
+      ],
+      "mean_gain": 0.16759044283666702,
+      "mean_witness": 0.15371558328987792,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 2.0
+    },
+    {
+      "S": 256,
+      "genuine": true,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.06488466092780926,
+      "lower_quantiles": [
+        -0.07815126657885482,
+        -0.07195934626683756,
+        -0.06557988779750676,
+        -0.057903841765059305,
+        -0.05042125629955636
+      ],
+      "mean_gain": 0.157326714462086,
+      "mean_witness": 0.15371558328987792,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 1.59
+    },
+    {
+      "S": 512,
+      "genuine": false,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.1684834763459119,
+      "lower_quantiles": [
+        -0.17295115827108112,
+        -0.1707313374954902,
+        -0.16865927195218874,
+        -0.16599610953045524,
+        -0.16376142048349504
+      ],
+      "mean_gain": 0.011086483390237746,
+      "mean_witness": 0.08598944549339356,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 512,
+      "genuine": false,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.16165248656153433,
+      "lower_quantiles": [
+        -0.1705795882910051,
+        -0.16727748774645684,
+        -0.16084486827429167,
+        -0.156437574976151,
+        -0.15360436648618453
+      ],
+      "mean_gain": 0.01052133316355096,
+      "mean_witness": 0.08598944549339356,
+      "mean_beta": 0.01,
+      "mean_B": 1.243
+    },
+    {
+      "S": 512,
+      "genuine": false,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.14475248666556179,
+      "lower_quantiles": [
+        -0.14934007141067457,
+        -0.14712851869538385,
+        -0.14496612993490363,
+        -0.14229163237759995,
+        -0.1400135371348193
+      ],
+      "mean_gain": 0.011086483390237746,
+      "mean_witness": 0.10352135327412422,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 2.0
+    },
+    {
+      "S": 512,
+      "genuine": false,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.13126431117292486,
+      "lower_quantiles": [
+        -0.13469592014054738,
+        -0.13309679745808872,
+        -0.1313695985939994,
+        -0.12956015996682552,
+        -0.1276123555381731
+      ],
+      "mean_gain": 0.009068144067475699,
+      "mean_witness": 0.10352135327412422,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 0.524
+    },
+    {
+      "S": 512,
+      "genuine": true,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.002,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.035524192179067667,
+      "lower_quantiles": [
+        -0.050900743168118885,
+        -0.043435636351638274,
+        -0.03522870013825597,
+        -0.026489451883775956,
+        -0.020806780887623645
+      ],
+      "mean_gain": 0.16596933504024922,
+      "mean_witness": 0.08604670031553185,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 512,
+      "genuine": true,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.002,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.03761115450991181,
+      "lower_quantiles": [
+        -0.054263702255585106,
+        -0.046417737955501956,
+        -0.037206926656318334,
+        -0.02804693625930367,
+        -0.02206628699135754
+      ],
+      "mean_gain": 0.16549237993188767,
+      "mean_witness": 0.08604670031553185,
+      "mean_beta": 0.01,
+      "mean_B": 2.214
+    },
+    {
+      "S": 512,
+      "genuine": true,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.166,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.011813929344775103,
+      "lower_quantiles": [
+        -0.02709016679997063,
+        -0.019947842018813042,
+        -0.01147708437816184,
+        -0.002797714532683371,
+        0.0032544218197323796
+      ],
+      "mean_gain": 0.16596933504024922,
+      "mean_witness": 0.10358841815410746,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 2.0
+    },
+    {
+      "S": 512,
+      "genuine": true,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.116,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.013359873702507448,
+      "lower_quantiles": [
+        -0.0268100874158921,
+        -0.02081239829341838,
+        -0.013822938523710433,
+        -0.0056946587893235865,
+        0.0013395246392815838
+      ],
+      "mean_gain": 0.15774038561961617,
+      "mean_witness": 0.10358841815410746,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 1.654
+    },
+    {
+      "S": 1024,
+      "genuine": false,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.1448623279870584,
+      "lower_quantiles": [
+        -0.14937770422298133,
+        -0.14722893892079186,
+        -0.1447347623272816,
+        -0.14264911032587754,
+        -0.14041534748186876
+      ],
+      "mean_gain": 0.010811532114835029,
+      "mean_witness": 0.06181691040971973,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 1024,
+      "genuine": false,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.13714331481249553,
+      "lower_quantiles": [
+        -0.14688064503888582,
+        -0.143012514365598,
+        -0.13645102400356057,
+        -0.13069407978615716,
+        -0.12850961412949635
+      ],
+      "mean_gain": 0.010213809580394305,
+      "mean_witness": 0.06181691040971973,
+      "mean_beta": 0.01,
+      "mean_B": 1.186
+    },
+    {
+      "S": 1024,
+      "genuine": false,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.11456224788382371,
+      "lower_quantiles": [
+        -0.11921767688319222,
+        -0.11698917366956002,
+        -0.11445277793333297,
+        -0.11230453895451095,
+        -0.11011916195430774
+      ],
+      "mean_gain": 0.010811532114835029,
+      "mean_witness": 0.07288337710606538,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 2.0
+    },
+    {
+      "S": 1024,
+      "genuine": false,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.09996971116500371,
+      "lower_quantiles": [
+        -0.1034036924106383,
+        -0.10148930678738252,
+        -0.09958771371417406,
+        -0.09817524811425785,
+        -0.09675696976015653
+      ],
+      "mean_gain": 0.009125450271987212,
+      "mean_witness": 0.07288337710606538,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 0.522
+    },
+    {
+      "S": 1024,
+      "genuine": true,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.162,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.01109930095365724,
+      "lower_quantiles": [
+        -0.025615371175809035,
+        -0.018222402531073864,
+        -0.010545007887024449,
+        -0.0038256729860236156,
+        0.003651119999101174
+      ],
+      "mean_gain": 0.1658122966266541,
+      "mean_witness": 0.06172212160151153,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 1024,
+      "genuine": true,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.162,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.011204587430766863,
+      "lower_quantiles": [
+        -0.0253842509603619,
+        -0.018468388162037202,
+        -0.010794375891381353,
+        -0.004142389245514678,
+        0.003651119999101174
+      ],
+      "mean_gain": 0.16540893457460432,
+      "mean_witness": 0.06172212160151153,
+      "mean_beta": 0.01,
+      "mean_B": 1.988
+    },
+    {
+      "S": 1024,
+      "genuine": true,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.948,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": 0.019179123364615167,
+      "lower_quantiles": [
+        0.004756545819610399,
+        0.012050269303074027,
+        0.019677582569325364,
+        0.02643990365876494,
+        0.03401406809318692
+      ],
+      "mean_gain": 0.1658122966266541,
+      "mean_witness": 0.07277304032833151,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 2.0
+    },
+    {
+      "S": 1024,
+      "genuine": true,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.952,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": 0.01783793928690266,
+      "lower_quantiles": [
+        0.005078904667610514,
+        0.011296921579731573,
+        0.017520575393256306,
+        0.024117099136473596,
+        0.030739816335308083
+      ],
+      "mean_gain": 0.15815554896383605,
+      "mean_witness": 0.07277304032833151,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 1.674
+    },
+    {
+      "S": 2048,
+      "genuine": false,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.13132205796721985,
+      "lower_quantiles": [
+        -0.13624614063131302,
+        -0.13416526987571573,
+        -0.1314194324414894,
+        -0.1286331165379791,
+        -0.12627929626235107
+      ],
+      "mean_gain": 0.009339007146839285,
+      "mean_witness": 0.046363990331746305,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 2048,
+      "genuine": false,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.12241240005453088,
+      "lower_quantiles": [
+        -0.13221626315971066,
+        -0.12816122259227,
+        -0.12141826167385648,
+        -0.1163495790400211,
+        -0.11378661913378092
+      ],
+      "mean_gain": 0.008845035131995286,
+      "mean_witness": 0.046363990331746305,
+      "mean_beta": 0.01,
+      "mean_B": 1.089
+    },
+    {
+      "S": 2048,
+      "genuine": false,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.09698695360878036,
+      "lower_quantiles": [
+        -0.10192479626720567,
+        -0.09986210575918465,
+        -0.09705143323426117,
+        -0.09426604740308525,
+        -0.09190868811991414
+      ],
+      "mean_gain": 0.009339007146839285,
+      "mean_witness": 0.053440802993224075,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 2.0
+    },
+    {
+      "S": 2048,
+      "genuine": false,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 0.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": -0.0815092241554824,
+      "lower_quantiles": [
+        -0.08498355063544234,
+        -0.08316662359702012,
+        -0.08143462131522898,
+        -0.07964014050329853,
+        -0.07794454560931308
+      ],
+      "mean_gain": 0.008137645267698269,
+      "mean_witness": 0.053440802993224075,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 0.517
+    },
+    {
+      "S": 2048,
+      "genuine": true,
+      "method": "fixed",
+      "trials": 500,
+      "positive_rate": 0.596,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": 0.0030980367802440323,
+      "lower_quantiles": [
+        -0.012679214947367068,
+        -0.004993506181059336,
+        0.0031349553899688437,
+        0.010680019392770433,
+        0.018907188965098423
+      ],
+      "mean_gain": 0.16612775270512634,
+      "mean_witness": 0.046349876215078786,
+      "mean_beta": 0.01,
+      "mean_B": 2.0
+    },
+    {
+      "S": 2048,
+      "genuine": true,
+      "method": "gain_selected",
+      "trials": 500,
+      "positive_rate": 0.594,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": 0.0029563707515829723,
+      "lower_quantiles": [
+        -0.012368968513850345,
+        -0.004982779724215455,
+        0.002817184208779744,
+        0.010577686421790251,
+        0.018723153282966722
+      ],
+      "mean_gain": 0.16513760000026542,
+      "mean_witness": 0.046349876215078786,
+      "mean_beta": 0.01,
+      "mean_B": 1.96
+    },
+    {
+      "S": 2048,
+      "genuine": true,
+      "method": "witness_selected",
+      "trials": 500,
+      "positive_rate": 1.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": 0.03740016805749851,
+      "lower_quantiles": [
+        0.021581298705516526,
+        0.029289451409731094,
+        0.037328033322204524,
+        0.04506767996405496,
+        0.053256131581578506
+      ],
+      "mean_gain": 0.16612775270512634,
+      "mean_witness": 0.05342453177853599,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 2.0
+    },
+    {
+      "S": 2048,
+      "genuine": true,
+      "method": "bound_selected",
+      "trials": 500,
+      "positive_rate": 1.0,
+      "coverage_failure_rate": 0.0,
+      "mean_lower": 0.036288524765215144,
+      "lower_quantiles": [
+        0.023546623982213948,
+        0.02942330902754201,
+        0.03593311865688328,
+        0.04266262266256998,
+        0.04928555992244742
+      ],
+      "mean_gain": 0.1553600211441749,
+      "mean_witness": 0.05342453177853599,
+      "mean_beta": 0.0010000000000000005,
+      "mean_B": 1.546
+    }
+  ],
+  "note": "Controlled heterogeneous distribution. Candidate probabilities are fitted from 4,000 independent training examples per S and information condition, with Jeffreys-smoothed four-cell frequencies. Full grid and seed were recorded before this run. Calibration and audit samples are independent. Selection maximizes a calibration proxy; only the audit bound is a confidence statement."
+}

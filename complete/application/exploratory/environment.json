@@ -1,0 +1,10 @@
+{
+  "python": "3.13.7 | packaged by Anaconda, Inc. | (main, Sep  9 2025, 19:54:17) [Clang 17.0.6 ]",
+  "numpy": "1.26.4",
+  "scipy": "1.16.2",
+  "sklearn": "1.7.2",
+  "platform": "macOS-26.7-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "elapsed_seconds": 202.37137699127197,
+  "cpu_threads_per_forest": 4
+}

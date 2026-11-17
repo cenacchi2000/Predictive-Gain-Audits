@@ -1,0 +1,60 @@
+{
+  "beta": 0.01,
+  "delta": 0.02,
+  "rows": [
+    {
+      "K": 3,
+      "S": 100,
+      "trials": 1000,
+      "mean_bound": 0.7789787331719601,
+      "mean_actual": 0.03106963722576275,
+      "vacuous_fraction": 0.041,
+      "failure_fraction": 0.0
+    },
+    {
+      "K": 3,
+      "S": 10000,
+      "trials": 1000,
+      "mean_bound": 0.08880108837523389,
+      "mean_actual": 0.02120254929160867,
+      "vacuous_fraction": 0.0,
+      "failure_fraction": 0.0
+    },
+    {
+      "K": 10,
+      "S": 100,
+      "trials": 1000,
+      "mean_bound": 5.347107530717467,
+      "mean_actual": 0.0709804239258072,
+      "vacuous_fraction": 1.0,
+      "failure_fraction": 0.0
+    },
+    {
+      "K": 10,
+      "S": 10000,
+      "trials": 1000,
+      "mean_bound": 0.6176616673058286,
+      "mean_actual": 0.02787378856111382,
+      "vacuous_fraction": 0.0,
+      "failure_fraction": 0.0
+    },
+    {
+      "K": 50,
+      "S": 100,
+      "trials": 1000,
+      "mean_bound": 5.521460917862245,
+      "mean_actual": 0.2109265191166291,
+      "vacuous_fraction": 1.0,
+      "failure_fraction": 0.0
+    },
+    {
+      "K": 50,
+      "S": 10000,
+      "trials": 1000,
+      "mean_bound": 9.905984432734716,
+      "mean_actual": 0.037567950624215106,
+      "vacuous_fraction": 1.0,
+      "failure_fraction": 0.0
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "ElectricDevices",
+    "duplicate_waveforms_with_multiple_labels": 26
+  },
+  {
+    "dataset": "StarLightCurves",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "Crop",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "Phoneme",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "FaceAll",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "TwoPatterns",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "PenDigits",
+    "duplicate_waveforms_with_multiple_labels": 0
+  },
+  {
+    "dataset": "LSST",
+    "duplicate_waveforms_with_multiple_labels": 0
+  }
+]

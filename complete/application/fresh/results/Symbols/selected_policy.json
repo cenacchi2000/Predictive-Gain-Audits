@@ -1,0 +1,9 @@
+{
+  "dataset": "Symbols",
+  "backbone": "Hydra",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.976027397260274,
+    "Hydra": 0.976027397260274
+  }
+}

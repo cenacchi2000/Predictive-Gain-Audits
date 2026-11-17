@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    20260927,
+    20261001,
+    20261007
+  ],
+  "train_fraction": 0.4,
+  "witness_fraction": 0.3,
+  "audit_fraction": 0.3,
+  "B": 2.0,
+  "epsilon": 0.02,
+  "posterior_draws": 512,
+  "prior_precision": 1.0,
+  "alpha_per_audit": 0.002777777777777778,
+  "gamma_per_witness": 0.002777777777777778,
+  "family_total_error": 0.05,
+  "family_size": 9,
+  "permutations": 999,
+  "H": "two groups from training median of mean texture (WDBC), mean pixel intensity (digits), alcohol (wine)",
+  "labels": "natural labels: malignant; digit>=5; wine class0",
+  "candidate": "Laplace approximation to continuous Bayesian logistic posterior with standard-normal prior",
+  "scope": "finite-context natural-label information, iid-superpopulation assumption; not conditional on the original unbinned covariate",
+  "status": "Fixed before first execution; exploratory new experiment, not external preregistration",
+  "code_sha256": "36af7b4edab332e65288fc318310177a6028fcec2fd04a63e4ea81c65815cd96"
+}

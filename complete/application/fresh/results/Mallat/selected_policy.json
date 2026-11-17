@@ -1,0 +1,9 @@
+{
+  "dataset": "Mallat",
+  "backbone": "MiniRocket",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.968705547652916,
+    "Hydra": 0.9587482219061166
+  }
+}

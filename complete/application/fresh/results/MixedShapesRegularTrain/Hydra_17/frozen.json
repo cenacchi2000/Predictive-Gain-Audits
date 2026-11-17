@@ -1,0 +1,21 @@
+{
+  "dataset": "MixedShapesRegularTrain",
+  "backbone": "Hydra",
+  "seed": 17,
+  "reference": "atypicality/lr1",
+  "candidate": "spectral_controls/lr01",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.0414100277755363,
+  "calibration_candidate_nll": 0.04090613519667216,
+  "calibration_n": 725,
+  "gate_n": 1210,
+  "assessment_n": 484,
+  "calibration_errors": 10,
+  "fraction": 0.25,
+  "calibration_logwealth_rate": 0.0006254315410595812,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.9724137931034482,
+    "Hydra": 0.9862068965517241
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}

@@ -1,0 +1,9 @@
+{
+  "dataset": "MedicalImages",
+  "backbone": "MiniRocket",
+  "seed": 17,
+  "calibration_accuracies": {
+    "MiniRocket": 0.788546255506608,
+    "Hydra": 0.7004405286343612
+  }
+}

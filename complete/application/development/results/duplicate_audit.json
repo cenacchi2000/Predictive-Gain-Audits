@@ -1,0 +1,86 @@
+[
+  {
+    "dataset": "ElectricDevices",
+    "train_duplicate_rows": 169,
+    "audit_duplicate_rows": 251,
+    "audit_rows_matching_train": 208,
+    "cross_role_duplicate_groups": 71
+  },
+  {
+    "dataset": "StarLightCurves",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 0,
+    "audit_rows_matching_train": 0,
+    "cross_role_duplicate_groups": 0
+  },
+  {
+    "dataset": "Crop",
+    "train_duplicate_rows": 680,
+    "audit_duplicate_rows": 2703,
+    "audit_rows_matching_train": 2753,
+    "cross_role_duplicate_groups": 1083
+  },
+  {
+    "dataset": "ChlorineConcentration",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 0,
+    "audit_rows_matching_train": 0,
+    "cross_role_duplicate_groups": 0
+  },
+  {
+    "dataset": "NonInvasiveFetalECGThorax1",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 0,
+    "audit_rows_matching_train": 0,
+    "cross_role_duplicate_groups": 0
+  },
+  {
+    "dataset": "Phoneme",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 0,
+    "audit_rows_matching_train": 0,
+    "cross_role_duplicate_groups": 0
+  },
+  {
+    "dataset": "UWaveGestureLibraryAll",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 0,
+    "audit_rows_matching_train": 0,
+    "cross_role_duplicate_groups": 0
+  },
+  {
+    "dataset": "InsectWingbeatSound",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 0,
+    "audit_rows_matching_train": 0,
+    "cross_role_duplicate_groups": 0
+  },
+  {
+    "dataset": "FaceAll",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 2,
+    "audit_rows_matching_train": 1,
+    "cross_role_duplicate_groups": 2
+  },
+  {
+    "dataset": "TwoPatterns",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 0,
+    "audit_rows_matching_train": 0,
+    "cross_role_duplicate_groups": 0
+  },
+  {
+    "dataset": "PenDigits",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 0,
+    "audit_rows_matching_train": 0,
+    "cross_role_duplicate_groups": 0
+  },
+  {
+    "dataset": "LSST",
+    "train_duplicate_rows": 0,
+    "audit_duplicate_rows": 0,
+    "audit_rows_matching_train": 0,
+    "cross_role_duplicate_groups": 0
+  }
+]

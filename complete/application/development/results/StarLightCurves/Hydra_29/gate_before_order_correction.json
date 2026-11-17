@@ -1,0 +1,9 @@
+{
+  "log_e": 1.5337647347709038,
+  "log_threshold": 6.866933284461882,
+  "authorized": false,
+  "mean_gain": 0.002092913065580042,
+  "empirical_bernstein_lcb": -0.00834150098126667,
+  "n": 2471,
+  "bound": 0.5
+}

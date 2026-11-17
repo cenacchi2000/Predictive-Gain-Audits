@@ -1,0 +1,21 @@
+{
+  "dataset": "MedicalImages",
+  "backbone": "MiniRocket",
+  "seed": 17,
+  "reference": "time/lr01",
+  "candidate": "spectral_controls/gb15",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.38031390924164654,
+  "calibration_candidate_nll": 0.37635112773307144,
+  "calibration_n": 227,
+  "gate_n": 380,
+  "assessment_n": 152,
+  "calibration_errors": 48,
+  "fraction": 0.25,
+  "calibration_logwealth_rate": 0.004408427449538397,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.788546255506608,
+    "Hydra": 0.7004405286343612
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}

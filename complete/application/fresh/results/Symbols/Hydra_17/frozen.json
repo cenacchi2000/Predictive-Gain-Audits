@@ -1,0 +1,21 @@
+{
+  "dataset": "Symbols",
+  "backbone": "Hydra",
+  "seed": 17,
+  "reference": "atypicality/lr1",
+  "candidate": "offset_spectral/0.1",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.06877855086006028,
+  "calibration_candidate_nll": 0.0678312397090135,
+  "calibration_n": 292,
+  "gate_n": 488,
+  "assessment_n": 195,
+  "calibration_errors": 7,
+  "fraction": 0.5,
+  "calibration_logwealth_rate": 0.002280903209584645,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.976027397260274,
+    "Hydra": 0.976027397260274
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}

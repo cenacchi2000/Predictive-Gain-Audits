@@ -1,0 +1,17 @@
+{
+  "dataset": "FaceAll",
+  "backbone": "Hydra",
+  "seed": 29,
+  "reference": "atypicality/lr1",
+  "candidate": "offset_spectral/1.0",
+  "bound": 2.0,
+  "calibration_reference_nll": 0.026295872367157642,
+  "calibration_candidate_nll": 0.024207148381207792,
+  "calibration_n": 674,
+  "gate_n": 506,
+  "assessment_n": 507,
+  "calibration_errors": 63,
+  "code_sha256": "f0ce00e93f9ae13bd290198ae15f851db4b69de5bb1d1e041af401f28838cb31",
+  "gate_order": "hash-v1",
+  "gate_order_correction_sha256": "5ac35e6f93253356acfa0b3fbcc9f80b211aa95c80d79ded1eab063caa71edbd"
+}

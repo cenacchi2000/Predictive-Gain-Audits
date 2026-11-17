@@ -1,0 +1,142 @@
+[
+  {
+    "dataset": "Yoga",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 7.105427357601002e-14,
+    "finite": true
+  },
+  {
+    "dataset": "Yoga",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 3.3306690738754696e-15,
+    "finite": true
+  },
+  {
+    "dataset": "Mallat",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 1.6342482922482304e-13,
+    "finite": true
+  },
+  {
+    "dataset": "Mallat",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 6.661338147750939e-15,
+    "finite": true
+  },
+  {
+    "dataset": "MixedShapesRegularTrain",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 2.984279490192421e-13,
+    "finite": true
+  },
+  {
+    "dataset": "MixedShapesRegularTrain",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 7.327471962526033e-15,
+    "finite": true
+  },
+  {
+    "dataset": "CinCECGTorso",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 9.50350909079134e-14,
+    "finite": true
+  },
+  {
+    "dataset": "CinCECGTorso",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 7.327471962526033e-15,
+    "finite": true
+  },
+  {
+    "dataset": "Symbols",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 4.3520742565306136e-14,
+    "finite": true
+  },
+  {
+    "dataset": "Symbols",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 5.329070518200751e-15,
+    "finite": true
+  },
+  {
+    "dataset": "ShapesAll",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 1.7408297026122455e-13,
+    "finite": true
+  },
+  {
+    "dataset": "ShapesAll",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 4.884981308350689e-15,
+    "finite": true
+  },
+  {
+    "dataset": "EthanolLevel",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 1.4210854715202004e-12,
+    "finite": true
+  },
+  {
+    "dataset": "EthanolLevel",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 4.6629367034256575e-15,
+    "finite": true
+  },
+  {
+    "dataset": "SemgHandGenderCh2",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 5.826450433232822e-13,
+    "finite": true
+  },
+  {
+    "dataset": "SemgHandGenderCh2",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 3.552713678800501e-15,
+    "finite": true
+  },
+  {
+    "dataset": "MedicalImages",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 7.610578833805448e-14,
+    "finite": true
+  },
+  {
+    "dataset": "MedicalImages",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 5.10702591327572e-15,
+    "finite": true
+  },
+  {
+    "dataset": "HandOutlines",
+    "seed": 17,
+    "backbone": "MiniRocket",
+    "max_dot_discrepancy": 3.197442310920451e-13,
+    "finite": true
+  },
+  {
+    "dataset": "HandOutlines",
+    "seed": 17,
+    "backbone": "Hydra",
+    "max_dot_discrepancy": 1.3322676295501878e-15,
+    "finite": true
+  }
+]

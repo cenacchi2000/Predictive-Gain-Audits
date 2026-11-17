@@ -1,0 +1,120 @@
+{
+  "configurations": 48,
+  "authorizations": 0,
+  "datasets": 12,
+  "assessment_nll_gain": {
+    "macro_mean": 0.0029715925371292715,
+    "dataset_bootstrap_95ci": [
+      0.0011337029350700404,
+      0.005327575889977159
+    ],
+    "by_dataset": {
+      "ElectricDevices": 0.000944740425133141,
+      "StarLightCurves": 0.0003711691519456272,
+      "Crop": 0.003195826879285573,
+      "ChlorineConcentration": 0.004963994230579871,
+      "NonInvasiveFetalECGThorax1": 0.0024824862505523097,
+      "Phoneme": 0.01351802879203126,
+      "UWaveGestureLibraryAll": -0.0003132649205703794,
+      "InsectWingbeatSound": 0.0034363460614207867,
+      "FaceAll": 0.0011279978643967666,
+      "TwoPatterns": -0.00046982862732677623,
+      "PenDigits": 0.0004165425541753241,
+      "LSST": 0.0059850717839277515
+    },
+    "valid_datasets": 12,
+    "valid_configurations": 48
+  },
+  "assessment_auc_gain": {
+    "macro_mean": 0.0028625258509110594,
+    "dataset_bootstrap_95ci": [
+      0.001406298511003382,
+      0.004482408223819704
+    ],
+    "by_dataset": {
+      "ElectricDevices": 0.0004786701702202967,
+      "StarLightCurves": 0.003861001796228891,
+      "Crop": 0.001912775235720393,
+      "ChlorineConcentration": 0.0034154765108827256,
+      "NonInvasiveFetalECGThorax1": 0.0012966412883538003,
+      "Phoneme": 0.0088513321543848,
+      "UWaveGestureLibraryAll": 0.0027852179874514604,
+      "InsectWingbeatSound": 0.0027064492440363463,
+      "FaceAll": -0.0009621015147683321,
+      "TwoPatterns": -0.0002612871844417386,
+      "PenDigits": 0.0029899565194547173,
+      "LSST": 0.00727617800340935
+    },
+    "valid_datasets": 12,
+    "valid_configurations": 48
+  },
+  "assessment_policy_nll_gain": {
+    "macro_mean": 0.0,
+    "dataset_bootstrap_95ci": [
+      0.0,
+      0.0
+    ],
+    "by_dataset": {
+      "ElectricDevices": 0.0,
+      "StarLightCurves": 0.0,
+      "Crop": 0.0,
+      "ChlorineConcentration": 0.0,
+      "NonInvasiveFetalECGThorax1": 0.0,
+      "Phoneme": 0.0,
+      "UWaveGestureLibraryAll": 0.0,
+      "InsectWingbeatSound": 0.0,
+      "FaceAll": 0.0,
+      "TwoPatterns": 0.0,
+      "PenDigits": 0.0,
+      "LSST": 0.0
+    },
+    "valid_datasets": 12,
+    "valid_configurations": 48
+  },
+  "assessment_policy_auc_gain": {
+    "macro_mean": 0.0,
+    "dataset_bootstrap_95ci": [
+      0.0,
+      0.0
+    ],
+    "by_dataset": {
+      "ElectricDevices": 0.0,
+      "StarLightCurves": 0.0,
+      "Crop": 0.0,
+      "ChlorineConcentration": 0.0,
+      "NonInvasiveFetalECGThorax1": 0.0,
+      "Phoneme": 0.0,
+      "UWaveGestureLibraryAll": 0.0,
+      "InsectWingbeatSound": 0.0,
+      "FaceAll": 0.0,
+      "TwoPatterns": 0.0,
+      "PenDigits": 0.0,
+      "LSST": 0.0
+    },
+    "valid_datasets": 12,
+    "valid_configurations": 48
+  },
+  "assessment_harm_fraction": {
+    "macro_mean": 0.4224889001056266,
+    "dataset_bootstrap_95ci": [
+      0.33892772422139084,
+      0.4880073476545629
+    ],
+    "by_dataset": {
+      "ElectricDevices": 0.5256641152633948,
+      "StarLightCurves": 0.4036827195467422,
+      "Crop": 0.49185625646328857,
+      "ChlorineConcentration": 0.4969618055555556,
+      "NonInvasiveFetalECGThorax1": 0.4101694915254237,
+      "Phoneme": 0.5241652021089631,
+      "UWaveGestureLibraryAll": 0.3167441860465116,
+      "InsectWingbeatSound": 0.41666666666666663,
+      "FaceAll": 0.042899408284023666,
+      "TwoPatterns": 0.4170833333333333,
+      "PenDigits": 0.5830952380952381,
+      "LSST": 0.4408783783783784
+    },
+    "valid_datasets": 12,
+    "valid_configurations": 48
+  }
+}

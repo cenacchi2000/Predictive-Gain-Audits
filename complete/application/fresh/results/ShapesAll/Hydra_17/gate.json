@@ -1,0 +1,12 @@
+{
+  "log_e": -1.601643995901585,
+  "log_threshold": 5.298317366548036,
+  "authorized": false,
+  "mean_gain": -0.00019193748043833597,
+  "n": 299,
+  "bound": 0.125,
+  "fraction": 0.5,
+  "fixed_log_wealth": -1.8160739049893047,
+  "adaptive_log_wealth": -0.06113311948524698,
+  "old_mixture_log_e": -0.2889565357944983
+}

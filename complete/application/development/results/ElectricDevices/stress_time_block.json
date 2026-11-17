@@ -1,0 +1,542 @@
+[
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "reference",
+    "n": 2221,
+    "errors": 837,
+    "accuracy": 0.6231427285006754,
+    "auc": 0.8360189156152237,
+    "nll": 0.5682257282066535,
+    "brier": 0.18055061217094795,
+    "ece": 0.12213407042107247,
+    "fce": 0.18518518518518517,
+    "aurc": 0.1510665289313227,
+    "excess_aurc": 0.06885828759658635,
+    "prevalence": 0.3768572714993246,
+    "aurc_tie_averaged": 0.15106652855313543,
+    "excess_aurc_tie_averaged": 0.0688582872183991,
+    "augrc": 0.10951934189648521,
+    "oracle_aurc": 0.08220824133473634,
+    "utility_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.2323037323037323,
+      "precision": 0.7136431784107946,
+      "recall": 0.5686977299880526,
+      "reviewed": 667,
+      "captured": 476
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.2323037323037323,
+      "precision": 0.7136431784107946,
+      "recall": 0.5686977299880526,
+      "reviewed": 667,
+      "captured": 476.0,
+      "oracle_risk": 0.1093951093951094
+    },
+    "utility_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.27646396396396394,
+      "precision": 0.7775280898876404,
+      "recall": 0.4133811230585424,
+      "reviewed": 445,
+      "captured": 346
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.27646396396396394,
+      "precision": 0.7775280898876404,
+      "recall": 0.4133811230585424,
+      "reviewed": 445,
+      "captured": 346.0,
+      "oracle_risk": 0.22072072072072071
+    },
+    "utility_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.3213213213213213,
+      "precision": 0.874439461883408,
+      "recall": 0.23297491039426524,
+      "reviewed": 223,
+      "captured": 195
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.3213213213213213,
+      "precision": 0.874439461883408,
+      "recall": 0.23297491039426524,
+      "reviewed": 223,
+      "captured": 195.0,
+      "oracle_risk": 0.3073073073073073
+    },
+    "utility_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.3485064011379801,
+      "precision": 0.9107142857142857,
+      "recall": 0.12186379928315412,
+      "reviewed": 112,
+      "captured": 102
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.3485064011379801,
+      "precision": 0.9107142857142857,
+      "recall": 0.12186379928315412,
+      "reviewed": 112,
+      "captured": 102.0,
+      "oracle_risk": 0.343764817449028
+    }
+  },
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "candidate",
+    "n": 2221,
+    "errors": 837,
+    "accuracy": 0.6231427285006754,
+    "auc": 0.8478256365632834,
+    "nll": 0.5395486044882533,
+    "brier": 0.17148773701557504,
+    "ece": 0.11548535957454824,
+    "fce": 0.16845878136200718,
+    "aurc": 0.14604221074068835,
+    "excess_aurc": 0.06383396940595201,
+    "prevalence": 0.3768572714993246,
+    "aurc_tie_averaged": 0.14604221025256217,
+    "excess_aurc_tie_averaged": 0.06383396891782583,
+    "augrc": 0.10674670032948558,
+    "oracle_aurc": 0.08220824133473634,
+    "utility_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.222007722007722,
+      "precision": 0.7376311844077961,
+      "recall": 0.5878136200716846,
+      "reviewed": 667,
+      "captured": 492
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.222007722007722,
+      "precision": 0.7376311844077961,
+      "recall": 0.5878136200716846,
+      "reviewed": 667,
+      "captured": 492.0,
+      "oracle_risk": 0.1093951093951094
+    },
+    "utility_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.2725225225225225,
+      "precision": 0.7932584269662921,
+      "recall": 0.4217443249701314,
+      "reviewed": 445,
+      "captured": 353
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.2725225225225225,
+      "precision": 0.7932584269662921,
+      "recall": 0.4217443249701314,
+      "reviewed": 445,
+      "captured": 353.0,
+      "oracle_risk": 0.22072072072072071
+    },
+    "utility_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.31931931931931934,
+      "precision": 0.8923766816143498,
+      "recall": 0.23775388291517324,
+      "reviewed": 223,
+      "captured": 199
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.31931931931931934,
+      "precision": 0.8923766816143498,
+      "recall": 0.23775388291517324,
+      "reviewed": 223,
+      "captured": 199.0,
+      "oracle_risk": 0.3073073073073073
+    },
+    "utility_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.346135609293504,
+      "precision": 0.9553571428571429,
+      "recall": 0.12783751493428913,
+      "reviewed": 112,
+      "captured": 107
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.346135609293504,
+      "precision": 0.9553571428571429,
+      "recall": 0.12783751493428913,
+      "reviewed": 112,
+      "captured": 107.0,
+      "oracle_risk": 0.343764817449028
+    }
+  },
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "MiniRocket",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "policy",
+    "n": 2221,
+    "errors": 837,
+    "accuracy": 0.6231427285006754,
+    "auc": 0.8360189156152237,
+    "nll": 0.5682257282066535,
+    "brier": 0.18055061217094795,
+    "ece": 0.12213407042107247,
+    "fce": 0.18518518518518517,
+    "aurc": 0.1510665289313227,
+    "excess_aurc": 0.06885828759658635,
+    "prevalence": 0.3768572714993246,
+    "aurc_tie_averaged": 0.15106652855313543,
+    "excess_aurc_tie_averaged": 0.0688582872183991,
+    "augrc": 0.10951934189648521,
+    "oracle_aurc": 0.08220824133473634,
+    "utility_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.2323037323037323,
+      "precision": 0.7136431784107946,
+      "recall": 0.5686977299880526,
+      "reviewed": 667,
+      "captured": 476
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.2323037323037323,
+      "precision": 0.7136431784107946,
+      "recall": 0.5686977299880526,
+      "reviewed": 667,
+      "captured": 476.0,
+      "oracle_risk": 0.1093951093951094
+    },
+    "utility_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.27646396396396394,
+      "precision": 0.7775280898876404,
+      "recall": 0.4133811230585424,
+      "reviewed": 445,
+      "captured": 346
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.27646396396396394,
+      "precision": 0.7775280898876404,
+      "recall": 0.4133811230585424,
+      "reviewed": 445,
+      "captured": 346.0,
+      "oracle_risk": 0.22072072072072071
+    },
+    "utility_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.3213213213213213,
+      "precision": 0.874439461883408,
+      "recall": 0.23297491039426524,
+      "reviewed": 223,
+      "captured": 195
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.3213213213213213,
+      "precision": 0.874439461883408,
+      "recall": 0.23297491039426524,
+      "reviewed": 223,
+      "captured": 195.0,
+      "oracle_risk": 0.3073073073073073
+    },
+    "utility_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.3485064011379801,
+      "precision": 0.9107142857142857,
+      "recall": 0.12186379928315412,
+      "reviewed": 112,
+      "captured": 102
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.3485064011379801,
+      "precision": 0.9107142857142857,
+      "recall": 0.12186379928315412,
+      "reviewed": 112,
+      "captured": 102.0,
+      "oracle_risk": 0.343764817449028
+    }
+  },
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "reference",
+    "n": 2221,
+    "errors": 947,
+    "accuracy": 0.5736154885186853,
+    "auc": 0.9041391554591133,
+    "nll": 0.4394872036602414,
+    "brier": 0.13796465573408095,
+    "ece": 0.08122741095636551,
+    "fce": 0.14889123548046462,
+    "aurc": 0.15140250922449122,
+    "excess_aurc": 0.04373521523161028,
+    "prevalence": 0.42638451148131473,
+    "aurc_tie_averaged": 0.1514025088613029,
+    "excess_aurc_tie_averaged": 0.04373521486842197,
+    "augrc": 0.11434759401326741,
+    "oracle_aurc": 0.10766729399288094,
+    "utility_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.22522522522522523,
+      "precision": 0.8950524737631185,
+      "recall": 0.6304118268215417,
+      "reviewed": 667,
+      "captured": 597
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.22522522522522523,
+      "precision": 0.8950524737631185,
+      "recall": 0.6304118268215417,
+      "reviewed": 667,
+      "captured": 597.0,
+      "oracle_risk": 0.18018018018018017
+    },
+    "utility_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.30067567567567566,
+      "precision": 0.9280898876404494,
+      "recall": 0.43611404435058077,
+      "reviewed": 445,
+      "captured": 413
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.30067567567567566,
+      "precision": 0.9280898876404494,
+      "recall": 0.43611404435058077,
+      "reviewed": 445,
+      "captured": 413.0,
+      "oracle_risk": 0.28265765765765766
+    },
+    "utility_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.36486486486486486,
+      "precision": 0.9775784753363229,
+      "recall": 0.23020063357972545,
+      "reviewed": 223,
+      "captured": 218
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.36486486486486486,
+      "precision": 0.9775784753363229,
+      "recall": 0.23020063357972545,
+      "reviewed": 223,
+      "captured": 218.0,
+      "oracle_risk": 0.36236236236236236
+    },
+    "utility_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.39734471313418684,
+      "precision": 0.9732142857142857,
+      "recall": 0.11510031678986272,
+      "reviewed": 112,
+      "captured": 109
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.39734471313418684,
+      "precision": 0.9732142857142857,
+      "recall": 0.11510031678986272,
+      "reviewed": 112,
+      "captured": 109.0,
+      "oracle_risk": 0.3959222380275012
+    }
+  },
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "candidate",
+    "n": 2221,
+    "errors": 947,
+    "accuracy": 0.5736154885186853,
+    "auc": 0.8948700266395243,
+    "nll": 0.4736877159276982,
+    "brier": 0.1411289059460531,
+    "ece": 0.0892547043724584,
+    "fce": 0.14889123548046462,
+    "aurc": 0.1575884491325415,
+    "excess_aurc": 0.049921155139660556,
+    "prevalence": 0.42638451148131473,
+    "aurc_tie_averaged": 0.15758844854812978,
+    "excess_aurc_tie_averaged": 0.04992115455524884,
+    "augrc": 0.11661464458311144,
+    "oracle_aurc": 0.10766729399288094,
+    "utility_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.22651222651222652,
+      "precision": 0.8920539730134932,
+      "recall": 0.6282998944033791,
+      "reviewed": 667,
+      "captured": 595
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.22651222651222652,
+      "precision": 0.8920539730134932,
+      "recall": 0.6282998944033791,
+      "reviewed": 667,
+      "captured": 595.0,
+      "oracle_risk": 0.18018018018018017
+    },
+    "utility_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.29842342342342343,
+      "precision": 0.9370786516853933,
+      "recall": 0.440337909186906,
+      "reviewed": 445,
+      "captured": 417
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.29842342342342343,
+      "precision": 0.9370786516853933,
+      "recall": 0.440337909186906,
+      "reviewed": 445,
+      "captured": 417.0,
+      "oracle_risk": 0.28265765765765766
+    },
+    "utility_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.36686686686686687,
+      "precision": 0.9596412556053812,
+      "recall": 0.22597676874340022,
+      "reviewed": 223,
+      "captured": 214
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.36686686686686687,
+      "precision": 0.9596412556053812,
+      "recall": 0.22597676874340022,
+      "reviewed": 223,
+      "captured": 214.0,
+      "oracle_risk": 0.36236236236236236
+    },
+    "utility_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.3963963963963964,
+      "precision": 0.9910714285714286,
+      "recall": 0.11721224920802534,
+      "reviewed": 112,
+      "captured": 111
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.3963963963963964,
+      "precision": 0.9910714285714286,
+      "recall": 0.11721224920802534,
+      "reviewed": 112,
+      "captured": 111.0,
+      "oracle_risk": 0.3959222380275012
+    }
+  },
+  {
+    "dataset": "ElectricDevices",
+    "backbone": "Hydra",
+    "seed": 17,
+    "stress": "time_block",
+    "method": "policy",
+    "n": 2221,
+    "errors": 947,
+    "accuracy": 0.5736154885186853,
+    "auc": 0.9041391554591133,
+    "nll": 0.4394872036602414,
+    "brier": 0.13796465573408095,
+    "ece": 0.08122741095636551,
+    "fce": 0.14889123548046462,
+    "aurc": 0.15140250922449122,
+    "excess_aurc": 0.04373521523161028,
+    "prevalence": 0.42638451148131473,
+    "aurc_tie_averaged": 0.1514025088613029,
+    "excess_aurc_tie_averaged": 0.04373521486842197,
+    "augrc": 0.11434759401326741,
+    "oracle_aurc": 0.10766729399288094,
+    "utility_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.22522522522522523,
+      "precision": 0.8950524737631185,
+      "recall": 0.6304118268215417,
+      "reviewed": 667,
+      "captured": 597
+    },
+    "utility_tie_0.7": {
+      "coverage": 0.69968482665466,
+      "risk": 0.22522522522522523,
+      "precision": 0.8950524737631185,
+      "recall": 0.6304118268215417,
+      "reviewed": 667,
+      "captured": 597.0,
+      "oracle_risk": 0.18018018018018017
+    },
+    "utility_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.30067567567567566,
+      "precision": 0.9280898876404494,
+      "recall": 0.43611404435058077,
+      "reviewed": 445,
+      "captured": 413
+    },
+    "utility_tie_0.8": {
+      "coverage": 0.7996398018910401,
+      "risk": 0.30067567567567566,
+      "precision": 0.9280898876404494,
+      "recall": 0.43611404435058077,
+      "reviewed": 445,
+      "captured": 413.0,
+      "oracle_risk": 0.28265765765765766
+    },
+    "utility_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.36486486486486486,
+      "precision": 0.9775784753363229,
+      "recall": 0.23020063357972545,
+      "reviewed": 223,
+      "captured": 218
+    },
+    "utility_tie_0.9": {
+      "coverage": 0.8995947771274201,
+      "risk": 0.36486486486486486,
+      "precision": 0.9775784753363229,
+      "recall": 0.23020063357972545,
+      "reviewed": 223,
+      "captured": 218.0,
+      "oracle_risk": 0.36236236236236236
+    },
+    "utility_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.39734471313418684,
+      "precision": 0.9732142857142857,
+      "recall": 0.11510031678986272,
+      "reviewed": 112,
+      "captured": 109
+    },
+    "utility_tie_0.95": {
+      "coverage": 0.9495722647456101,
+      "risk": 0.39734471313418684,
+      "precision": 0.9732142857142857,
+      "recall": 0.11510031678986272,
+      "reviewed": 112,
+      "captured": 109.0,
+      "oracle_risk": 0.3959222380275012
+    }
+  }
+]

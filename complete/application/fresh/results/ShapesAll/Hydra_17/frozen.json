@@ -1,0 +1,21 @@
+{
+  "dataset": "ShapesAll",
+  "backbone": "Hydra",
+  "seed": 17,
+  "reference": "agreement/gb15",
+  "candidate": "offset_spectral/0.1",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.1582857094817528,
+  "calibration_candidate_nll": 0.15472119711919438,
+  "calibration_n": 179,
+  "gate_n": 299,
+  "assessment_n": 120,
+  "calibration_errors": 15,
+  "fraction": 0.5,
+  "calibration_logwealth_rate": 0.009623430370618382,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.9106145251396648,
+    "Hydra": 0.9162011173184358
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}

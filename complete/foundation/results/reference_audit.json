@@ -1,0 +1,210 @@
+{
+  "date": "2026-09-26",
+  "scope": "Every unique reference actually cited in main, supplement, and separate spectral record; uncited legacy library entries excluded.",
+  "entries": [
+    {
+      "key": "xu2020usable",
+      "primary_source": "https://arxiv.org/abs/2002.10689",
+      "existence": "confirmed",
+      "claim_alignment": "Usable information can increase under computation; not Shannon conditional information."
+    },
+    {
+      "key": "huggins2020validated",
+      "primary_source": "https://proceedings.mlr.press/v108/huggins20a.html",
+      "existence": "confirmed",
+      "claim_alignment": "Validated posterior-summary error control; not a generic guarantee that any ELBO or diagnostic bounds forward predictive KL."
+    },
+    {
+      "key": "barber2003im",
+      "primary_source": "https://proceedings.neurips.cc/paper/2003/file/a6ea8471c120fe8cc35a2954c9b9c595-Paper.pdf",
+      "existence": "confirmed",
+      "claim_alignment": "Variational information lower bound. PDF title is The IM Algorithm; proceedings landing page uses Information Maximization in Noisy Channels: A Variational Approach. Same authors and paper."
+    },
+    {
+      "key": "foster2019design",
+      "primary_source": "https://proceedings.neurips.cc/paper/2019/hash/d55cbf210f175f4a37916eafe6c04f0d-Abstract.html",
+      "existence": "confirmed",
+      "claim_alignment": "Bayesian experimental design already optimizes information objectives. PDF uses Eli Bingham and Tom Rainforth; metadata uses Elias and Thomas. These are author-name variants, not different authors."
+    },
+    {
+      "key": "sason2016divergence",
+      "primary_source": "https://arxiv.org/abs/1508.00335",
+      "existence": "confirmed",
+      "claim_alignment": "General divergence comparison and reverse-Pinsker bounds; does not independently verify priority of the new fixed-reference formula."
+    },
+    {
+      "key": "mcallester2020limitations",
+      "primary_source": "https://proceedings.mlr.press/v108/mcallester20a.html",
+      "existence": "confirmed",
+      "claim_alignment": "Limitations of distribution-free mutual-information lower bounds; not an impossibility result under the supplied-model assumptions here."
+    },
+    {
+      "key": "vehtari2021rhat",
+      "primary_source": "https://arxiv.org/abs/1903.08008",
+      "existence": "confirmed",
+      "claim_alignment": "Modern convergence diagnostics; diagnostics are not rigorous predictive approximation budgets. Journal version 2021, not preprint year 2019."
+    },
+    {
+      "key": "harremoes2011pairs",
+      "primary_source": "https://arxiv.org/abs/1007.0097",
+      "existence": "confirmed",
+      "claim_alignment": "Joint ranges of divergence pairs and binary-support geometry; manuscript keeps separate the fixed-q least-mass reduction."
+    },
+    {
+      "key": "poole2019bounds",
+      "primary_source": "https://proceedings.mlr.press/v97/poole19a.html",
+      "existence": "confirmed",
+      "claim_alignment": "Variational MI bounds and bias/variance tradeoffs; not empirical superiority of this audit."
+    },
+    {
+      "key": "wolberg1993wdbc",
+      "primary_source": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic",
+      "existence": "confirmed",
+      "claim_alignment": "Dataset citation, not clinical validation. UCI itself lists Nick Street and W. Street separately; retained official citation without guessing a correction."
+    },
+    {
+      "key": "candes2018modelx",
+      "primary_source": "https://academic.oup.com/jrsssb/article/80/3/551/7048447",
+      "existence": "confirmed",
+      "claim_alignment": "Model-X conditional-feature assumptions; manuscript does not present knockoffs as the identical HRT procedure."
+    },
+    {
+      "key": "tansey2022hrt",
+      "primary_source": "https://www.cs.columbia.edu/~blei/papers/TanseyVeitchZhangRabadanBlei2022.pdf",
+      "existence": "confirmed",
+      "claim_alignment": "HRT sample splitting and conditional resampling. Journal DOI 10.1080/10618600.2021.1923520; volume31(1),151\u2013162,2022."
+    },
+    {
+      "key": "watson2021cpi",
+      "primary_source": "https://link.springer.com/article/10.1007/s10994-021-06030-6",
+      "existence": "confirmed",
+      "claim_alignment": "Conditional predictive impact and conditional replacements; does not provide the same numerical information bound."
+    },
+    {
+      "key": "ethayarajh2022pvi",
+      "primary_source": "https://proceedings.mlr.press/v162/ethayarajh22a.html",
+      "existence": "confirmed",
+      "claim_alignment": "Pointwise V-information for instance difficulty relative to a predictive family."
+    },
+    {
+      "key": "broecker2009scores",
+      "primary_source": "https://www.personal.reading.ac.uk/~pt904209/publications/decomposition_qjrms.pdf",
+      "existence": "confirmed",
+      "claim_alignment": "Proper-score reliability and resolution decomposition. Author PDF verifies journal135(643),1512\u20131519,2009."
+    },
+    {
+      "key": "alpaydin1998digits",
+      "primary_source": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+      "existence": "confirmed",
+      "claim_alignment": "Dataset source has5620 records; manuscript explicitly uses the1797-record sklearn subset."
+    },
+    {
+      "key": "deng2023agreement",
+      "primary_source": "https://proceedings.mlr.press/v202/deng23f.html",
+      "existence": "confirmed",
+      "claim_alignment": "Inter-model latent agreement as a reliability signal; contextual comparator, not a claim that the method was reproduced identically."
+    },
+    {
+      "key": "yuksekgonul2023atypicality",
+      "primary_source": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/7900318ffaf5e9bc60250f134c6cc3c7-Abstract-Conference.html",
+      "existence": "confirmed",
+      "claim_alignment": "Input atypicality supplements confidence; acknowledges input-aware reliability precedent."
+    },
+    {
+      "key": "nguyen2025orca",
+      "primary_source": "https://ojs.aaai.org/index.php/AAAI/article/view/34831",
+      "existence": "confirmed",
+      "claim_alignment": "Concept-based failure detection, AAAI39(25),26326\u201326334; supports novelty boundary."
+    },
+    {
+      "key": "waudbysmith2024betting",
+      "primary_source": "https://academic.oup.com/jrsssb/article/86/1/1/7043257",
+      "existence": "confirmed",
+      "claim_alignment": "Betting-based mean bounds and confidence sequences; concentration machinery credited as existing."
+    },
+    {
+      "key": "maurer2009empirical",
+      "primary_source": "https://www.cs.mcgill.ca/~colt2009/papers/012.pdf",
+      "existence": "confirmed",
+      "claim_alignment": "Empirical Bernstein inequality used after bounded-range scaling; not a newly derived concentration inequality."
+    },
+    {
+      "key": "shah2020hardness",
+      "primary_source": "https://arxiv.org/abs/1804.07203",
+      "existence": "confirmed",
+      "claim_alignment": "Hardness of unrestricted conditional independence testing; scoped separately from report-only non-identifiability here."
+    },
+    {
+      "key": "gneiting2007strictly",
+      "primary_source": "https://doi.org/10.1198/016214506000001437",
+      "existence": "confirmed",
+      "claim_alignment": "Proper log scores, entropy and divergence foundations; established risk identity."
+    },
+    {
+      "key": "ovadia2019trust",
+      "primary_source": "https://proceedings.neurips.cc/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-Abstract.html",
+      "existence": "confirmed",
+      "claim_alignment": "Predictive uncertainty under dataset shift; cited only for supporting-study motivation, not shift certification."
+    },
+    {
+      "key": "traub2024selective",
+      "primary_source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/047c84ec50bd8ea29349b996fc64af4b-Abstract-Conference.html",
+      "existence": "confirmed",
+      "claim_alignment": "Limitations of selective-classification evaluation and AUGRC; supporting-record discussion, not this audit target."
+    },
+    {
+      "key": "perezlebel2023grouping",
+      "primary_source": "https://openreview.net/pdf?id=6w1k-IixnL8",
+      "existence": "confirmed",
+      "claim_alignment": "Grouping loss beyond calibration; distinguishes an estimated component from an upper bound on total baseline error."
+    },
+    {
+      "key": "charpentier2026scores",
+      "primary_source": "https://arxiv.org/abs/2603.15232",
+      "existence": "confirmed",
+      "claim_alignment": "Nested-information proper-score decompositions. Marked as an arXiv preprint, not a peer-reviewed conference paper."
+    },
+    {
+      "key": "lei2018loco",
+      "primary_source": "https://doi.org/10.1080/01621459.2017.1307116",
+      "existence": "confirmed",
+      "claim_alignment": "LOCO contrasts predictive losses; not every variable-importance estimand is a fitted-model contrast."
+    },
+    {
+      "key": "williamson2021importance",
+      "primary_source": "https://doi.org/10.1111/biom.13392",
+      "existence": "confirmed",
+      "claim_alignment": "Nonparametric variable importance; optimal-risk rather than only fitted-model target."
+    },
+    {
+      "key": "williamson2023agnostic",
+      "primary_source": "https://doi.org/10.1080/01621459.2021.2003200",
+      "existence": "confirmed",
+      "claim_alignment": "Algorithm-agnostic risk contrasts and asymptotic inference; log-loss optimal-risk contrast equals conditional information."
+    },
+    {
+      "key": "verdinelli2024decorrelated",
+      "primary_source": "https://www.jmlr.org/papers/v25/22-0801.html",
+      "existence": "confirmed",
+      "claim_alignment": "Modified LOCO target reduces dependence on covariate correlation; not identical to conditional information."
+    },
+    {
+      "key": "zhang2020floodgate",
+      "primary_source": "https://arxiv.org/abs/2007.01283",
+      "existence": "confirmed",
+      "claim_alignment": "Model-X lower inference on minimum-MSE improvement using a working regression; not merely a test."
+    },
+    {
+      "key": "wang2024tv",
+      "primary_source": "https://proceedings.mlr.press/v235/wang24ad.html",
+      "existence": "confirmed",
+      "claim_alignment": "Asymptotic lower bounds on normalized expected total variation; can imply information lower bounds through Pinsker."
+    },
+    {
+      "key": "aeberhard1992wine",
+      "primary_source": "https://archive.ics.uci.edu/dataset/109/wine",
+      "existence": "confirmed",
+      "claim_alignment": "Official dataset citation year; public records do not establish iid population sampling."
+    }
+  ]
+}

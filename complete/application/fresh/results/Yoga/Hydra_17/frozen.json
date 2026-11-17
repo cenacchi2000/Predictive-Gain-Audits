@@ -1,0 +1,21 @@
+{
+  "dataset": "Yoga",
+  "backbone": "Hydra",
+  "seed": 17,
+  "reference": "agreement/lr1",
+  "candidate": "spectral_controls/gb15",
+  "bound": 0.125,
+  "calibration_reference_nll": 0.15722204446540478,
+  "calibration_candidate_nll": 0.15549572369209794,
+  "calibration_n": 900,
+  "gate_n": 1500,
+  "assessment_n": 600,
+  "calibration_errors": 72,
+  "fraction": 0.25,
+  "calibration_logwealth_rate": 0.0020214543639687165,
+  "backbone_selection_accuracies": {
+    "MiniRocket": 0.9,
+    "Hydra": 0.92
+  },
+  "code_sha256": "b421e3a0ce7f64fc74b7d55f14160223888c9126b1cc413eb75fc6468c17b380"
+}
